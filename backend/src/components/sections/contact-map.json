@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_contact_maps",
+  "info": {
+    "name": "ContactMap",
+    "icon": "map-marked-alt",
+    "displayName": "Contact Map",
+    "description": "Google Maps embed for contact page"
+  },
+  "options": {},
+  "attributes": {
+    "embedUrl": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
+

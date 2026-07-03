@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_form_fields",
+  "info": {
+    "name": "FormField",
+    "icon": "edit",
+    "displayName": "Form Field",
+    "description": "A form field configuration"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": false
+    },
+    "required": {
+      "type": "boolean",
+      "default": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["text", "email", "tel", "number", "select", "radio"],
+      "default": "text"
+    },
+    "options": {
+      "type": "json",
+      "required": false
+    }
+  }
+}
+

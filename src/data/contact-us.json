@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "title": "Contact Us - NADZ Healthcare",
+    "description": "Get in touch with NADZ Healthcare. Have questions? Reach out through our contact form or call us directly."
+  },
+  "hero": {
+    "title": "Get in Touch with Our Care Team",
+    "subtitle": "Whether you have questions about your treatment plan, need help with billing, or just want to speak to someone, we are here to support you every step of the way."
+  },
+  "contactInfo": {
+    "phone": {
+      "label": "Phone",
+      "value": "800 4 NADZ / 800 4 6239",
+      "href": "tel:+97180046239"
+    },
+    "email": {
+      "label": "Email",
+      "value": "info@nadzhealthcare.com",
+      "href": "mailto:info@nadzhealthcare.com"
+    },
+    "address": {
+      "label": "Address",
+      "value": "Unit 5, MTMO Gold Refinery DMCC, Dubai, United Arab Emirates"
+    },
+    "officeHours": {
+      "label": "Office Hours",
+      "value": "9AM-6PM | Monday – Saturday"
+    },
+    "map": {
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234567890!2d55.1234567!3d25.1234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA3JzI0LjQiTiA1NcKwMDcnMjQuNCJF!5e0!3m2!1sen!2sae!4v1234567890123!5m2!1sen!2sae",
+      "link": "https://maps.google.com/?q=Unit+5,+MTMO+Gold+Refinery+DMCC,+Dubai,+United+Arab+Emirates"
+    }
+  },
+  "showContactForm": true,
+  "form": {
+    "title": "Send us a Message",
+    "description": "Have questions? Get in touch with us today- we're here to help! Reach out through our contact form.",
+    "fields": {
+      "fullName": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "required": true
+      },
+      "age": {
+        "label": "Age",
+        "placeholder": "Enter your age",
+        "required": true
+      },
+      "gender": {
+        "label": "Gender",
+        "options": [
+          { "value": "male", "label": "Male" },
+          { "value": "female", "label": "Female" }
+        ],
+        "required": true
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "required": true
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email",
+        "required": true
+      },
+      "address": {
+        "label": "Address for Visit",
+        "placeholder": "Enter the address where you need the service",
+        "required": true
+      },
+      "requiredService": {
+        "label": "Required Service",
+        "placeholder": "Select a service",
+        "required": true,
+        "options": [
+          "Doctor at home",
+          "Nursing care at home",
+          "Elderly care",
+          "Labs at home",
+          "Physiotherapy"
+        ]
+      }
+    },
+    "submitButton": {
+      "text": "Send",
+      "loadingText": "Sending..."
+    }
+  },
+  "leadForm": {
+    "enabled": true,
+    "title": "",
+    "fallbackMessage": "",
+    "embedScript": ""
+  }
+}
+

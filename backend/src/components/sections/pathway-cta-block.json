@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_pathway_cta_blocks",
+  "info": {
+    "displayName": "Pathway CTA Block",
+    "description": "CTA block for pathway section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primaryCta": {
+      "type": "string"
+    },
+    "secondaryCta": {
+      "type": "string"
+    }
+  }
+}
+

@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_sections_footer_link_sections",
+    "info": {
+        "displayName": "Footer Link Section",
+        "description": "A section of footer links with a title"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "links": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.footer-link"
+        }
+    }
+}

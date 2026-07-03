@@ -1,0 +1,32 @@
+{
+    "collectionName": "components_sections_main_goals",
+    "info": {
+        "name": "MainGoal",
+        "icon": "target",
+        "displayName": "Main Goal Section",
+        "description": "Main goal section with title, description, goals lists and image"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": false
+        },
+        "description": {
+            "type": "text",
+            "required": false
+        },
+        "goalsLeft": {
+            "type": "json"
+        },
+        "goalsRight": {
+            "type": "json"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["images"]
+        }
+    }
+}

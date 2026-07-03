@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_nursing_care_services",
+  "info": {
+    "displayName": "Nursing Care Service",
+    "description": "Individual nursing care service item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
+

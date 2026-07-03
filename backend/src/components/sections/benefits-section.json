@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_benefits_sections",
+  "info": {
+    "displayName": "Benefits Section",
+    "description": "Benefits section with list of benefits, note, and CTA"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.benefit-item"
+    },
+    "note": {
+      "type": "text"
+    },
+    "ctaText": {
+      "type": "string"
+    }
+  }
+}
+

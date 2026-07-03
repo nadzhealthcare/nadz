@@ -1,0 +1,22 @@
+# Frontend build context (root Dockerfile)
+node_modules
+.next
+backend
+.git
+*.md
+.env
+.env.*
+!.env.example
+docker-compose*.yml
+Dockerfile
+backend
+examples
+home-care
+images
+*.svg
+*.png
+*.html
+_next
+*.txt
+ecosystem.config.js
+nginx-*.conf

@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_sections_why_choose_sections",
+    "info": {
+        "displayName": "Why Choose Section",
+        "description": "Why choose NADZ Healthcare"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "items": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.list-item"
+        }
+    }
+}

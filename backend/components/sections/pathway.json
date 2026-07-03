@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_sections_pathways",
+    "info": {
+        "displayName": "Pathway",
+        "description": "Care pathway section with steps and CTA"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "steps": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.pathway-step"
+        },
+        "ctaBlock": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.pathway-cta-block"
+        }
+    }
+}

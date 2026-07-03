@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nadz-bg: #ffffff; /* white background as per design */
+  --nadz-surface: #ffffff;
+  --nadz-border: rgba(148, 163, 184, 0.25);
+  --nadz-card-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+  --nadz-text-gray: #7a7a7a;
+  --nadz-primary: #4F052B; /* Primary brand color */
+  --nadz-primary-light: #1a6b8a; /* Lighter shade for gradients */
+  --nadz-primary-dark: #0f4559; /* Darker shade for gradients */
+  color-scheme: light;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    color: var(--nadz-text-gray);
+    background: var(--nadz-bg);
+    font-family: var(--font-inter, 'Inter'), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    backdrop-filter: blur(24px);
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid var(--nadz-border);
+    border-radius: 24px;
+    box-shadow: var(--nadz-card-shadow);
+  }
+}
+
+@layer utilities {
+  /* Force left alignment for policy pages content */
+  .policy-content,
+  .policy-content * {
+    text-align: left !important;
+  }
+
+  /* Hide scrollbar for horizontal scrolling */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+  }
+}
+
+/* Service-pill gentle floating animations */
+@keyframes pillDance0 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(2px, -3px) rotate(0.6deg); }
+  50% { transform: translate(-1.5px, 2px) rotate(-0.4deg); }
+  75% { transform: translate(1px, -2px) rotate(0.3deg); }
+}
+@keyframes pillDance1 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  30% { transform: translate(-2px, -2.5px) rotate(-0.7deg); }
+  55% { transform: translate(1.5px, 2px) rotate(0.5deg); }
+  80% { transform: translate(-1px, -1.5px) rotate(-0.3deg); }
+}
+@keyframes pillDance2 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(1.5px, -3px) rotate(0.5deg); }
+  60% { transform: translate(-2px, 1.5px) rotate(-0.6deg); }
+  85% { transform: translate(1px, -2px) rotate(0.3deg); }
+}
+@keyframes pillDance3 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  35% { transform: translate(-1.5px, -2px) rotate(-0.5deg); }
+  55% { transform: translate(2px, 2.5px) rotate(0.6deg); }
+  75% { transform: translate(-1px, -1.5px) rotate(-0.3deg); }
+}
+@keyframes pillDance4 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(2px, -2px) rotate(0.7deg); }
+  50% { transform: translate(-1.5px, 2.5px) rotate(-0.4deg); }
+  80% { transform: translate(1px, -2.5px) rotate(0.3deg); }
+}
+.pill-dance-0 { animation: pillDance0 5.5s ease-in-out infinite; }
+.pill-dance-1 { animation: pillDance1 6.0s ease-in-out 0.4s infinite; }
+.pill-dance-2 { animation: pillDance2 5.8s ease-in-out 0.8s infinite; }
+.pill-dance-3 { animation: pillDance3 6.2s ease-in-out 0.2s infinite; }
+.pill-dance-4 { animation: pillDance4 5.4s ease-in-out 0.6s infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .pill-dance-0,
+  .pill-dance-1,
+  .pill-dance-2,
+  .pill-dance-3,
+  .pill-dance-4 { animation: none; }
+}

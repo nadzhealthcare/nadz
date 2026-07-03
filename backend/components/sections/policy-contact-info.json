@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_sections_policy_contact_infos",
+    "info": {
+        "displayName": "Policy Contact Info",
+        "description": "Simple contact information for policy pages"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "company": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "phone": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "kind": "collectionType",
+    "collectionName": "articles",
+    "info": {
+        "singularName": "article",
+        "pluralName": "articles",
+        "displayName": "Article",
+        "description": "Blog articles"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "slug": {
+            "type": "string",
+            "required": true,
+            "description": "URL identifier, e.g. 1, 2 or url-friendly slug"
+        },
+        "seoTitle": {
+            "type": "string",
+            "description": "SEO meta title (overrides default for this article)"
+        },
+        "seoDescription": {
+            "type": "text",
+            "description": "SEO meta description"
+        },
+        "seoKeywords": {
+            "type": "json",
+            "description": "SEO meta keywords (array of strings)"
+        },
+        "seoCanonicalUrl": {
+            "type": "string",
+            "description": "Canonical URL for this article (absolute https URL or root-relative path). Leave empty to use /blog/{slug}."
+        },
+        "excerpt": {
+            "type": "text"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["images"]
+        },
+        "featured": {
+            "type": "boolean",
+            "default": false
+        },
+        "authorName": {
+            "type": "string",
+            "default": "NADZ Team"
+        },
+        "authorAvatar": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": ["images"]
+        },
+        "date": {
+            "type": "string"
+        },
+        "fullDate": {
+            "type": "string"
+        },
+        "readTime": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "categorySlug": {
+            "type": "string"
+        },
+        "categoryColor": {
+            "type": "string"
+        },
+        "content": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.article-content",
+            "description": "Article body: intro + repeatable sections (heading, content, quote)"
+        },
+        "tags": {
+            "type": "json",
+            "description": "Array of tag strings"
+        }
+    }
+}

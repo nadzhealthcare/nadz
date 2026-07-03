@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_sections_journey_sections",
+    "info": {
+        "displayName": "Journey Section",
+        "description": "What to expect - journey steps"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "steps": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.journey-step"
+        }
+    }
+}

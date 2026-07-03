@@ -1,0 +1,27 @@
+{
+    "collectionName": "components_sections_how_it_works",
+    "info": {
+        "name": "HowItWorks",
+        "icon": "cog",
+        "displayName": "How It Works Section",
+        "description": "How it works section with title, steps, and CTA"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": false
+        },
+        "ctaText": {
+            "type": "string"
+        },
+        "ctaSubtext": {
+            "type": "string"
+        },
+        "steps": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.how-it-works-step"
+        }
+    }
+}

@@ -1,0 +1,184 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_care_pages",
+  "info": {
+    "singularName": "home-care-page",
+    "pluralName": "home-care-pages",
+    "displayName": "Home Care Page",
+    "description": "Home care service pages (nursing, physiotherapy, lab testing, etc.)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "seoKeywords": {
+      "type": "json"
+    },
+    "seoCanonicalUrl": {
+      "type": "string",
+      "description": "Canonical URL for this page (absolute https URL or root-relative path). Leave empty to derive from Site URL and slug."
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.home-care-hero"
+    },
+    "centeredText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.centered-text"
+    },
+    "servicesIntro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.services-intro"
+    },
+    "locationServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.location-service"
+    },
+    "artOfHealing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.art-of-healing"
+    },
+    "visitIncludes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.visit-includes"
+    },
+    "nursingCareServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.nursing-care-services"
+    },
+    "pathway": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.pathway"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.faqs-section"
+    },
+    "pocTesting": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.poc-testing"
+    },
+    "bloodTestSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.blood-test-section"
+    },
+    "labServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.lab-services"
+    },
+    "packages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.packages-section"
+    },
+    "vitalBrainPackages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.vital-brain-packages-section"
+    },
+    "whenToConsider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.when-to-consider"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.benefits-section"
+    },
+    "howItWorks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.how-it-works-section"
+    },
+    "signatureDrips": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.signature-iv-drips"
+    },
+    "vision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.vision-section"
+    },
+    "mission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.mission-section"
+    },
+    "whyMatters": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.why-matters-section"
+    },
+    "ourStory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.our-story"
+    },
+    "ourCommitment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.our-commitment"
+    },
+    "ourPromise": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.our-promise"
+    },
+    "whoWeServe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.who-we-serve"
+    },
+    "whyDifferent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.why-different"
+    },
+    "closing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.closing-section"
+    },
+    "centeredText2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.centered-text"
+    },
+    "skinBrightening": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.centered-text"
+    },
+    "ivDripTypes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.iv-drip-types-section"
+    }
+  }
+}

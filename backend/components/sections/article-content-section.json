@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_article_content_sections",
+  "info": {
+    "displayName": "Article Content Section",
+    "description": "One section of blog post body (heading + content + optional quote)"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "description": "Section heading (e.g. Scalability Principles)"
+    },
+    "content": {
+      "type": "richtext",
+      "description": "Section body (rich text: headings, bullets, links, images, tables)"
+    },
+    "quote": {
+      "type": "string",
+      "description": "Optional blockquote within the section"
+    }
+  }
+}

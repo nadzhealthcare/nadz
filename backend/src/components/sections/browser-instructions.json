@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_browser_instructions",
+  "info": {
+    "displayName": "Browser Instructions",
+    "description": "Browser-specific instructions"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "text",
+      "required": true
+    },
+    "instructions": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
+

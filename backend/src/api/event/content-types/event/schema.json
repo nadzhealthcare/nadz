@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": "Events and highlights — listing uses cover or first gallery image; detail shows full gallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "seoTitle": { "type": "string" },
+    "seoDescription": { "type": "text" },
+    "seoKeywords": { "type": "json" },
+    "excerpt": {
+      "type": "text",
+      "description": "Short summary on event cards"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"],
+      "description": "Optional card thumbnail; if empty, first gallery image is used"
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images"],
+      "description": "Photo gallery on the event detail page"
+    },
+    "eventDate": {
+      "type": "datetime",
+      "description": "When the event takes place"
+    },
+    "eventEndDate": {
+      "type": "datetime",
+      "description": "Optional end date/time"
+    },
+    "location": {
+      "type": "string",
+      "description": "Venue or city"
+    },
+    "readTime": { "type": "string" },
+    "category": { "type": "string" },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.article-content"
+    },
+    "tags": { "type": "json" }
+  }
+}

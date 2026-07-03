@@ -1,0 +1,73 @@
+# Local development: MySQL + Strapi backend + Next.js frontend
+# Run: docker compose up --build
+# Then: http://localhost:3000 (frontend), http://localhost:1337 (Strapi API), http://localhost:1337/admin (Strapi admin)
+
+services:
+  mysql:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: strapi
+      MYSQL_USER: strapi
+      MYSQL_PASSWORD: strapi
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      mysql: { condition: service_healthy }
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 1337
+      DATABASE_CLIENT: mysql
+      DATABASE_HOST: mysql
+      DATABASE_PORT: 3306
+      DATABASE_NAME: strapi
+      DATABASE_USERNAME: strapi
+      DATABASE_PASSWORD: strapi
+      APP_KEYS: ${STRAPI_APP_KEYS:-toBeModified1,toBeModified2,toBeModified3,toBeModified4}
+      JWT_SECRET: ${STRAPI_JWT_SECRET:-toBeModifiedJwtSecret}
+      API_TOKEN_SALT: ${STRAPI_API_TOKEN_SALT:-toBeModifiedTokenSalt}
+      TRANSFER_TOKEN_SALT: ${STRAPI_TRANSFER_TOKEN_SALT:-toBeModifiedTransferSalt}
+      ADMIN_JWT_SECRET: ${STRAPI_ADMIN_JWT_SECRET:-toBeModifiedAdminJwt}
+      ENCRYPTION_KEY: ${STRAPI_ENCRYPTION_KEY:-toBeModifiedEncryptionKey32BytesLong!!}
+      # Keep CMS edits on restart/deploy. Set STRAPI_ENABLE_JSON_BOOTSTRAP_SYNC=true only to seed from JSON.
+      STRAPI_SKIP_JSON_BOOTSTRAP_SYNC: ${STRAPI_SKIP_JSON_BOOTSTRAP_SYNC:-true}
+    ports:
+      - "1337:1337"
+    volumes:
+      - backend_uploads:/app/public/uploads
+      - backend_tmp:/app/.tmp
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - backend
+    environment:
+      NODE_ENV: production
+      STRAPI_URL: http://backend:1337
+      NEXT_PUBLIC_STRAPI_URL: http://localhost:1337
+    ports:
+      - "3000:3000"
+
+volumes:
+  mysql_data:
+  backend_uploads:
+  backend_tmp:

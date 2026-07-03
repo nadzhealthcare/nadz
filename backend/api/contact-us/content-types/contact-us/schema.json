@@ -1,0 +1,49 @@
+{
+    "kind": "singleType",
+    "collectionName": "contact_uses",
+    "info": {
+        "singularName": "contact-us",
+        "pluralName": "contact-uses",
+        "displayName": "Contact Us",
+        "description": "Contact us page content"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.contact-hero"
+        },
+        "contactInfo": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.contact-info"
+        },
+        "seoTitle": {
+            "type": "string"
+        },
+        "seoDescription": {
+            "type": "text"
+        },
+        "seoKeywords": {
+            "type": "json"
+        },
+        "seoCanonicalUrl": {
+            "type": "string",
+            "description": "Canonical URL for Contact Us (absolute https URL or root-relative path). Leave empty to use /contact-us."
+        },
+        "showContactForm": {
+            "type": "boolean",
+            "default": true,
+            "description": "Show the native contact form. Turn off when using Lead Form Embed instead."
+        },
+        "leadForm": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.lead-form-embed"
+        }
+    }
+}

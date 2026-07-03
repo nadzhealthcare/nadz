@@ -1,0 +1,35 @@
+{
+    "collectionName": "components_sections_contact_infos",
+    "info": {
+        "displayName": "Contact Info",
+        "description": "Contact information component for contact-us page"
+    },
+    "options": {},
+    "attributes": {
+        "phone": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.contact-field"
+        },
+        "email": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.contact-field"
+        },
+        "address": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.contact-field"
+        },
+        "officeHours": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.contact-field"
+        },
+        "map": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.contact-map"
+        }
+    }
+}

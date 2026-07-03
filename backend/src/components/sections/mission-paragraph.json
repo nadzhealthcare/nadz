@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_mission_paragraphs",
+  "info": {
+    "displayName": "Mission Paragraph",
+    "description": "A single paragraph in the Mission section"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "kind": "singleType",
+    "collectionName": "faqs",
+    "info": {
+        "singularName": "faq",
+        "pluralName": "faq-pages",
+        "displayName": "FAQ",
+        "description": "Frequently Asked Questions page"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "seoTitle": {
+            "type": "string"
+        },
+        "seoDescription": {
+            "type": "text"
+        },
+        "seoKeywords": {
+            "type": "json"
+        },
+        "seoCanonicalUrl": {
+            "type": "string",
+            "description": "Canonical URL for FAQ page (absolute https URL or root-relative path). Leave empty to use /faq."
+        },
+        "hero": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.hero"
+        },
+        "categories": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.faq-category"
+        },
+        "contactSection": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.faq-contact-section"
+        }
+    }
+}

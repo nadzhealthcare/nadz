@@ -1,0 +1,27 @@
+{
+    "collectionName": "components_sections_doctor_cards",
+    "info": {
+        "name": "DoctorCard",
+        "icon": "user",
+        "displayName": "Doctor Card",
+        "description": "Doctor card with image, name and color for chart visualization"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": false
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["images"]
+        },
+        "color": {
+            "type": "string",
+            "required": false,
+            "default": "#10B981"
+        }
+    }
+}

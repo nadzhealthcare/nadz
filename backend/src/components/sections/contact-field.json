@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_contact_fields",
+  "info": {
+    "name": "ContactField",
+    "icon": "envelope",
+    "displayName": "Contact Field",
+    "description": "A contact information field (phone, email, address, etc.)"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
+

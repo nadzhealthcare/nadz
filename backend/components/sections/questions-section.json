@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_sections_questions_sections",
+    "info": {
+        "displayName": "Questions Section",
+        "description": "Questions/contact section for policy pages"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "ctaText": {
+            "type": "string",
+            "required": true
+        },
+        "ctaLink": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_article_contents",
+  "info": {
+    "displayName": "Article Content",
+    "description": "Blog post body: intro paragraph + repeatable sections (heading, content, quote)"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "richtext",
+      "description": "Opening paragraph (rich text: headings, bullets, links, images, tables)"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.article-content-section",
+      "description": "Content sections with heading and body (and optional quote)"
+    }
+  }
+}

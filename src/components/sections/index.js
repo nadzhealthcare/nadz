@@ -1,0 +1,26 @@
+export { TopBar } from "./TopBar";
+export { Header } from "./Header";
+export { HeroSection } from "./HeroSection";
+export { FeaturesSection } from "./FeaturesSection";
+export { TrustedSection } from "./TrustedSection";
+export { AboutSection } from "./AboutSection";
+export { ServicesSection } from "./ServicesSection";
+export { HowItWorksSection } from "./HowItWorksSection";
+export { WhyChooseSection } from "./WhyChooseSection";
+export { TestimonialsSection } from "./TestimonialsSection";
+export { CtaSection } from "./CtaSection";
+export { Footer } from "./Footer";
+export { NewFeaturesSection } from "./NewFeaturesSection";
+export { StatisticsSection } from "./StatisticsSection";
+export { MainGoalSection } from "./MainGoalSection";
+export { ExpertDoctorsSection } from "./ExpertDoctorsSection";
+export { KeyVisionSection } from "./KeyVisionSection";
+export { PartnersSection } from "./PartnersSection";
+export { GoogleReviewsSection } from "./GoogleReviewsSection";
+export { PremiumCtaSection } from "./PremiumCtaSection";
+export { MidPageCtaSection } from "./MidPageCtaSection";
+export { NewFooter } from "./NewFooter";
+export { AboutUsSection } from "./AboutUsSection";
+export { TrustedProvidersSection } from "./TrustedProvidersSection";
+export { ServicesGridSection } from "./ServicesGridSection";
+

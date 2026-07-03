@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_sections_location_services",
+    "info": {
+        "displayName": "Location Service",
+        "description": "Service available at a specific location (home, hotel, office)"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "icon": {
+            "type": "string"
+        },
+        "bullets": {
+            "type": "json"
+        },
+        "ctaText": {
+            "type": "string"
+        }
+    }
+}

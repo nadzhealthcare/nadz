@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_faq_categories",
+  "info": {
+    "displayName": "FAQ Category",
+    "description": "A category of FAQ questions"
+  },
+  "options": {},
+  "attributes": {
+    "categoryId": {
+      "type": "integer",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.faq-question"
+    }
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_lab_service_categories",
+  "info": {
+    "displayName": "Lab Service Category",
+    "description": "A category within lab services"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tests": {
+      "type": "json"
+    }
+  }
+}
+

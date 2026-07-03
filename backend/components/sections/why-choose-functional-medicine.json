@@ -1,0 +1,24 @@
+{
+    "collectionName": "components_sections_why_choose_functional_medicines",
+    "info": {
+        "displayName": "Why Choose Functional Medicine",
+        "description": "Why choose section for functional medicine page"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "points": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.list-item"
+        },
+        "footer": {
+            "type": "text"
+        }
+    }
+}

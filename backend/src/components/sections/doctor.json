@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_doctors",
+  "info": {
+    "name": "Doctor",
+    "icon": "user-md",
+    "displayName": "Doctor",
+    "description": "Doctor information with name, role, languages, experience and image"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "role": {
+      "type": "string",
+      "required": false
+    },
+    "languages": {
+      "type": "string"
+    },
+    "yearsOfExperience": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
+

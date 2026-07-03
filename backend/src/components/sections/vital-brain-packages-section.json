@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_vital_brain_packages_sections",
+  "info": {
+    "displayName": "Vital Brain Packages Section",
+    "description": "Section heading, tier cards (Premium / Elite / etc.), and WhatsApp CTA label"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "packageTiers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.vital-brain-package-tier"
+    }
+  }
+}

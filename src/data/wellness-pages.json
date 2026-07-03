@@ -1,0 +1,1812 @@
+{
+  "autonomic-control": {
+    "metadata": {
+      "title": "NADZ Autonomic Control™ – Non-Invasive ANS Regulation at Home | NADZ Healthcare",
+      "description": "The UAE's first premium home-delivered autonomic nervous system regulation service. NESA® XSIGNAL® microcurrent neuromodulation delivered by certified NADZ doctors and physiotherapists.",
+      "keywords": ["autonomic nervous system regulation", "NESAS XSIGNAL", "neuromodulation", "home therapy", "ANS balance", "NADZ Autonomic Control"],
+      "openGraph": {
+        "title": "NADZ Autonomic Control™ – Non-Invasive ANS Regulation at Home",
+        "description": "A premium neuromodulation therapy delivered by certified NADZ doctors and physiotherapists using NESA® XSIGNAL® technology.",
+        "url": "/wellness/autonomic-control",
+        "type": "website"
+      }
+    },
+    "hero": {
+      "label": "NADZ EXCLUSIVE",
+      "title": "NADZ Autonomic Control™ – Non-Invasive ANS Regulation at Home",
+      "subtitle": "A premium neuromodulation therapy delivered by certified NADZ doctors and physiotherapists using NESA® XSIGNAL® technology — designed to support sleep, stress, pain, pelvic health, and sexual function.",
+      "description": "The UAE's first premium home-delivered autonomic nervous system regulation service — exclusively by NADZ Healthcare. NADZ Autonomic Control™ combines NESA® XSIGNAL® microcurrent neuromodulation with our in-home clinical expertise to help rebalance the autonomic nervous system (ANS), supporting recovery, performance and long-term wellness. Non-invasive. Sub-sensory. No drugs. No needles. No downtime. Just gentle, science-led autonomic support — delivered at home.",
+      "primaryCta": "Book Your Session",
+      "secondaryCta": "WhatsApp Us – 24/7 Support"
+    },
+    "whatIs": {
+      "title": "What is NADZ Autonomic Control™?",
+      "paragraph": "NADZ Autonomic Control™ uses the NESA® XSIGNAL® system, a patented microcurrent neuromodulation technology that circulates ultra-low electrical signals to help influence autonomic pathways.",
+      "bullets": [
+        "Autonomic nervous system balance",
+        "Sleep quality & circadian rhythm regulation",
+        "Stress recovery & emotional regulation",
+        "Chronic pain modulation",
+        "Pelvic floor function",
+        "Bladder function",
+        "Male sexual function (erection & ejaculation performance — functional component)",
+        "Recovery from chronic autonomic overload"
+      ],
+      "footer": "Delivered in the comfort of your home, this therapy integrates seamlessly with physiotherapy, rehabilitation, pelvic health care, and wellness programs."
+    },
+    "benefits": {
+      "title": "Why NADZ Autonomic Control™? Benefits & What It Can Do",
+      "items": [
+        {
+          "title": "Autonomic Balance",
+          "description": "Rebalance your autonomic nervous system for improved stress response and recovery.",
+          "icon": "recovery"
+        },
+        {
+          "title": "Sleep Optimization",
+          "description": "Enhance sleep quality and regulate circadian rhythms for better rest.",
+          "icon": "sleep"
+        },
+        {
+          "title": "Chronic Pain Support",
+          "description": "Modulate chronic pain and improve recovery from injuries.",
+          "icon": "recovery"
+        },
+        {
+          "title": "Pelvic Health & Function",
+          "description": "Support pelvic floor function and urogenital health.",
+          "icon": "recovery"
+        }
+      ]
+    },
+    "whoCanBenefit": {
+      "title": "Conditions & Functional Concerns Supported",
+      "items": [
+        "Chronic stress, burnout & low resilience",
+        "Poor sleep or circadian rhythm disturbance",
+        "Fatigue & nervous system overload",
+        "Chronic pain & muscle tension related to stress",
+        "Fibromyalgia-type symptoms (non-diagnostic)",
+        "Physiotherapy tolerance & recovery support",
+        "Post-injury & post-operative recovery",
+        "Pelvic floor dysfunction & pelvic pain",
+        "Urinary urgency / frequency & overactive bladder",
+        "Post-partum pelvic floor imbalance",
+        "Erectile dysfunction (functional) & premature ejaculation",
+        "Pelvic floor dysregulation affecting sexual performance",
+        "Non-specific anxiety-linked autonomic imbalance",
+        "Overactivation patterns & stress irritability",
+        "Difficulty \"switching off\"",
+        "Slow recovery from training & overtraining-related autonomic stress",
+        "Sleep optimisation for performance",
+        "Post-stroke fatigue",
+        "Sleep disturbances in neurological conditions",
+        "Traumatic brain injury regulation support",
+        "Ageing-related autonomic imbalance",
+        "Menopause-related autonomic symptoms",
+        "Bladder control issues postpartum"
+      ],
+      "footer": "All concerns are screened by NADZ clinicians for suitability."
+    },
+    "howItWorks": {
+      "title": "How NADZ Autonomic Control™ Works",
+      "paragraph": "The therapy uses sub-sensory microcurrents — so gentle that most people feel nothing — to help stabilise cellular electrical potential and support autonomic recalibration.",
+      "subtitle": "The mechanism focuses on:",
+      "bullets": [
+        "Promoting parasympathetic activation",
+        "Reducing sympathetic overload (fight-or-flight dominance)",
+        "Improving sleep–wake regulation",
+        "Supporting neurovegetative homeostasis",
+        "Optimising the body's readiness for therapy and recovery"
+      ],
+      "footer": "This passive therapy allows patients to sit, rest, or even converse during the session, making it ideal for homecare."
+    },
+    "conditions": {
+      "title": "Conditions & Functional Concerns Supported",
+      "sections": [
+        {
+          "title": "Autonomic Dysregulation",
+          "items": [
+            "Chronic stress",
+            "Burnout & low resilience",
+            "Poor sleep or circadian rhythm disturbance",
+            "Fatigue & nervous system overload"
+          ]
+        },
+        {
+          "title": "Pain, Musculoskeletal & Rehabilitation",
+          "items": [
+            "Chronic pain",
+            "Muscle tension related to stress",
+            "Fibromyalgia-type symptoms (non-diagnostic)",
+            "Physiotherapy tolerance & recovery support",
+            "Post-injury & post-operative recovery"
+          ]
+        },
+        {
+          "title": "Pelvic Floor & Urogenital Health",
+          "items": [
+            "Pelvic floor dysfunction",
+            "Pelvic pain",
+            "Urinary urgency / frequency",
+            "Overactive bladder",
+            "Post-partum pelvic floor imbalance"
+          ]
+        },
+        {
+          "title": "Male Sexual Health",
+          "items": [
+            "Erectile dysfunction (functional)",
+            "Premature ejaculation",
+            "Pelvic floor dysregulation affecting sexual performance"
+          ],
+          "note": "NADZ Autonomic Control™ offers supportive neuromodulation for functional autonomic contributors to sexual performance."
+        },
+        {
+          "title": "Mental & Emotional Regulation",
+          "items": [
+            "Non-specific anxiety-linked autonomic imbalance",
+            "Overactivation patterns",
+            "Stress irritability",
+            "Difficulty \"switching off\""
+          ]
+        },
+        {
+          "title": "Sports & Performance Recovery",
+          "items": [
+            "Slow recovery from training",
+            "Overtraining-related autonomic stress",
+            "Sleep optimisation for performance"
+          ]
+        },
+        {
+          "title": "Neurology & Cognitive Health",
+          "items": [
+            "Post-stroke fatigue",
+            "Sleep disturbances in neurological conditions",
+            "Traumatic brain injury regulation support",
+            "Ageing-related autonomic imbalance"
+          ]
+        },
+        {
+          "title": "Women's Health",
+          "items": [
+            "Menopause-related autonomic symptoms",
+            "Sleep disturbance",
+            "Pelvic floor recovery",
+            "Bladder control issues postpartum"
+          ]
+        }
+      ],
+      "footer": "All concerns are screened by NADZ clinicians for suitability."
+    },
+    "patientReports": {
+      "title": "What Patients Commonly Report",
+      "items": [
+        "A deep sense of relaxation",
+        "\"Switching off\" after constant overactivation",
+        "Reduced global tension",
+        "Better sleep through the night",
+        "Improved clarity, focus & calm",
+        "Enhanced pelvic floor control",
+        "Better tolerance to physiotherapy sessions"
+      ]
+    },
+    "whyChoose": {
+      "title": "Why Choose NADZ Healthcare?",
+      "items": [
+        "Exclusive Homecare Provider for NESA® Technology in the UAE",
+        "Certified doctors and physiotherapists trained in NADZ Autonomic Control in Dubai protocols",
+        "Home-based delivery for maximum comfort",
+        "Personalised protocols tailored to your health goals",
+        "Seamless combination with physiotherapy or medical care",
+        "Optional HRV snapshots for educational tracking",
+        "Royal-standard care, privacy, and professionalism",
+        "Hospital-level precision with concierge-style delivery"
+      ]
+    },
+    "journey": {
+      "title": "What to Expect During Your Home Session",
+      "steps": [
+        {
+          "title": "SCREENING & HISTORY (5–10 MIN)",
+          "description": "Your NADZ physiotherapist or doctor evaluates suitability and goals."
+        },
+        {
+          "title": "ELECTRODE PLACEMENT (3–5 MIN)",
+          "description": "Non-invasive electrodes are placed on wrists and ankles."
+        },
+        {
+          "title": "SUB-SENSORY MICROCURRENT SESSION (40–60 MIN)",
+          "description": "You remain fully clothed, seated or resting. Many clients choose to combine it with physiotherapy post-session."
+        },
+        {
+          "title": "REVIEW & PLAN (5–10 MIN)",
+          "description": "Your doctor or physiotherapist provides guidance based on your goals and response."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safety & Contraindications",
+      "description": "NADZ Autonomic Control™ is: ✔ Non-invasive ✔ Not felt by most individuals ✔ Conducted by trained clinicians. Contraindications include: Pregnancy (particularly the first trimester), Incompatible implanted cardiac devices, Active open wounds on electrode sites. Your doctor or physiotherapist will perform a complete screening prior to therapy."
+    },
+    "faqs": [
+      {
+        "q": "Is the therapy painful?",
+        "a": "No. The microcurrents are below the sensory threshold — most feel no sensation at all."
+      },
+      {
+        "q": "Can this replace physiotherapy or medical treatment?",
+        "a": "No. It is a complementary therapy intended to support autonomic balance, making other treatments more effective."
+      },
+      {
+        "q": "How many sessions do I need?",
+        "a": "This depends on your goals. Many start with a structured weekly plan and adjust based on progress."
+      },
+      {
+        "q": "Are there side effects?",
+        "a": "Adverse effects are uncommon. Your doctor will perform full screening."
+      },
+      {
+        "q": "Can it help with erectile dysfunction or premature ejaculation?",
+        "a": "NADZ Autonomic Control™ supports the autonomic (functional) component of sexual performance."
+      },
+      {
+        "q": "Do I need HRV testing?",
+        "a": "No. HRV is optional and used for educational insight, not diagnosis."
+      },
+      {
+        "q": "Can I combine this with physiotherapy or IV drips?",
+        "a": "Yes. Physiotherapy immediately after a session is often beneficial."
+      },
+      {
+        "q": "Is it safe for elderly or neurological patients?",
+        "a": "Yes, It is suitable after screening with our physiotherapists under our doctor's supervision."
+      }
+    ],
+    "cta": {
+      "primaryCta": "Book Now",
+      "secondaryCta": "Request a Call Back",
+      "tagline": "Your journey to autonomic balance starts here."
+    },
+    "whyChooseItems": [
+      "Personalized Plans",
+      "Expert Medical Team",
+      "Home & Clinic Options"
+    ]
+  },
+  "peptide-therapy": {
+    "metadata": {
+      "title": "Peptide Therapy | NADZ Healthcare",
+      "description": "Experience the transformative power of precision peptide protocols. Cellular regeneration, hormonal balance & performance optimization.",
+      "keywords": ["peptide therapy", "cellular regeneration", "hormonal balance", "performance optimization", "longevity medicine"],
+      "openGraph": {
+        "title": "Peptide Therapy | NADZ Healthcare",
+        "description": "Next-generation, precision-based treatment using bioactive amino-acid sequences for targeted healing, metabolic repair, and cellular rejuvenation.",
+        "url": "/wellness/peptide-therapy",
+        "type": "website"
+      }
+    },
+    "hero": {
+      "label": "PRECISION MEDICINE",
+      "title": "Peptide Therapy",
+      "subtitle": "Cellular Regeneration, Hormonal Balance & Performance Optimization",
+      "description": "Peptide Therapy at NADZ Healthcare is a next-generation, precision-based treatment that uses bioactive amino-acid sequences to stimulate targeted healing, metabolic repair, hormonal balance, and cellular rejuvenation. Each peptide is carefully selected based on your biology, your goals, and your diagnostic markers — ensuring maximum efficacy, safety and personalization.",
+      "primaryCta": "Book Now",
+      "secondaryCta": "Request a Call Back"
+    },
+    "whatIs": {
+      "title": "What Is Peptide Therapy?",
+      "paragraph": "Peptides are short chains of amino acids that act as messengers in the body — communicating with cells, activating repair mechanisms, regulating hormones, modulating inflammation, and supporting tissue regeneration.",
+      "bullets": [
+        "Bind to specific receptors",
+        "Trigger precise biological responses",
+        "Enhance cellular efficiency",
+        "Improve tissue repair & regeneration",
+        "Support metabolic performance",
+        "Improve resilience and vitality"
+      ],
+      "footer": "Because they are smaller than full proteins, peptides are highly bioavailable, fast-acting, and extremely targeted, making them ideal for functional, regenerative, and longevity medicine."
+    },
+    "benefits": {
+      "title": "Why Peptide Therapy? Benefits & What It Can Do for You",
+      "items": [
+        {
+          "title": "Accelerated Healing & Tissue Repair",
+          "description": "Supports musculoskeletal recovery, post-injury healing, joint repair, and soft tissue regeneration.",
+          "icon": "recovery"
+        },
+        {
+          "title": "Enhanced Metabolic Balance & Body Composition",
+          "description": "Regulates growth-hormone pathways, improves insulin sensitivity, boosts fat metabolism, and preserves lean mass.",
+          "icon": "energy"
+        },
+        {
+          "title": "Anti-Aging & Regenerative Support",
+          "description": "Promotes collagen production, improves skin elasticity, supports cellular longevity, and reduces visible aging.",
+          "icon": "anti-aging"
+        },
+        {
+          "title": "Immune Modulation & Inflammation Reduction",
+          "description": "Helps reduce chronic inflammation, enhances immune resilience, and supports recovery from stress, illness, or chronic fatigue.",
+          "icon": "immune"
+        },
+        {
+          "title": "Cognitive, Hormonal & Vitality Enhancement",
+          "description": "Improves mental clarity, mood, energy, libido, stress tolerance, and overall wellbeing.",
+          "icon": "mental"
+        }
+      ]
+    },
+    "whoCanBenefit": {
+      "title": "Who Can Benefit from NADZ Peptide Therapy in Dubai?",
+      "items": [
+        "Want faster recovery from injury, stress, training or chronic inflammation",
+        "Seek balanced metabolism, fat optimization and lean muscle support",
+        "Are looking to improve vitality, hormonal balance, libido or energy",
+        "Aspire to healthier aging, better skin, and longevity",
+        "Wish to improve immune health, sleep, or resilience",
+        "Are athletes, executives or high-performance individuals seeking cellular edge"
+      ],
+      "footer": "Each peptide protocol at NADZ is personalized, based on diagnostics, symptoms, and goals — not generic formulas."
+    },
+    "journey": {
+      "title": "Your Peptide Therapy Journey at NADZ",
+      "steps": [
+        {
+          "title": "COMPREHENSIVE ASSESSMENT & CLINICAL MAPPING",
+          "description": "Full medical history, metabolism review, hormonal assessment, lifestyle & stress evaluation, and baseline diagnostics."
+        },
+        {
+          "title": "PERSONALIZED PEPTIDE PROTOCOL DESIGN",
+          "description": "Peptides are selected for your goals — recovery, metabolism, anti-aging, inflammation, hormonal balance, cognitive enhancement, or immune support."
+        },
+        {
+          "title": "SAFE, CONTROLLED CLINICAL ADMINISTRATION",
+          "description": "Therapy is administered under medical supervision, with sterile techniques, dose monitoring, and safety checks."
+        },
+        {
+          "title": "INTEGRATION INTO YOUR WELLNESS BLUEPRINT",
+          "description": "Your peptide plan is supported with: Nutrition guidance, Lifestyle optimization, Sleep and stress interventions, Functional & diagnostic follow-up, Adjunct therapies (IV drips, IHHT, Red Light, PEMF, Autonomic Control)"
+        },
+        {
+          "title": "ONGOING REVIEW, ADJUSTMENTS & MAINTENANCE",
+          "description": "Regular assessments ensure the right dose, the right peptide, and the best outcomes — safely, effectively, and long-term."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safety & Medical Oversight",
+      "description": "Peptides are powerful biologics. Their benefits depend entirely on correct selection, accurate dosing, clinical monitoring, high-quality sourcing, and professional oversight. At NADZ Healthcare, all peptide therapy is doctor-supervised, medically screened, and integrated within your wider health map for optimal safety and efficacy."
+    },
+    "whyChoose": {
+      "title": "Why Choose NADZ Healthcare for Peptide Therapy in Dubai?",
+      "items": [
+        "Medically supervised peptide protocols",
+        "Personalized plans tailored to your biomarkers",
+        "Integration with diagnostics, functional medicine & longevity programs",
+        "Clinical-grade quality, sterile handling & safety monitoring",
+        "Expertise in performance, regeneration, and biologically targeted therapies",
+        "Luxury-level patient experience at home or clinic"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Are peptides safe?",
+        "a": "Yes — when used under medical supervision. At NADZ, peptides are carefully selected, screened, and administered according to best medical practices."
+      },
+      {
+        "q": "How long does it take to see results?",
+        "a": "Most patients experience improvements within 2–6 weeks, depending on the peptide type and therapeutic goals."
+      },
+      {
+        "q": "Are peptide injections painful?",
+        "a": "They are typically quick and minimally uncomfortable. NADZ doctors and nurses ensure gentle, sterile administration."
+      },
+      {
+        "q": "Do peptides help with anti-aging?",
+        "a": "Yes — certain peptides enhance collagen, support tissue repair, improve cellular longevity, and reduce inflammation."
+      },
+      {
+        "q": "Can peptides help with weight loss?",
+        "a": "Some peptides regulate appetite, metabolism, fat burning, insulin sensitivity, and growth-hormone pathways."
+      },
+      {
+        "q": "Are peptides safe for long-term use?",
+        "a": "With proper monitoring, peptides can be used safely for maintenance, cycles, or long-term wellness plans."
+      },
+      {
+        "q": "Can peptide therapy be combined with other NADZ services?",
+        "a": "Absolutely — peptides pair effectively with IV therapy, IHHT, red light, functional medicine, hormonal optimization, and NADZ Blueprint protocols."
+      },
+      {
+        "q": "Do you offer home-based peptide administration?",
+        "a": "Yes. As a home healthcare, NADZ provides full home-based peptide administration. Our DHA-certified doctors visit your home, hotel, or office to ensure safe, sterile, and professionally supervised administration — offering the highest level of privacy, comfort, and convenience while maintaining medical-grade standards."
+      }
+    ],
+    "cta": {
+      "primaryCta": "Book Consultation",
+      "secondaryCta": "Request a Call Back",
+      "tagline": "Your journey to cellular regeneration and optimized performance begins here."
+    },
+    "whyChooseItems": [
+      "Personalized Plans",
+      "Expert Medical Team",
+      "Home & Clinic Options"
+    ]
+  },
+  "nad-plus-iv-therapy": {
+    "metadata": {
+      "title": "NAD+ IV Therapy at Home in Dubai – Premium Cellular Regeneration & Longevity Treatment | NADZ Healthcare",
+      "description": "Recharge your cells, enhance brain function, support detoxification, and elevate your overall vitality with doctor-designed NAD+ IV therapy in Dubai— delivered safely to your home, hotel, office, or wellness space by NADZ Healthcare's DHA-licensed team.",
+      "keywords": ["NAD+ IV therapy", "cellular energy", "mental clarity", "longevity", "cellular regeneration", "home healthcare Dubai"],
+      "openGraph": {
+        "title": "NAD+ IV Therapy at Home in Dubai – Premium Cellular Regeneration & Longevity Treatment",
+        "description": "Recharge your cells, enhance brain function, support detoxification, and elevate your overall vitality with doctor-designed NAD+ IV therapy in Dubai.",
+        "url": "/wellness/nad-plus-iv-therapy",
+        "type": "website"
+      }
+    },
+    "hero": {
+      "label": "THE FUTURE OF LONGEVITY",
+      "title": "NAD+ IV Therapy at Home in Dubai – Premium Cellular Regeneration & Longevity Treatment",
+      "subtitle": "Cellular Energy. Mental Clarity. Longevity — Directly to Your Doorstep.",
+      "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is one of the body's most essential coenzymes — responsible for cellular energy, DNA repair, metabolism, immunity, and neurological function. As we age, NAD+ levels naturally decline, leading to fatigue, brain fog, slower metabolism, decreased recovery, inflammation, and accelerated aging. NAD+ IV therapy in Dubai replenishes these levels directly into your bloodstream, giving your cells what they need to function at their highest potential. NADZ Home Healthcare brings doctor-led, medical-grade NAD+ therapy to your doorstep with unmatched safety, precision, luxury, and care.",
+      "primaryCta": "Book NAD+ IV Therapy at Home",
+      "secondaryCta": "WhatsApp Us – 24/7 Support"
+    },
+    "whatIs": {
+      "title": "What Is NAD+ and Why Is It Important?",
+      "paragraph": "NAD+ is a vital molecule found in every cell in the human body. It powers:",
+      "bullets": [
+        "Cellular energy (ATP production)",
+        "DNA repair & anti-aging pathways",
+        "Brain performance & neurotransmitter function",
+        "Metabolic efficiency & weight control",
+        "Detoxification & liver health",
+        "Immune system resilience"
+      ],
+      "footer": "Age, stress, poor sleep, infections, toxins, and chronic illness rapidly deplete NAD+, making IV therapy the most effective way to restore optimal levels."
+    },
+    "benefits": {
+      "title": "Benefits of NAD+ IV Therapy",
+      "items": [
+        {
+          "title": "Boosts Cellular Energy & Reduces Fatigue",
+          "description": "Enhances ATP production for better stamina, vitality, and daily performance.",
+          "icon": "energy"
+        },
+        {
+          "title": "Enhances Brain Function",
+          "description": "Improves focus, memory, mental clarity, productivity, and mood.",
+          "icon": "mental"
+        },
+        {
+          "title": "Supports Longevity & Anti-Aging",
+          "description": "Activates sirtuins — proteins linked to slowed aging and improved cellular repair.",
+          "icon": "anti-aging"
+        },
+        {
+          "title": "Accelerates Recovery",
+          "description": "Ideal for post-illness recovery, chronic fatigue, long COVID, burnout, and high-performance individuals.",
+          "icon": "recovery"
+        },
+        {
+          "title": "Improves Metabolism & Weight Control",
+          "description": "Enhances mitochondrial health, leading to better fat-burning and metabolic efficiency.",
+          "icon": "energy"
+        },
+        {
+          "title": "Detoxification & Inflammation Reduction",
+          "description": "Supports liver pathways and reduces oxidative stress.",
+          "icon": "immune"
+        },
+        {
+          "title": "Enhances Athletic Performance",
+          "description": "Improves physical endurance, recovery time, and muscle repair.",
+          "icon": "recovery"
+        },
+        {
+          "title": "Supports Mental Wellness",
+          "description": "Used to help manage anxiety, low mood, focus issues, and neuro-inflammation.",
+          "icon": "mental"
+        },
+        {
+          "title": "Assists in Addiction Recovery Programs",
+          "description": "Helps re-balance neurotransmitters and support withdrawal recovery (where medically appropriate).",
+          "icon": "recovery"
+        }
+      ]
+    },
+    "whoCanBenefit": {
+      "title": "Who Is NAD+ IV Therapy For?",
+      "items": [
+        "Fatigue & low energy",
+        "Brain fog or memory difficulties",
+        "Chronic stress or burnout",
+        "Poor immunity",
+        "Slow recovery after illness",
+        "Athletes",
+        "Individuals seeking longevity optimization",
+        "Anti-aging programs",
+        "Metabolic or mitochondrial dysfunction",
+        "Post-viral fatigue / long COVID",
+        "Patients seeking neurological support",
+        "Parkinson's disease",
+        "Heart disease",
+        "Alzheimer's disease",
+        "Obesity",
+        "Lyme Disease",
+        "Chronic fatigue",
+        "Substance abuse recovery"
+      ],
+      "footer": "If your goal is to feel more vibrant, mentally focused, and biologically younger, NAD+ is one of the most powerful therapies available."
+    },
+    "journey": {
+      "title": "How NAD+ IV Works at Home",
+      "steps": [
+        {
+          "title": "CONSULTATION & MEDICAL SCREENING",
+          "description": "Your medical history and goals are reviewed by a NADZ Doctor."
+        },
+        {
+          "title": "CUSTOMIZED NAD+ DOSAGE",
+          "description": "A doctor determines your personalized infusion protocol."
+        },
+        {
+          "title": "DHA-LICENSED NURSE ARRIVES AT YOUR HOME",
+          "description": "Complete medical setup, comfort, and safety ensured."
+        },
+        {
+          "title": "NAD+ IV INFUSION ADMINISTERED",
+          "description": "The infusion typically lasts 60–180 minutes, depending on dosage."
+        },
+        {
+          "title": "POST-TREATMENT MONITORING & FOLLOW-UP",
+          "description": "Your nurse monitors your vital signs and comfort. Dr. Nadia's team advises next steps for maintenance, longevity, and wellness optimization."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safety & Quality Assurance",
+      "description": "We store and handle NAD+ using strict medical-grade protocols to maintain its purity, potency, and therapeutic effectiveness. Our NAD+ is sourced exclusively from top-tier, FDA-compliant compounding pharmacies in the United States, ensuring the highest standards of quality and safety. The safest and most premium NAD+ service in Dubai. When administered by licensed medical professionals under doctor supervision, NAD+ IV therapy is safe and effective."
+    },
+    "whyChoose": {
+      "title": "Why Choose NADZ Healthcare for NAD+ IV Therapy?",
+      "items": [
+        "Doctor-Designed Protocols — Each NAD+ infusion is curated and approved by Dr. Nadia, ensuring medical precision",
+        "DHA-Licensed Nurses & Doctors — Your treatment is administered safely by trained professionals",
+        "Premium At-Home Experience — Enjoy luxury-level care without hospital visits or waiting rooms",
+        "Personalized Dosing — Your NAD+ dosage is chosen based on your symptoms, age, goals, and medical history",
+        "Integrated Longevity Approach — Can be combined with NADZ Autonomic Control, Hydrogen Therapy, Red Light Therapy, Blueprint testing, PEMF therapy, and IV vitamin protocols for advanced cellular rejuvenation",
+        "Trusted by Executives, Athletes, High-Performers & Wellness Clients"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How soon do I feel the effects?",
+        "a": "Most patients feel increased clarity, energy, and calm within hours to 24 hours."
+      },
+      {
+        "q": "Is NAD+ IV safe?",
+        "a": "Yes — when administered by licensed medical professionals under doctor supervision."
+      },
+      {
+        "q": "How often should I take NAD+?",
+        "a": "Varies by goal — from weekly to monthly. A NADZ doctor will guide you."
+      },
+      {
+        "q": "Can I combine NAD+ with other treatments?",
+        "a": "Yes — it pairs perfectly with IV Vitamin Drips, Hydrogen Therapy, NADZ Autonomic Control, Red Light Therapy, Blueprint testing, PEMF therapy, and IV vitamin protocols."
+      },
+      {
+        "q": "How long does the infusion take?",
+        "a": "60–180 minutes depending on the dose."
+      },
+      {
+        "q": "Can NAD+ help with fatigue or burnout?",
+        "a": "Yes — NAD+ is widely used for energy restoration and nervous system support."
+      },
+      {
+        "q": "Is at-home NAD+ therapy as safe as a clinic?",
+        "a": "Yes — NADZ follows hospital-grade safety protocols."
+      }
+    ],
+    "cta": {
+      "primaryCta": "Book Your NAD+ IV Drip at Home",
+      "secondaryCta": "WhatsApp NADZ Healthcare 24/7",
+      "tagline": "Experience cellular rejuvenation, enhanced energy, sharper focus, and a renewed sense of health — all from the comfort of your home. Dubai's most trusted doctor-led NAD+ IV therapy is just one call away."
+    },
+    "whyChooseItems": [
+      "Doctor-Designed Protocols",
+      "DHA-Licensed Professionals",
+      "Premium At-Home Experience"
+    ]
+  },
+  "functional-integrated-medicine": {
+    "metadata": {
+      "title": "Functional & Integrated Medicine | NADZ Healthcare",
+      "description": "Your Personalized Pathway to Root-Cause Healing & Lifelong Wellness. Deep, investigative, biology-first approach that studies how your genetics, environment, lifestyle, metabolism, gut, hormones, nervous system, and immune function interact.",
+      "keywords": ["functional medicine", "integrated medicine", "root cause healing", "personalized medicine", "holistic health", "longevity medicine"],
+      "openGraph": {
+        "title": "Functional & Integrated Medicine | NADZ Healthcare",
+        "description": "Your Personalized Pathway to Root-Cause Healing & Lifelong Wellness at NADZ Healthcare.",
+        "url": "/wellness/functional-integrated-medicine",
+        "type": "website"
+      }
+    },
+    "hero": {
+      "label": "ROOT-CAUSE HEALING",
+      "title": "Functional & Integrated Medicine",
+      "subtitle": "Your Personalized Pathway to Root-Cause Healing & Lifelong Wellness",
+      "description": "Functional & Integrated Medicine at NADZ Healthcare goes far beyond symptom management. It is a deep, investigative, biology-first approach that studies how your genetics, environment, lifestyle, metabolism, gut, hormones, nervous system, and immune function interact — so we can identify the true root cause of imbalance and rebuild your health from the inside out. This is medicine for people who want answers, not assumptions — and solutions that actually last.",
+      "primaryCta": "Book Now",
+      "secondaryCta": "Request a Call Back"
+    },
+    "whatIs": {
+      "title": "What Is Functional & Integrated Medicine?",
+      "paragraph": "Functional & Integrated Medicine is a science-backed, systems-biology method of understanding the body as one interconnected ecosystem. Instead of treating each symptom separately, we study:",
+      "bullets": [
+        "How systems influence one another (gut ↔ brain ↔ endocrine ↔ immune ↔ metabolic)",
+        "How stress, sleep, toxins, nutrition, activity & environment shape your biology",
+        "How your genes are expressed through lifestyle & biochemical triggers",
+        "What your body genuinely needs to heal, restore, and thrive"
+      ],
+      "footer": "At NADZ, we bring together advanced diagnostics, personalized assessments, and integrative therapeutic strategies to craft a care plan that is uniquely yours — no generic formula, no \"one-size-fits-all.\""
+    },
+    "whyChooseFunctionalMedicine": {
+      "title": "Why Choose Functional & Integrated Medicine in Dubai?",
+      "description": "Because feeling \"fine\" is not the same as being well. Most chronic symptoms and modern illnesses arise from modifiable factors — inflammation, stress, nutrient deficiencies, sleep disruption, metabolic imbalance, toxin exposure, hormonal disturbance, gut dysfunction.",
+      "points": [
+        "The root causes behind recurring symptoms",
+        "How multiple complaints may stem from one imbalance",
+        "Why conventional treatments may not have resolved the issue",
+        "What your body actually needs to heal & prevent future disease"
+      ],
+      "footer": "This approach is ideal for people who want to optimize, prevent, reverse, or enhance their health — not simply cope with their condition."
+    },
+    "benefits": {
+      "title": "Your Functional Health Matrix at NADZ",
+      "subtitle": "The 6 Pillars of NADZ Functional Medicine",
+      "items": [
+        {
+          "title": "Metabolic & Mitochondrial Health",
+          "description": "Energy, insulin sensitivity, cellular efficiency, resilience.",
+          "icon": "energy"
+        },
+        {
+          "title": "Gut & Digestive Ecosystem",
+          "description": "Microbiome, digestion, absorption, inflammation, immune signalling.",
+          "icon": "recovery"
+        },
+        {
+          "title": "Hormonal & Endocrine Balance",
+          "description": "Thyroid, adrenal health, reproductive hormones, stress hormones.",
+          "icon": "recovery"
+        },
+        {
+          "title": "Detoxification & Cellular Renewal",
+          "description": "Liver pathways, oxidative stress, toxin clearance.",
+          "icon": "immune"
+        },
+        {
+          "title": "Neurological & Autonomic Regulation",
+          "description": "Stress response, vagal tone, sleep cycles, mood stabilization.",
+          "icon": "mental"
+        },
+        {
+          "title": "Lifestyle, Nutrition & Genetic Expressions",
+          "description": "Blueprint-based optimization of diet, habits, and epigenetic triggers.",
+          "icon": "anti-aging"
+        }
+      ],
+      "footer": "This matrix becomes your personalized Functional Medicine Blueprint — a NADZ-exclusive deliverable that patients can track and follow."
+    },
+    "whoCanBenefit": {
+      "title": "Who Is Functional & Integrated Medicine For?",
+      "items": [
+        "Have Chronic or Unresolved Health Conditions — Autoimmunity, thyroid imbalance, metabolic disorders, digestive conditions, hormonal issues, chronic inflammation, chronic fatigue",
+        "Experience Multi-System, Unexplained Symptoms — Gut issues + fatigue + mood changes + skin issues + sleep disruption + hormonal fluctuations",
+        "Want Preventive, Longevity-Focused Care — For those who want proactive health, not reactive treatment",
+        "Have Stress, Lifestyle, or Environmental Burdens — High-pressure professionals, parents, executives, travellers, shift workers",
+        "Want Better Energy, Mental Clarity & Performance — Athletes, entrepreneurs, students, and high-performance individuals",
+        "Prefer Personalized, Whole-Person Medicine — Those seeking depth, time, explanation, and accountability in their care"
+      ]
+    },
+    "journey": {
+      "title": "Your Journey with NADZ Functional Medicine",
+      "steps": [
+        {
+          "title": "DEEP-DIVE CONSULTATION & HEALTH MAPPING",
+          "description": "A detailed review of history, symptoms, lifestyle, stress, sleep, genetics, diet, and goals."
+        },
+        {
+          "title": "ADVANCED DIAGNOSTICS & FUNCTIONAL TESTING",
+          "description": "Blood, gut microbiome, hormones, toxins, mitochondrial markers, inflammation, nutrient status."
+        },
+        {
+          "title": "ROOT-CAUSE ANALYSIS & SYSTEMS INTERPRETATION",
+          "description": "We create your Functional Map — identifying triggers, patterns, deficiencies, toxicities, and system imbalances."
+        },
+        {
+          "title": "PERSONALIZED NADZ THERAPEUTIC BLUEPRINT",
+          "description": "Your tailored plan may include: Nutrition & metabolic plan, Supplementation (targeted, evidence-based), Gut repair & detox protocols, Hormonal rebalancing, Sleep & stress optimization, Longevity & aging reversal strategies, Integrative therapies (IV therapy, IHHT, Red Light, PEMF, Autonomic Control)."
+        },
+        {
+          "title": "THERAPEUTIC INTERVENTIONS & PROGRESS TRACKING",
+          "description": "Continuous follow-up, reassessment, and adaptation based on how your body responds."
+        },
+        {
+          "title": "LONG-TERM OPTIMIZATION & LONGEVITY INTEGRATION",
+          "description": "We shift from treatment → prevention → performance → vitality → longevity."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Expected Outcomes with NADZ Functional Medicine",
+      "description": "Better digestion, gut health & microbiome balance. Reduced inflammation & improved immune resilience. Restored hormonal equilibrium. Elevated energy, stamina & cellular efficiency. Improved mental clarity, mood & sleep. Better metabolic function & healthier weight. Faster recovery after stress, illness or burnout. Long-term prevention & healthier aging trajectory."
+    },
+    "whyChoose": {
+      "title": "Why NADZ Healthcare?",
+      "items": [
+        "Holistic, integrative, and doctor-led",
+        "Advanced diagnostics and premium functional testing",
+        "A full ecosystem of therapies under one roof",
+        "NADZ Autonomic Control integration for nervous system regulation",
+        "NADZ Vital Brain for cognitive assessment & optimization",
+        "NADZ Blueprint for personalized biological mapping",
+        "Luxe-level patient experience, privacy & home-based convenience"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What conditions does Functional Medicine treat?",
+        "a": "Functional Medicine is beneficial for chronic fatigue, gut issues, hormonal imbalance, thyroid disorders, PCOS, autoimmunity, migraines, metabolic issues, inflammation, sleep problems, weight resistance, stress-related conditions, and unexplained symptoms."
+      },
+      {
+        "q": "How is this different from a regular doctor consultation?",
+        "a": "Traditional care aims to manage symptoms. Functional care aims to identify & resolve the root cause."
+      },
+      {
+        "q": "How long does it take to see improvement?",
+        "a": "Most patients see meaningful changes within 4–12 weeks, depending on severity, commitment, and biological factors."
+      },
+      {
+        "q": "Will I need functional lab tests?",
+        "a": "Your doctor will recommend tests based on your symptoms. They are optional but greatly enhance accuracy and personalization."
+      },
+      {
+        "q": "Can Functional Medicine be combined with conventional treatment?",
+        "a": "Yes. It is complementary and can work alongside your existing medical treatments safely."
+      },
+      {
+        "q": "Is this suitable for longevity and prevention?",
+        "a": "Absolutely. Functional Medicine is one of the strongest evidence-based tools for preventing disease and optimizing long-term health span."
+      },
+      {
+        "q": "Do you offer home-visits for functional assessments?",
+        "a": "Yes — NADZ doctors can perform evaluations, sample collection, and follow-ups at your home, hotel, or office."
+      },
+      {
+        "q": "Is Functional Medicine safe for children?",
+        "a": "Yes, when indicated and supervised by a clinician, especially for gut issues, allergies, fatigue, behavioural concerns, or chronic symptoms."
+      }
+    ],
+    "cta": {
+      "primaryCta": "Book Now",
+      "secondaryCta": "Request a Call Back",
+      "tagline": "Personalized Functional & Integrated Medicine in Dubai—by NADZ Healthcare."
+    },
+    "whyChooseItems": [
+      "Holistic, Integrative & Doctor-Led",
+      "Advanced Diagnostics",
+      "Full Ecosystem of Therapies"
+    ]
+  },
+  "sleeping-disorder": {
+    "metadata": {
+      "title": "Sleep Disorders Care in Dubai – At Home, Hotel or Office | NADZ Healthcare",
+      "description": "Discreet, DHA-licensed doctors and nurses available 24/7 for private sleep disorder assessment, personalized treatment plans, and coordinated follow-up in Dubai.",
+      "keywords": ["sleep disorders", "insomnia", "sleep treatment", "home healthcare Dubai", "autonomic control", "sleep therapy"],
+      "openGraph": {
+        "title": "Sleep Disorders Care in Dubai – At Home, Hotel or Office",
+        "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized plans, and coordinated follow-up - wherever you are in Dubai.",
+        "url": "/wellness/sleeping-disorder",
+        "type": "website"
+      }
+    },
+    "hero": {
+      "label": "NADZ EXCLUSIVE",
+      "title": "Sleep Disorders Care in Dubai",
+      "subtitle": "At Home, Hotel or Office",
+      "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized plans, and coordinated follow-up - wherever you are in Dubai.",
+      "primaryCta": "Call Now for a Discreet Doctor Consultation",
+      "secondaryCta": "WhatsApp Us - 24/7 Private Support"
+    },
+    "whatIs": {
+      "title": "The Importance of Sleep",
+      "paragraph": "Struggling with insomnia, frequent awakenings, or non-restorative sleep can affect your energy, focus, metabolism and emotional balance. With NADZ Home Healthcare, you're never a number in a waiting room. A DHA-licensed doctor comes to your home, hotel, or office for a confidential, compassionate assessment and a clear plan tailored to your goals.",
+      "bullets": [],
+      "footer": "Our Sleep Disorders Care in Dubai is designed for people who value privacy, speed, and individualized medical attention — without clinic delays."
+    },
+    "benefits": {
+      "title": "What We Help With",
+      "items": [
+        {
+          "title": "Insomnia & Sleep Onset Issues",
+          "description": "Difficulty falling asleep, racing mind",
+          "icon": "sleep"
+        },
+        {
+          "title": "Sleep Maintenance Problems",
+          "description": "Frequent awakenings, early morning waking",
+          "icon": "sleep"
+        },
+        {
+          "title": "Non-Restorative Sleep",
+          "description": "Fatigue despite hours in bed, unrefreshing sleep",
+          "icon": "sleep"
+        },
+        {
+          "title": "Related Concerns",
+          "description": "Stress/over-arousal, pain or muscle tension, jet lag, medication review, and lifestyle factors that influence sleep quality",
+          "icon": "recovery"
+        }
+      ]
+    },
+    "autonomicControl": {
+      "title": "NADZ Autonomic Control™",
+      "subtitle": "A Gentle, Home-Based Treatment",
+      "description": "As part of a comprehensive plan, your NADZ Home Healthcare Doctor will offer NADZ Autonomic Control™, our signature non-invasive, sub-sensory microcurrent neuromodulation service at home. The approach supports autonomic balance (stress-sleep-recovery) - a key regulator of sleep quality. Expected outcomes vary by individual; reported areas of improvement include sleep continuity and perceived restfulness as part of whole-body autonomic support.",
+      "cta": "Call Now for better sleep"
+    },
+    "whoCanBenefit": {
+      "title": "When to Request a Visit",
+      "items": [
+        "You're noticing ongoing sleep problems that affect energy, mood, or focus",
+        "You prefer discreet, at-home evaluation and treatment",
+        "You need rapid testing and a plan without clinic wait times",
+        "You've completed treatment elsewhere and want follow-up to stay on track"
+      ],
+      "footer": "Your NADZ Home Healthcare doctor focuses on both the symptom and the likely contributors, then creates a plan that matches your goals - at your pace and in full privacy."
+    },
+    "discreetCare": {
+      "title": "Discreet Care, Wherever You Are",
+      "description": "Think of this as doctor-at-your-doorstep for better sleep. We provide:",
+      "items": [
+        "Thorough clinical assessment and private discussion of symptoms and goals",
+        "Tailored treatment plan and prescriptions when appropriate",
+        "Guidance on whether further tests or specialist referral are needed",
+        "Coordination with labs, pharmacy delivery, nursing, or physiotherapy if required",
+        "Clear follow-up so you're supported from first visit to results"
+      ],
+      "cta": "Book a Private Home or Hotel Visit"
+    },
+    "fastTesting": {
+      "title": "Fast Testing & Clear Next Steps",
+      "description": "When indicated, we use MOHAP-certified rapid point-of-care (POC) technology for quick screening and coordinate DHA-approved lab tests - helping you move from uncertainty to action in minutes. Accurate. Discreet. At your location.",
+      "cta": "Learn More About Rapid Testing"
+    },
+    "visitIncludes": {
+      "title": "What Your Discreet Visit Includes",
+      "items": [
+        "Same-day or urgent visits - evenings, nights, weekends (24/7)",
+        "Detailed history and examination, with time to answer your questions",
+        "Clear diagnosis and step-by-step plan; prescriptions when appropriate",
+        "Recommendations for tests and on-the-spot POC where indicated",
+        "Coordination with labs, pharmacy delivery, and home nursing/physiotherapy"
+      ]
+    },
+    "journey": {
+      "title": "Your Care Pathway with NADZ Autonomic Control™",
+      "subtitle": "At NADZ Healthcare, our Autonomic Control™ sessions support Sleep Disorders Care in Dubai by helping restore balance in the autonomic nervous system (ANS) — the regulator of stress, sleep, and recovery.",
+      "steps": [
+        {
+          "title": "Initial Assessment",
+          "description": "A DHA-licensed clinician conducts a private consultation at your home, hotel, or office to understand symptoms like insomnia, awakenings, fatigue, or non-restorative sleep. Together, you define clear goals and expectations."
+        },
+        {
+          "title": "Baseline HRV Snapshot",
+          "description": "A quick 2-5-minute Heart Rate Variability (HRV) reading gives a snapshot of autonomic balance - the interplay between stress and recovery states - before starting sessions."
+        },
+        {
+          "title": "NADZ Autonomic Control™ Sessions",
+          "description": "Sub-sensory microcurrent neuromodulation via specific electrodes on wrists and ankles - no pain, no needles, no contractions. Each 60-minute session aims to gently activate parasympathetic recovery pathways and reduce sympathetic over-activity. Sessions are silent, relaxing, and often done while you rest or read at home."
+        },
+        {
+          "title": "Monitoring & Adaptation",
+          "description": "After a few sessions, your clinician reassesses how you're sleeping, recovering, and feeling. Post-session HRV trends may be shared for educational insight. Frequency is personalized; a common initial cadence is three sessions per week in the first phase."
+        },
+        {
+          "title": "Integration & Support",
+          "description": "Your doctor may integrate sessions with other aspects of care - medication reviews, lifestyle adjustments, and referrals if needed - with a focus on long-term nervous-system resilience."
+        }
+      ],
+      "ctas": [
+        "Ask About NADZ Autonomic Control™ for Sleep",
+        "Book a Private Home Session"
+      ]
+    },
+    "whyChoose": {
+      "title": "Why patients choose it with NADZ",
+      "items": [
+        "Non-invasive & imperceptible sessions (no heat, no needles, no contractions)",
+        "Delivered by trained clinicians in your home",
+        "Integrates seamlessly with ongoing medical care",
+        "Clear communication at every step"
+      ],
+      "cta": "Ask About NADZ Autonomic Control™ at Home"
+    },
+    "faqs": [
+      {
+        "q": "Is this confidential?",
+        "a": "Yes. Everything is delivered discreetly at your location; results are handled with strict privacy."
+      },
+      {
+        "q": "Is neuromodulation painful or invasive?",
+        "a": "No - it's sub-sensory; you won't feel heat, needles, or muscle contractions."
+      },
+      {
+        "q": "Can I track progress?",
+        "a": "Yes - your clinician may use HRV snapshots and simple sleep questionnaires to visualize trends over time."
+      },
+      {
+        "q": "What sleep issues do you see most often?",
+        "a": "Insomnia (difficulty falling or staying asleep), early awakening, non-restorative sleep, and stress-related over-arousal are common concerns. Your doctor assesses symptoms, contributing factors and goals to tailor a plan (home visit, rapid testing, follow-up), and will include non-invasive neuromodulation as part of care."
+      },
+      {
+        "q": "What is NADZ Autonomic Control non-invasive neuromodulation (XSIGNAL®)?",
+        "a": "It's a medical technology that delivers sub-sensory microcurrents designed to gently modulate autonomic nervous system (ANS) activity. Sessions are non-invasive and designed for comfort; the approach is used as a complement to medical care and lifestyle measures."
+      },
+      {
+        "q": "Will I feel anything during a session?",
+        "a": "No. Sessions are imperceptible (no heat, needles, or muscle contractions)."
+      },
+      {
+        "q": "Is it safe? Does it carry certifications?",
+        "a": "Yes, the device follows medical-device standards with CE marking and relevant ISO manufacturing certifications."
+      },
+      {
+        "q": "Who should not receive it? (Contraindications & precautions)",
+        "a": "Patients with pacemakers or implanted defibrillators, pregnancy, active oncological processes under certain stages/treatments, acute infectious or febrile processes, active hemorrhages, and other specific clinical scenarios. Your NADZ Home Healthcare doctor will screen for these."
+      },
+      {
+        "q": "Can it be combined with my current treatments (medication, CBT-I, physiotherapy)?",
+        "a": "Yes-it's compatible with other therapies when clinically indicated, except with technologies that apply conflicting electrical currents simultaneously. Your clinician coordinates timing and sequencing."
+      },
+      {
+        "q": "How are sessions structured?",
+        "a": "Assessment, session programming, and periodic review. Sessions are typically planned in consistent blocks; your clinician personalizes cadence and duration for sleep goals."
+      },
+      {
+        "q": "How many sessions will I need?",
+        "a": "Because every person's sleep story is different, the number of sessions isn't fixed. We start with a personalized plan, review your progress regularly, and adapt the schedule to what your body needs most."
+      },
+      {
+        "q": "Is it done at home, hotel, or clinic?",
+        "a": "Our service model support in-home/hotel sessions with trained staff when needed."
+      },
+      {
+        "q": "What if I'm anxious about devices?",
+        "a": "The patient-education FAQs provide scripts and visuals to explain the undetectable nature of the current and the step-by-step process, helping reduce anxiety."
+      },
+      {
+        "q": "Does XSIGNAL® include heart-rate variability (HRV) tools?",
+        "a": "Yes. The dataset describes an included portable ECG and the use of HRV indices for educational monitoring of autonomic balance over time."
+      },
+      {
+        "q": "Why does HRV matter for sleep?",
+        "a": "HRV trends help contextualize stress-recovery balance, which relates to sleep regulation."
+      },
+      {
+        "q": "Can athletes or busy professionals use it for sleep and recovery?",
+        "a": "Yes. The dataset notes adoption in high-performance contexts and daily routines because it's non-invasive and easy to integrate. For sleep-focused goals, sessions are planned around schedules."
+      },
+      {
+        "q": "Are there side effects?",
+        "a": "The dataset centers on safety, imperceptible stimulation, and contraindication screening. Adverse effects are uncommon when used as indicated; your clinician will review your history and monitor tolerance."
+      },
+      {
+        "q": "Does the current damage cells?",
+        "a": "No. XSIGNAL® uses sub-sensory microcurrents at very low voltages and currents (about 3-6 V and up to ?0.9 mA), which are well below levels that could produce thermal or electrical injury to tissues."
+      },
+      {
+        "q": "What's different vs. other electro- or neuro-stimulation?",
+        "a": "XSIGNAL® is positioned in the dataset as a non-invasive, sub-sensory neuromodulation aimed at autonomic regulation, distinct from high-intensity or muscle-contracting electrotherapies."
+      },
+      {
+        "q": "Can I travel with it or receive sessions while traveling?",
+        "a": "Operationally, sessions can be coordinated at your location (home/hotel). Our care model supports privacy and mobility; your clinician will organize logistics"
+      },
+      {
+        "q": "What equipment & accessories are involved?",
+        "a": "The dataset lists the medical device, programming, and clinical accessories used by trained staff; patients don't have to manage complex setup"
+      },
+      {
+        "q": "How is progress tracked?",
+        "a": "Clinicians may use short HRV snapshots (via the included ECG) and brief sleep questionnaires to educationally visualize trends over time, alongside your subjective sleep reports"
+      }
+    ],
+    "cta": {
+      "primaryCta": "Book a Private Home or Hotel Visit",
+      "secondaryCta": "Call Now for better sleep",
+      "tagline": "Your journey to better sleep starts with a private, compassionate assessment in the comfort of your own space."
+    },
+    "safety": {
+      "title": "Safety & Confidentiality",
+      "description": "All services are delivered with strict privacy and medical-grade safety standards. Your NADZ Home Healthcare doctor will perform a complete screening prior to therapy to ensure suitability and safety."
+    }
+  },
+  "anxiety-stress": {
+    "metadata": {
+      "title": "Anxiety & Stress Care in Dubai – At Home, Hotel or Office | NADZ Healthcare",
+      "description": "Discreet, DHA-licensed doctors and nurses available 24/7 for private anxiety and stress assessment, personalized treatment plans, and coordinated follow-up in Dubai.",
+      "keywords": ["anxiety", "stress", "anxiety treatment", "stress management", "home healthcare Dubai", "autonomic control", "mental health"],
+      "openGraph": {
+        "title": "Anxiety & Stress Care in Dubai – At Home, Hotel or Office",
+        "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized plans, and coordinated follow-up — wherever you are in Dubai.",
+        "url": "/wellness/anxiety-stress",
+        "type": "website"
+      }
+    },
+    "hero": {
+      "label": "NADZ EXCLUSIVE",
+      "title": "Anxiety & Stress Care in Dubai",
+      "subtitle": "At Home, Hotel or Office",
+      "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized plans, and coordinated follow-up — wherever you are in Dubai.",
+      "primaryCta": "Call Now for a Discreet Doctor Consultation",
+      "secondaryCta": "WhatsApp Us — 24/7 Private Support"
+    },
+    "whatIs": {
+      "title": "Feeling Calm Drives Health, Sleep & Performance",
+      "paragraph": "Persistent stress, over-arousal or anxiety can disrupt focus, mood and sleep. With NADZ Home Healthcare, you're never a number in a waiting room. A DHA-licensed doctor comes to your home, hotel, or office for a confidential, compassionate assessment and a clear plan tailored to your goals.",
+      "bullets": [],
+      "footer": "Your doctor addresses both symptoms and likely contributors, then creates a plan at your pace — in full privacy."
+    },
+    "benefits": {
+      "title": "What We Help With",
+      "items": [
+        {
+          "title": "Generalized stress & anxiety",
+          "description": "Restlessness, racing thoughts, over-arousal",
+          "icon": "recovery"
+        },
+        {
+          "title": "Panic tendencies",
+          "description": "Episodes of intense fear, somatic tension",
+          "icon": "recovery"
+        },
+        {
+          "title": "Workload & performance stress",
+          "description": "Irritability, reduced focus, \"wired but tired\"",
+          "icon": "recovery"
+        },
+        {
+          "title": "Adjustment & travel stress",
+          "description": "Routine disruption, jet lag overlap",
+          "icon": "recovery"
+        },
+        {
+          "title": "Related concerns",
+          "description": "Poor sleep, muscle tension, headaches, medication review, and lifestyle factors",
+          "icon": "recovery"
+        }
+      ]
+    },
+    "autonomicControl": {
+      "title": "NADZ Autonomic Control™",
+      "subtitle": "How XSIGNAL® can help",
+      "description": "As part of a comprehensive plan, your NADZ Home Healthcare Doctor will offer NADZ Autonomic Control™, our non-invasive, sub-sensory microcurrent neuromodulation (XSIGNAL®) delivered at home. The aim is to support autonomic balance — easing excessive sympathetic drive (\"stress response\") and favoring parasympathetic recovery. Expected outcomes vary by individual; reported improvements include perceived calm, reduced stress reactivity, better sleep continuity, and overall autonomic support. This approach represents expert Anxiety & Stress Care in Dubai at your convenience.",
+      "cta": "Call Now for Stress & Anxiety Support"
+    },
+    "whoCanBenefit": {
+      "title": "When to Request a Visit",
+      "items": [
+        "Stress or anxiety is affecting your work, relationships, sleep, or recovery",
+        "You prefer discreet, at-home evaluation and treatment",
+        "You need rapid testing and an actionable plan without clinic wait times",
+        "You've completed treatment elsewhere and want structured follow-up"
+      ],
+      "footer": "Your NADZ Home Healthcare doctor focuses on both the symptom and the likely contributors, then creates a plan that matches your goals - at your pace and in full privacy."
+    },
+    "discreetCare": {
+      "title": "Discreet Care, Wherever You Are",
+      "description": "Think of this as doctor-at-your-doorstep for stress and anxiety. We provide:",
+      "items": [
+        "Thorough clinical assessment and private discussion of symptoms and goals",
+        "Tailored plan and prescriptions when appropriate",
+        "Guidance on whether further tests or specialist referral are needed",
+        "Coordination with labs, pharmacy delivery, nursing, or physiotherapy if required",
+        "Clear follow-up so you're supported from first visit to results"
+      ],
+      "cta": "Book a Private Home or Hotel Visit"
+    },
+    "fastTesting": {
+      "title": "Fast Screening & Clear Next Steps",
+      "description": "When indicated, we use MOHAP-certified rapid point-of-care (POC) screens and coordinate DHA-approved lab tests to rule out contributors (e.g., thyroid imbalance, anemia, vitamin deficits). Accurate. Discreet. At your location.",
+      "cta": "Learn More About Rapid Testing"
+    },
+    "visitIncludes": {
+      "title": "What Your Discreet Visit Includes",
+      "items": [
+        "Same-day or urgent visits — evenings, nights, weekends (24/7)",
+        "Detailed history and examination, with time to answer your questions",
+        "Clear plan; prescriptions when appropriate",
+        "Recommendations for tests and on-the-spot POC where indicated",
+        "Coordination with labs, pharmacy delivery, and home nursing/physiotherapy"
+      ]
+    },
+    "journey": {
+      "title": "Your Care Pathway with NADZ Autonomic Control™",
+      "subtitle": "At NADZ Healthcare, Autonomic Control™ sessions focus on the autonomic nervous system (ANS) — the regulator of stress, sleep, and recovery.",
+      "steps": [
+        {
+          "title": "Initial Assessment",
+          "description": "Private consultation at your home, hotel, or office to understand stressors, symptoms (e.g., over-arousal, worry, panic), medical history, and goals. Together, you define clear expectations."
+        },
+        {
+          "title": "Baseline HRV Snapshot",
+          "description": "A quick 2–5-minute Heart Rate Variability (HRV) reading offers an educational snapshot of autonomic balance (stress vs. recovery) before starting sessions."
+        },
+        {
+          "title": "NADZ Autonomic Control™ Sessions",
+          "description": "Sub-sensory microcurrent neuromodulation via specific electrodes on wrists and ankles — no pain, no needles, no contractions. Each 60-minute session is quiet and relaxing, often while you rest or read at home."
+        },
+        {
+          "title": "Monitoring & Adaptation",
+          "description": "After a few sessions, your clinician reviews how you're feeling and functioning. HRV trends may be shared for educational insight. Frequency is personalized; a common initial cadence is three sessions per week in the first phase."
+        },
+        {
+          "title": "Integration & Support",
+          "description": "Your doctor may integrate sessions with other aspects of care (medication review, psychological support, lifestyle measures), focusing on long-term nervous-system resilience."
+        }
+      ],
+      "ctas": [
+        "Ask About NADZ Autonomic Control™ for Stress & Anxiety",
+        "Book a Private Home Session"
+      ]
+    },
+    "whyChoose": {
+      "title": "Why patients choose it with NADZ",
+      "items": [
+        "Non-invasive & imperceptible sessions (no heat, no needles, no contractions)",
+        "Delivered by trained clinicians in your home",
+        "Integrates seamlessly with ongoing medical care (psychology, medication, physiotherapy)",
+        "Clear communication at every step"
+      ],
+      "cta": "Ask About NADZ Autonomic Control™ at Home"
+    },
+    "faqs": [
+      {
+        "q": "Is this confidential?",
+        "a": "Yes. Everything is delivered discreetly at your location; records are handled with strict privacy."
+      },
+      {
+        "q": "Is neuromodulation painful or invasive?",
+        "a": "No. It's sub-sensory; you won't feel heat, needles, or muscle contractions."
+      },
+      {
+        "q": "Does the current damage cells?",
+        "a": "No. XSIGNAL® uses very low-intensity microcurrents, designed to avoid thermal or electrical tissue injury. The focus is gentle autonomic modulation, not muscle contraction."
+      },
+      {
+        "q": "How many sessions will I need?",
+        "a": "There's no one-size-fits-all number. We start with a personalized plan, review your progress regularly, and adapt the schedule to your goals and response."
+      },
+      {
+        "q": "Can it work alongside therapy or medication?",
+        "a": "Yes. It's meant to complement psychological care (e.g., CBT), medical management, and physiotherapy when clinically indicated. Your clinician coordinates timing and sequencing."
+      },
+      {
+        "q": "Who should not receive it? (Contraindications & precautions)",
+        "a": "We screen for pacemakers/ICDs, pregnancy, acute febrile illness, active hemorrhage, and other specific scenarios before starting."
+      },
+      {
+        "q": "Can I track progress?",
+        "a": "Yes. Brief HRV snapshots and short questionnaires can help visualize trends over time."
+      },
+      {
+        "q": "Is it available while I'm traveling?",
+        "a": "Yes. We can coordinate sessions at your home or hotel for continuity and privacy."
+      }
+    ],
+    "cta": {
+      "primaryCta": "Book a Discreet Home Visit",
+      "secondaryCta": "WhatsApp Us — 24/7 Private Support",
+      "tagline": "Experience Leading Anxiety & Stress Care in Dubai with NADZ — discreet, personalized, and delivered at your home, hotel, or office."
+    },
+    "safety": {
+      "title": "Safety & Confidentiality",
+      "description": "All services are delivered with strict privacy and medical-grade safety standards. Your NADZ Home Healthcare doctor will perform a complete screening prior to therapy to ensure suitability and safety."
+    }
+  },
+  "chronic-pain": {
+    "metadata": {
+      "title": "Chronic Pain Care in Dubai – At Home, Hotel or Office | NADZ Healthcare",
+      "description": "Discreet, DHA-licensed doctors and nurses available 24/7 for private chronic pain assessment, personalized treatment plans, and coordinated follow-up in Dubai.",
+      "keywords": ["chronic pain", "pain management", "pain treatment", "home healthcare Dubai", "autonomic control", "pain therapy"],
+      "openGraph": {
+        "title": "Chronic Pain Care in Dubai – At Home, Hotel or Office",
+        "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized plans, and coordinated follow-up — wherever you are in Dubai.",
+        "url": "/wellness/chronic-pain",
+        "type": "website"
+      }
+    },
+    "hero": {
+      "label": "NADZ EXCLUSIVE",
+      "title": "Chronic Pain Care in Dubai",
+      "subtitle": "At Home, Hotel or Office",
+      "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized plans, and coordinated follow-up — wherever you are in Dubai.",
+      "primaryCta": "Call Now for a Discreet Doctor Consultation",
+      "secondaryCta": "WhatsApp Us — 24/7 Private Support"
+    },
+    "whatIs": {
+      "title": "Because Living with Pain Shouldn't Define Your Day",
+      "paragraph": "Chronic or recurrent pain can drain energy, disturb sleep, and limit daily life. With NADZ Home Healthcare, you skip crowded clinics. A DHA-licensed doctor comes to your home, hotel, or office for a confidential, compassionate assessment and a clear plan tailored to your goals.",
+      "bullets": [],
+      "footer": "Your doctor addresses both symptoms and likely contributors, then creates a plan at your pace — in full privacy."
+    },
+    "benefits": {
+      "title": "What We Help With",
+      "items": [
+        {
+          "title": "Back & neck pain",
+          "description": "Mechanical, postural, stress-related tension",
+          "icon": "recovery"
+        },
+        {
+          "title": "Muscle & joint pain",
+          "description": "Overuse, office/desk strain, post-exercise soreness",
+          "icon": "recovery"
+        },
+        {
+          "title": "Headaches & facial tension",
+          "description": "Stress-related patterns",
+          "icon": "recovery"
+        },
+        {
+          "title": "Nerve-related discomfort",
+          "description": "Tingling, burning, sensitivity",
+          "icon": "recovery"
+        },
+        {
+          "title": "Post-surgical or persistent pain",
+          "description": "After medical clearance",
+          "icon": "recovery"
+        },
+        {
+          "title": "Related concerns",
+          "description": "Poor sleep, fatigue, stress/over-arousal, medication review, lifestyle factors",
+          "icon": "recovery"
+        }
+      ]
+    },
+    "autonomicControl": {
+      "title": "NADZ Autonomic Control™",
+      "subtitle": "How XSIGNAL® can help",
+      "description": "As part of a comprehensive plan, your clinician may offer NADZ Autonomic Control™, our non-invasive, sub-sensory microcurrent neuromodulation (XSIGNAL®) delivered at home. The aim is to support autonomic balance — easing excessive sympathetic drive (stress response) and favoring parasympathetic recovery. For many patients, better autonomic balance is associated with improved pain coping, reduced muscle guarding, and better sleep continuity as part of whole-body support. (Individual results vary.)",
+      "cta": "Call Now for Chronic Pain Support"
+    },
+    "whoCanBenefit": {
+      "title": "When to Request a Visit",
+      "items": [
+        "Pain is limiting your work, movement, mood, or sleep",
+        "You prefer discreet, at-home evaluation and treatment",
+        "You want rapid testing and an actionable plan without clinic wait times",
+        "You've completed treatment elsewhere and want structured follow-up"
+      ],
+      "footer": "Your NADZ Home Healthcare doctor focuses on both the symptom and the likely contributors, then creates a plan that matches your goals - at your pace and in full privacy."
+    },
+    "discreetCare": {
+      "title": "Discreet Care, Wherever You Are",
+      "description": "Think of this as doctor-at-your-doorstep for chronic pain. We provide:",
+      "items": [
+        "Thorough clinical assessment and private discussion of symptoms and goals",
+        "Tailored treatment plan and prescriptions when appropriate",
+        "Guidance on whether further tests or specialist referral are needed",
+        "Coordination with labs, pharmacy delivery, nursing, or physiotherapy if required",
+        "Clear follow-up so you're supported from first visit to results"
+      ],
+      "cta": "Book a Private Home or Hotel Visit"
+    },
+    "fastTesting": {
+      "title": "Fast Screening & Clear Next Steps",
+      "description": "When indicated, we use MOHAP-certified rapid point-of-care (POC) screens and coordinate DHA-approved lab tests — helping you move from uncertainty to action quickly. Accurate. Discreet. At your location.",
+      "cta": "Learn More About Rapid Testing"
+    },
+    "visitIncludes": {
+      "title": "What Your Discreet Visit Includes",
+      "items": [
+        "Same-day or urgent visits — evenings, nights, weekends (24/7)",
+        "Detailed history and examination, with time to answer your questions",
+        "Clear plan; prescriptions when appropriate",
+        "Recommendations for tests and on-the-spot POC where indicated",
+        "Coordination with labs, pharmacy delivery, and home nursing/physiotherapy"
+      ]
+    },
+    "journey": {
+      "title": "Your Care Pathway with NADZ Autonomic Control™",
+      "subtitle": "At NADZ Healthcare, Autonomic Control™ sessions focus on the autonomic nervous system (ANS) — the regulator of stress, sleep, and recovery often involved in chronic pain states.",
+      "steps": [
+        {
+          "title": "Initial Assessment",
+          "description": "Private consultation at your home, hotel, or office to map pain patterns, sleep, stressors, and goals. Expectations are set together."
+        },
+        {
+          "title": "Baseline HRV Snapshot",
+          "description": "A quick 2–5-minute Heart Rate Variability (HRV) reading offers an educational snapshot of autonomic balance (stress vs. recovery) before sessions begin."
+        },
+        {
+          "title": "NADZ Autonomic Control™ Sessions",
+          "description": "Sub-sensory microcurrent neuromodulation via specific electrodes on wrists and ankles — no pain, no needles, no contractions. Each 60-minute session is quiet and relaxing, often while you rest at home."
+        },
+        {
+          "title": "Monitoring & Adaptation",
+          "description": "After a few sessions, your clinician reviews how you're feeling and functioning. HRV trends may be shared for educational insight. Frequency is personalized; a common initial cadence is three sessions per week in the first phase."
+        },
+        {
+          "title": "Integration & Support",
+          "description": "We integrate sessions with other aspects of care (medication review, physiotherapy, lifestyle measures), focusing on long-term nervous-system resilience."
+        }
+      ],
+      "ctas": [
+        "Ask About NADZ Autonomic Control™ for Chronic Pain",
+        "Book a Private Home Session"
+      ]
+    },
+    "whyChoose": {
+      "title": "Why Patients Choose NADZ for Chronic Pain Care in Dubai",
+      "items": [
+        "Non-invasive & imperceptible sessions (no heat, no needles, no contractions)",
+        "Delivered by trained clinicians in your home",
+        "Integrates seamlessly with ongoing medical care (medications, physio, psychology)",
+        "Clear communication at every step"
+      ],
+      "cta": "Ask About NADZ Autonomic Control™ at Home"
+    },
+    "faqs": [
+      {
+        "q": "Is this confidential?",
+        "a": "Yes. Everything is delivered discreetly at your location; records are handled with strict privacy."
+      },
+      {
+        "q": "Is neuromodulation painful or invasive?",
+        "a": "No. It's sub-sensory; you won't feel heat, needles, or muscle contractions."
+      },
+      {
+        "q": "Does the current damage cells?",
+        "a": "No. XSIGNAL® uses very low-intensity microcurrents, designed to avoid thermal or electrical tissue injury. The focus is gentle autonomic modulation, not muscle contraction."
+      },
+      {
+        "q": "How many sessions will I need?",
+        "a": "There's no one-size-fits-all number. We start with a personalized plan, review progress regularly, and adapt the schedule to your goals and response."
+      },
+      {
+        "q": "Can it work alongside my current treatments (medication, physio, psychology)?",
+        "a": "Yes. It's meant to complement your existing care when clinically indicated; we coordinate timing and sequencing."
+      },
+      {
+        "q": "Who should not receive it? (Contraindications & precautions)",
+        "a": "We screen for pacemakers/ICDs, pregnancy, acute febrile illness, active hemorrhage, and other specific scenarios before starting."
+      },
+      {
+        "q": "Can I track progress?",
+        "a": "Yes. Brief HRV snapshots and short questionnaires can help visualize trends over time, alongside your pain and function reports."
+      },
+      {
+        "q": "Is it available while I'm traveling?",
+        "a": "Yes. We can coordinate sessions at your home or hotel for continuity and privacy."
+      }
+    ],
+    "cta": {
+      "primaryCta": "Book a Discreet Home Visit",
+      "secondaryCta": "WhatsApp Us — 24/7 Private Support",
+      "tagline": "Experience Expert Chronic Pain Care in Dubai with NADZ — discreet, personalized, and delivered where you feel most comfortable."
+    },
+    "safety": {
+      "title": "Safety & Confidentiality",
+      "description": "All services are delivered with strict privacy and medical-grade safety standards. Your NADZ Home Healthcare doctor will perform a complete screening prior to therapy to ensure suitability and safety."
+    }
+  },
+  "erectile-dysfunction": {
+    "metadata": {
+      "title": "Erectile Dysfunction & Premature Ejaculation Treatment in Dubai – At Home, Hotel or Office | NADZ Healthcare",
+      "description": "Discreet, DHA-licensed doctors and nurses available 24/7 for private erectile dysfunction and premature ejaculation assessment, personalized treatment plans, and coordinated follow-up in Dubai.",
+      "keywords": ["erectile dysfunction", "premature ejaculation", "men's health", "sexual health", "home healthcare Dubai", "autonomic control", "ED treatment"],
+      "openGraph": {
+        "title": "Erectile Dysfunction & Premature Ejaculation Treatment in Dubai – At Home, Hotel or Office",
+        "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized treatment plans, and coordinated follow-up — wherever you are in Dubai.",
+        "url": "/wellness/erectile-dysfunction",
+        "type": "website"
+      }
+    },
+    "hero": {
+      "label": "NADZ EXCLUSIVE",
+      "title": "Erectile Dysfunction & Premature Ejaculation Treatment in Dubai",
+      "subtitle": "At Home, Hotel or Office",
+      "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized treatment plans, and coordinated follow-up — wherever you are in Dubai.",
+      "primaryCta": "Call Now for a Discreet Doctor Visit",
+      "secondaryCta": "WhatsApp Us — 24/7 Private Support"
+    },
+    "whatIs": {
+      "title": "Because Your Intimate Health Deserves Privacy & Real Solutions",
+      "paragraph": "Concerns like erectile dysfunction or premature ejaculation can feel overwhelming. With NADZ Home Healthcare, you're never a number in a waiting room. A DHA-licensed doctor comes to your home, hotel, or office, offering confidential, compassionate care and a clear plan to help you improve performance, comfort, and confidence.",
+      "bullets": [],
+      "footer": "Your doctor focuses on both the symptom and the likely contributors, then creates a plan that matches your goals — at your pace and in full privacy."
+    },
+    "benefits": {
+      "title": "What We Help With",
+      "items": [
+        {
+          "title": "Erectile Dysfunction (ED)",
+          "description": "Difficulty achieving or maintaining an erection, reduced firmness, performance anxiety",
+          "icon": "recovery"
+        },
+        {
+          "title": "Premature Ejaculation (PE)",
+          "description": "Ejaculation sooner than desired, reduced control or satisfaction",
+          "icon": "recovery"
+        },
+        {
+          "title": "Related Concerns",
+          "description": "Sleep and stress issues, pelvic tension, chronic fatigue, medication reviews, and lifestyle factors that may influence performance",
+          "icon": "recovery"
+        }
+      ]
+    },
+    "autonomicControl": {
+      "title": "NADZ Autonomic Control™",
+      "subtitle": "A Gentle, Home-Based treatment",
+      "description": "As part of a comprehensive plan, your NADZ Home Healthcare Doctor will offer NADZ Autonomic Control™, our signature non-invasive neuromodulation service at home. This sub-sensory microcurrent approach supports autonomic balance (stress–sleep–recovery), which can play a role in sexual function. The treatment is particularly beneficial for Erectile Dysfunction & Premature Ejaculation Treatment in Dubai, providing whole-body autonomic support.",
+      "cta": "Ask About NADZ Autonomic Control™ at Home"
+    },
+    "whoCanBenefit": {
+      "title": "When to Request a Visit",
+      "items": [
+        "You're noticing ongoing ED or PE that affects confidence or relationships",
+        "You prefer discreet, at-home evaluation and treatment",
+        "You need rapid testing and a plan without clinic wait times",
+        "You've completed treatment elsewhere and want follow-up to stay on track"
+      ],
+      "footer": "Your NADZ Home Healthcare doctor focuses on both the symptom and the likely contributors, then creates a plan that matches your goals - at your pace and in full privacy."
+    },
+    "discreetCare": {
+      "title": "Discreet Care, Wherever You Are",
+      "description": "Think of this as doctor-at-your-doorstep for men's sexual health. We provide:",
+      "items": [
+        "Thorough clinical assessment and private discussion of symptoms and goals",
+        "Tailored treatment plan and prescriptions when appropriate",
+        "Guidance on whether further tests or specialist referral are needed",
+        "Coordination with labs, pharmacy delivery, nursing, or physiotherapy if required",
+        "Clear follow-up so you're supported from first visit to results"
+      ],
+      "cta": "Book a Private Home or Hotel Visit"
+    },
+    "fastTesting": {
+      "title": "Fast Testing & Clear Next Steps",
+      "description": "When indicated, we use MOHAP-certified rapid point-of-care (POC) technology for quick screening and coordinate DHA-approved lab tests — helping you move from uncertainty to action in minutes. Accurate. Discreet. At your location.",
+      "cta": "Learn More About Rapid Testing"
+    },
+    "visitIncludes": {
+      "title": "What Your Discreet Visit Includes",
+      "items": [
+        "Same-day or urgent visits — evenings, nights, weekends (24/7)",
+        "Detailed history and examination, with time to answer your questions",
+        "Clear diagnosis and step-by-step plan; prescriptions when appropriate",
+        "Recommendations for tests and on-the-spot POC where indicated",
+        "Coordination with labs, pharmacy delivery, and home nursing/physiotherapy"
+      ]
+    },
+    "journey": {
+      "title": "Your Care Pathway with NADZ Autonomic Control™",
+      "subtitle": "At NADZ Healthcare, our Autonomic Control™ sessions are designed to help restore balance in the autonomic nervous system — the key regulator of stress, sleep, and recovery, which directly influences erectile and ejaculatory function.",
+      "steps": [
+        {
+          "title": "Initial Assessment",
+          "description": "Your DHA-licensed clinician conducts a private consultation at your home, hotel, or office to understand symptoms such as fatigue, sleep imbalance, or sexual performance concerns. Together, you define clear goals and expectations for your Erectile Dysfunction & Premature Ejaculation Treatment in Dubai."
+        },
+        {
+          "title": "Baseline HRV Snapshot",
+          "description": "A quick 2–5-minute Heart Rate Variability (HRV) reading may be performed using our portable system. This non-invasive test gives a snapshot of autonomic balance — the interplay between stress and recovery states. HRV helps visualize how your nervous system is functioning before starting sessions."
+        },
+        {
+          "title": "NADZ Autonomic Control™ Sessions",
+          "description": "Your clinician delivers sub-sensory microcurrents neuromodulation through specific electrodes placed on wrists and ankles — no pain, no needles, no contractions. Each session lasts 60 minutes and aims to gently activate parasympathetic recovery pathways while reducing sympathetic over-activity. The sessions are silent, relaxing, and often performed while you rest or read at home."
+        },
+        {
+          "title": "Monitoring & Adaptation",
+          "description": "After a few sessions, your clinician reassesses how you're sleeping, recovering, and feeling. Post-session HRV trends may be shared for educational insight. Treatment frequency is personalized — three times weekly for the first phase. The plan adapts based on your comfort and observed responses, always under medical supervision."
+        },
+        {
+          "title": "Integration & Support",
+          "description": "Your doctor may integrate the Autonomic Control™ sessions with other aspects of your care — including medication reviews, lifestyle adjustments, and referrals if needed. The focus is on long-term nervous-system resilience, potentially supporting improved sexual performance, energy, and stress balance. You're never left alone — our care team stays in touch to guide you through progress and maintenance."
+        }
+      ],
+      "ctas": [
+        "Ask About NADZ Autonomic Control™ for Men's Health",
+        "Book a Private Home Session"
+      ]
+    },
+    "whyChoose": {
+      "title": "Why patients choose it with NADZ",
+      "items": [
+        "Non-invasive & imperceptible sessions",
+        "Delivered by trained clinicians in your home",
+        "Integrates seamlessly with ongoing medical care",
+        "Clear communication at every step"
+      ],
+      "cta": "Ask About NADZ Autonomic Control™ at Home"
+    },
+    "faqs": [
+      {
+        "q": "Is this confidential?",
+        "a": "Yes. Visits and testing are conducted discreetly at your location; results are handled with strict privacy."
+      },
+      {
+        "q": "Can I get tests done fast?",
+        "a": "Where indicated, we use MOHAP-certified rapid POC testing and coordinate DHA-approved labs for same-day clarity."
+      },
+      {
+        "q": "Is neuromodulation painful or invasive?",
+        "a": "No. NADZ Autonomic Control™ uses sub-sensory microcurrents — no heat, no needles, no muscle contractions — delivered by trained clinicians at home."
+      },
+      {
+        "q": "What is NADZ Autonomic Control non-invasive neuromodulation (XSIGNAL®)?",
+        "a": "It's a medical technology that delivers sub-sensory microcurrents designed to gently modulate autonomic nervous system (ANS) activity. Sessions are non-invasive and designed for comfort; the approach is used as a complement to medical care and lifestyle measures."
+      },
+      {
+        "q": "Will I feel anything during a session?",
+        "a": "No. Sessions are imperceptible (no heat, needles, or muscle contractions)."
+      },
+      {
+        "q": "Is it safe? Does it carry certifications?",
+        "a": "Yes, The device follows medical-device standards with CE marking and relevant ISO manufacturing certifications."
+      },
+      {
+        "q": "Who should not receive it? (Contraindications & precautions)",
+        "a": "Patients with pacemakers or implanted defibrillators, pregnancy, active oncological processes under certain stages/treatments, acute infectious or febrile processes, active hemorrhages, and other specific clinical scenarios. Your NADZ Home Healthcare doctor will screen for these."
+      },
+      {
+        "q": "Can it be combined with my current treatments (medication, CBT-I, physiotherapy)?",
+        "a": "Yes—it's compatible with other therapies when clinically indicated, except with technologies that apply conflicting electrical currents simultaneously. Your clinician coordinates timing and sequencing."
+      },
+      {
+        "q": "How are sessions structured?",
+        "a": "Assessment, session programming, and periodic review. Sessions are typically planned in consistent blocks; your clinician personalizes cadence and duration for sleep goals."
+      },
+      {
+        "q": "How many sessions will I need?",
+        "a": "Because every person's sleep story is different, the number of sessions isn't fixed. We start with a personalized plan, review your progress regularly, and adapt the schedule to what your body needs most."
+      },
+      {
+        "q": "Is it done at home, hotel, or clinic?",
+        "a": "Our service model support in-home/hotel sessions with trained staff when needed."
+      },
+      {
+        "q": "What if I'm anxious about devices?",
+        "a": "The patient-education FAQs provide scripts and visuals to explain the undetectable nature of the current and the step-by-step process, helping reduce anxiety."
+      },
+      {
+        "q": "Does XSIGNAL® include heart-rate variability (HRV) tools?",
+        "a": "Yes. The dataset describes an included portable ECG and the use of HRV indices for educational monitoring of autonomic balance over time."
+      },
+      {
+        "q": "Are there side effects?",
+        "a": "The dataset centers on safety, imperceptible stimulation, and contraindication screening. Adverse effects are uncommon when used as indicated; your clinician will review your history and monitor tolerance"
+      },
+      {
+        "q": "Does the current damage cells?",
+        "a": "No. XSIGNAL® uses sub-sensory microcurrents at very low voltages and currents (about 3–6 V and up to ≤0.9 mA), which are well below levels that could produce thermal or electrical injury to tissues"
+      },
+      {
+        "q": "What's different vs. other electro- or neuro-stimulation?",
+        "a": "XSIGNAL® is positioned in the dataset as a non-invasive, sub-sensory neuromodulation aimed at autonomic regulation, distinct from high-intensity or muscle-contracting electrotherapies"
+      },
+      {
+        "q": "Can I travel with it or receive sessions while traveling?",
+        "a": "Operationally, sessions can be coordinated at your location (home/hotel). Our care model supports privacy and mobility; your clinician will organize logistics"
+      },
+      {
+        "q": "What equipment & accessories are involved?",
+        "a": "The dataset lists the medical device, programming, and clinical accessories used by trained staff; patients don't have to manage complex setup"
+      },
+      {
+        "q": "How is progress tracked?",
+        "a": "Clinicians may use short HRV snapshots (via the included ECG) and brief questionnaires to educationally visualize trends over time, alongside your subjective sleep reports"
+      }
+    ],
+    "cta": {
+      "primaryCta": "Book a Discreet Home Visit",
+      "secondaryCta": "WhatsApp Us — 24/7 Private Support",
+      "tagline": "Experience expert Erectile Dysfunction & Premature Ejaculation Treatment in Dubai with NADZ — discreet, personalized, and delivered where you feel most comfortable."
+    },
+    "safety": {
+      "title": "Safety & Confidentiality",
+      "description": "All services are delivered with strict privacy and medical-grade safety standards. Your NADZ Home Healthcare doctor will perform a complete screening prior to therapy to ensure suitability and safety."
+    }
+  },
+  "overactive-bladder": {
+    "metadata": {
+      "title": "Overactive Bladder Care in Dubai – At Home, Hotel or Office | NADZ Healthcare",
+      "description": "Discreet, DHA-licensed doctors and nurses available 24/7 for private overactive bladder assessment, personalized treatment plans, and coordinated follow-up in Dubai.",
+      "keywords": ["overactive bladder", "OAB", "bladder care", "urinary urgency", "home healthcare Dubai", "autonomic control", "bladder treatment"],
+      "openGraph": {
+        "title": "Overactive Bladder Care in Dubai – At Home, Hotel or Office",
+        "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized plans, and coordinated follow-up — wherever you are in Dubai.",
+        "url": "/wellness/overactive-bladder",
+        "type": "website"
+      }
+    },
+    "hero": {
+      "label": "NADZ EXCLUSIVE",
+      "title": "Overactive Bladder Care in Dubai",
+      "subtitle": "At Home, Hotel or Office",
+      "description": "Discreet, DHA-licensed doctors and nurses, available 24/7. Private assessment, personalized plans, and coordinated follow-up — wherever you are in Dubai.",
+      "primaryCta": "Call Now for a Discreet Doctor Consultation",
+      "secondaryCta": "WhatsApp Us — 24/7 Private Support"
+    },
+    "whatIs": {
+      "title": "Because Urgency & Frequency Shouldn't Control Your Day",
+      "paragraph": "Overactive bladder (OAB) can mean urgent, frequent trips to the bathroom — sometimes with leakage or night-time waking — disrupting work, sleep and confidence. With NADZ Home Healthcare, you skip crowded clinics. Our Overactive Bladder Care in Dubai brings a DHA-licensed doctor to your home, hotel, or office for a confidential, compassionate assessment and a clear plan tailored to your goals.",
+      "bullets": [],
+      "footer": "Your doctor looks at both symptoms and contributors (stress, sleep, fluid/caffeine timing, medications) and creates a plan at your pace — in full privacy."
+    },
+    "benefits": {
+      "title": "What We Help With",
+      "items": [
+        {
+          "title": "Urgency & Frequency",
+          "description": "Sudden urges, going too often (daytime)",
+          "icon": "recovery"
+        },
+        {
+          "title": "Nocturia",
+          "description": "Waking at night to urinate",
+          "icon": "recovery"
+        },
+        {
+          "title": "Urgency incontinence",
+          "description": "Leaks associated with sudden urges",
+          "icon": "recovery"
+        },
+        {
+          "title": "Pelvic floor tension/overactivity",
+          "description": "Stress-related bladder patterns",
+          "icon": "recovery"
+        },
+        {
+          "title": "Related concerns",
+          "description": "Poor sleep, anxiety/over-arousal, medication review, lifestyle factors",
+          "icon": "recovery"
+        }
+      ]
+    },
+    "autonomicControl": {
+      "title": "NADZ Autonomic Control™",
+      "subtitle": "How XSIGNAL® can help",
+      "description": "As part of a comprehensive plan, your clinician may offer NADZ Autonomic Control™, our non-invasive, sub-sensory microcurrent neuromodulation (XSIGNAL®) delivered at home. The aim is to support autonomic balance — easing excessive sympathetic drive (stress response) and favoring parasympathetic recovery. In bladder care, a calmer autonomic tone may help with urgency perception, pelvic-floor guarding, and night-time awakenings as part of whole-body support. (Individual results vary.)",
+      "cta": "Call Now for OAB Support"
+    },
+    "whoCanBenefit": {
+      "title": "When to Request a Visit",
+      "items": [
+        "Urgency/frequency or leaks are affecting your work, sleep, or daily life",
+        "You prefer discreet, at-home evaluation and treatment",
+        "You want rapid testing and an actionable plan without clinic wait times",
+        "You've completed treatment elsewhere and want structured follow-up"
+      ],
+      "footer": "Your NADZ Home Healthcare doctor focuses on both the symptom and the likely contributors, then creates a plan that matches your goals - at your pace and in full privacy."
+    },
+    "discreetCare": {
+      "title": "Discreet Care, Wherever You Are",
+      "description": "Think of this as doctor-at-your-doorstep for overactive bladder. We provide:",
+      "items": [
+        "Thorough clinical assessment and private discussion of symptoms and goals",
+        "Tailored treatment plan and prescriptions when appropriate",
+        "Guidance on whether further tests or specialist referral are needed",
+        "Coordination with labs, pharmacy delivery, nursing, or physiotherapy if required",
+        "Clear follow-up so you're supported from first visit to results"
+      ],
+      "cta": "Book a Private Home or Hotel Visit"
+    },
+    "fastTesting": {
+      "title": "Fast Screening & Clear Next Steps",
+      "description": "When indicated, we use MOHAP-certified rapid point-of-care (POC) screens and coordinate DHA-approved lab tests (e.g., infection markers, glucose, thyroid) to rule out contributors — helping you move from uncertainty to action quickly. Accurate. Discreet. At your location.",
+      "cta": "Learn More About Rapid Testing"
+    },
+    "visitIncludes": {
+      "title": "What Your Discreet Visit Includes",
+      "items": [
+        "Same-day or urgent visits — evenings, nights, weekends (24/7)",
+        "Detailed history and examination, with time to answer your questions",
+        "Clear plan; prescriptions when appropriate",
+        "Recommendations for tests and on-the-spot POC where indicated",
+        "Coordination with labs, pharmacy delivery, and home nursing/physiotherapy"
+      ]
+    },
+    "journey": {
+      "title": "Your Care Pathway with NADZ Autonomic Control™ for Overactive Bladder Care in Dubai",
+      "subtitle": "We mirror the same patient-friendly pathway used across your service pages for consistency and trust.",
+      "steps": [
+        {
+          "title": "Initial Assessment",
+          "description": "Private consultation at your home, hotel, or office to understand bladder patterns (day/night frequency, urgency, leaks), fluid/caffeine timing, sleep and stress. Expectations are set together."
+        },
+        {
+          "title": "Baseline HRV Snapshot",
+          "description": "A quick 2–5-minute Heart Rate Variability (HRV) reading offers an educational snapshot of autonomic balance (stress vs. recovery) before sessions begin."
+        },
+        {
+          "title": "NADZ Autonomic Control™ Sessions",
+          "description": "Sub-sensory microcurrent neuromodulation via electrodes on wrists and ankles — no pain, no needles, no contractions. Each 60-minute session is quiet and relaxing, often while you rest at home."
+        },
+        {
+          "title": "Monitoring & Adaptation",
+          "description": "After a few sessions, your clinician reviews how you're feeling and functioning. HRV trends may be shared for educational insight. Frequency is personalized; a common initial cadence is three sessions per week in the first phase."
+        },
+        {
+          "title": "Integration & Support",
+          "description": "We integrate sessions with other aspects of care (medication review, pelvic-floor physio, lifestyle measures), focusing on long-term nervous-system resilience."
+        }
+      ],
+      "ctas": [
+        "Ask About NADZ Autonomic Control™ for OAB",
+        "Book a Private Home Session"
+      ]
+    },
+    "whyChoose": {
+      "title": "Why patients choose it with NADZ",
+      "items": [
+        "Non-invasive & imperceptible sessions (no heat, no needles, no contractions)",
+        "Delivered by trained clinicians in your home",
+        "Integrates seamlessly with ongoing medical care (urology/urogyn, pelvic physio)",
+        "Clear communication at every step"
+      ],
+      "cta": "Ask About NADZ Autonomic Control™ at Home"
+    },
+    "faqs": [
+      {
+        "q": "Is this confidential?",
+        "a": "Yes. Everything is delivered discreetly at your location; records are handled with strict privacy."
+      },
+      {
+        "q": "Is neuromodulation painful or invasive?",
+        "a": "No. It's sub-sensory; you won't feel heat, needles, or muscle contractions."
+      },
+      {
+        "q": "Does the current damage cells?",
+        "a": "No. XSIGNAL® uses very low-intensity microcurrents, designed to avoid thermal or electrical tissue injury. The focus is gentle autonomic modulation, not muscle contraction."
+      },
+      {
+        "q": "How many sessions will I need?",
+        "a": "There's no one-size-fits-all number. We start with a personalized plan, review progress regularly, and adapt the schedule to your goals and response."
+      },
+      {
+        "q": "Can it work alongside my current treatments (medication, pelvic physio, urology)?",
+        "a": "Yes. It's meant to complement your existing care when clinically indicated; we coordinate timing and sequencing."
+      },
+      {
+        "q": "Who should not receive it? (Contraindications & precautions)",
+        "a": "We screen for pacemakers/ICDs, pregnancy, acute febrile illness, active hemorrhage, and other specific scenarios before starting."
+      },
+      {
+        "q": "Can I track progress?",
+        "a": "Yes. Brief HRV snapshots and short bladder diaries/questionnaires can help visualize trends over time, alongside your symptom reports."
+      },
+      {
+        "q": "Is it available while I'm traveling?",
+        "a": "Yes. We can coordinate sessions at your home or hotel for continuity and privacy."
+      }
+    ],
+    "cta": {
+      "primaryCta": "Book a Discreet Home Visit",
+      "secondaryCta": "WhatsApp Us — 24/7 Private Support",
+      "tagline": "Experience expert Overactive Bladder Care in Dubai with NADZ — discreet, personalized, and delivered where you feel most comfortable."
+    },
+    "safety": {
+      "title": "Safety & Confidentiality",
+      "description": "All services are delivered with strict privacy and medical-grade safety standards. Your NADZ Home Healthcare doctor will perform a complete screening prior to therapy to ensure suitability and safety."
+    }
+  }
+}
+

@@ -1,0 +1,46 @@
+{
+  "name": "nadz-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "build:lowmem": "NODE_OPTIONS='--max-old-space-size=2304' GENERATE_SOURCEMAP=false npx strapi build",
+    "build:2gb": "NODE_OPTIONS='--max-old-space-size=1536' GENERATE_SOURCEMAP=false npx strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
+    "migrate:content": "node ./scripts/migrate-content.js",
+    "migrate:home-care-pages": "node ./scripts/migrate-home-care-pages.js",
+    "link:hero-image": "node ./scripts/link-hero-image.js",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^7.0.0",
+    "@strapi/plugin-cloud": "5.33.2",
+    "@strapi/plugin-users-permissions": "5.33.2",
+    "@strapi/strapi": "5.33.2",
+    "better-sqlite3": "^12.6.2",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^10.0.0",
+    "mime-types": "^2.1.27",
+    "mysql2": "^3.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.30.3",
+    "styled-components": "^6.3.8"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "b5439627-9932-4818-b6cb-3cb0c5f879d0",
+    "installId": "43ade50e4b6b4a5d2ca562b7e4165687bb6634b54f3f18a54a84c4842326756e"
+  }
+}

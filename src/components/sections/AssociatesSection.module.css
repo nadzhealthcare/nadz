@@ -1,0 +1,100 @@
+.sectionBg {
+  background: #eef4f7; /* very light blue-gray */
+}
+
+.title {
+  color: #5C2533;
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.imageCard {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  aspect-ratio: 4 / 3;
+  max-height: 320px;
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+}
+
+.slider :global(.swiper-wrapper) {
+  align-items: center;
+}
+
+.slider :global(.swiper-slide) {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.slider :global(.swiper-pagination) {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.slider :global(.swiper-pagination-bullet) {
+  width: 10px;
+  height: 10px;
+  background: #cbd5e1;
+  opacity: 1;
+  transition: background 0.2s;
+}
+
+.slider :global(.swiper-pagination-bullet-active) {
+  background: #4F052B;
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  opacity: 1;
+}
+
+.bulletActive {
+  background: #4F052B;
+}
+
+.associateName {
+  color: #334155;
+  font-size: clamp(1.125rem, 1.5vw, 1.5rem);
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  line-height: 1.3;
+}
+
+.description {
+  color: #64748b;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .imageCard {
+    max-height: 260px;
+  }
+}

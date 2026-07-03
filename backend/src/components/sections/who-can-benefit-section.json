@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_who_can_benefit_sections",
+  "info": {
+    "displayName": "Who Can Benefit Section",
+    "description": "Who Can Benefit section with title, items list, and footer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-item"
+    },
+    "footer": {
+      "type": "text"
+    }
+  }
+}

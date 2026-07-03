@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial",
+    "description": "Patient reviews for the testimonials page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "patientName": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "description": "Optional short title above the review"
+    },
+    "review": {
+      "type": "text",
+      "required": true,
+      "description": "Patient review text"
+    },
+    "rating": {
+      "type": "integer",
+      "default": 5,
+      "min": 1,
+      "max": 5
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"],
+      "description": "Optional patient photo (initials used if empty)"
+    },
+    "serviceLabel": {
+      "type": "string",
+      "description": "e.g. Home Nursing, IV Therapy"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0,
+      "description": "Lower numbers appear first"
+    }
+  }
+}

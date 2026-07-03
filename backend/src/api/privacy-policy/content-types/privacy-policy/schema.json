@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_policies",
+  "info": {
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policy-pages",
+    "displayName": "Privacy Policy",
+    "description": "Privacy Policy page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "seoKeywords": {
+      "type": "json"
+    },
+    "seoCanonicalUrl": {
+      "type": "string",
+      "description": "Canonical URL (absolute https URL or root-relative path). Leave empty to use default route."
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "effectiveDate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.effective-date"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.policy-section"
+    },
+    "questionsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.questions-section"
+    }
+  }
+}
+

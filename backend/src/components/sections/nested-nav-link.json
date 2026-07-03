@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_nested_nav_links",
+  "info": {
+    "displayName": "Nested Nav Link",
+    "description": "A nested navigation link (third level)"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
+

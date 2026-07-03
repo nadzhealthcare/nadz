@@ -1,0 +1,47 @@
+{
+  "name": "nadz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3004",
+    "dev:local": "NEXT_PUBLIC_STRAPI_URL=http://localhost:1337 next dev -p 3004",
+    "build": "next build",
+    "start": "next start",
+    "start:prod": "next start -p 3000",
+    "deploy": "npm run build:backend && npm run build",
+    "build:backend": "cd backend && npm run build:lowmem",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.1",
+    "@strapi/blocks-react-renderer": "^1.0.2",
+    "axios": "^1.13.2",
+    "critters": "^0.0.23",
+    "framer-motion": "^12.23.25",
+    "next": "^16.1.0",
+    "next-seo": "^7.0.1",
+    "nodemailer": "^7.0.12",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-icons": "^5.3.0",
+    "react-markdown": "^10.1.0",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.1",
+    "swiper": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.0.9",
+    "@types/react": "19.2.8",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.0.6",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.17"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

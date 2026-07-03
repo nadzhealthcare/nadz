@@ -1,0 +1,24 @@
+{
+    "collectionName": "components_sections_expert_doctors",
+    "info": {
+        "name": "ExpertDoctors",
+        "icon": "users",
+        "displayName": "Expert Doctors Section",
+        "description": "Expert doctors section with title, subtitle and list of doctors"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": false
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "doctors": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.doctor"
+        }
+    }
+}

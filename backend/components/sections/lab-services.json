@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_sections_lab_services",
+    "info": {
+        "displayName": "Lab Services",
+        "description": "Lab services section with categories"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "categories": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.lab-service-category"
+        }
+    }
+}

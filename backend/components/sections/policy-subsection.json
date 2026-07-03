@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_sections_policy_subsections",
+    "info": {
+        "displayName": "Policy Subsection",
+        "description": "A subsection within a policy section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "content": {
+            "type": "text",
+            "required": true
+        }
+    }
+}

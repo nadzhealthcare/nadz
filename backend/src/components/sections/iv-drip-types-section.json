@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_iv_drip_types_sections",
+  "info": {
+    "displayName": "IV Drip Types Section",
+    "description": "Types of IV drips section with title, drips list, and CTA"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "drips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.signature-drip-item"
+    },
+    "ctaText": {
+      "type": "string"
+    }
+  }
+}

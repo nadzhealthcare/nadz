@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_sections_key_visions",
+    "info": {
+        "name": "KeyVision",
+        "icon": "lightbulb",
+        "displayName": "Key Vision Section",
+        "description": "Key vision section with title, description and vision items"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": false
+        },
+        "description": {
+            "type": "text",
+            "required": false
+        },
+        "items": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.vision-item"
+        }
+    }
+}

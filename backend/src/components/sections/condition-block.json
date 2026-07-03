@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_condition_blocks",
+  "info": {
+    "displayName": "Condition Block",
+    "description": "One block of conditions with title and items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-item"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}

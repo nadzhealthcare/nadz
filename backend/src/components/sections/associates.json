@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_associates",
+  "info": {
+    "name": "Associates",
+    "icon": "people-carry",
+    "displayName": "Associates Section",
+    "description": "Our Associations section with image slider and text"
+  },
+  "options": {},
+  "attributes": {
+    "showSection": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "Our Associations"
+    },
+    "associates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.associate-item"
+    }
+  }
+}

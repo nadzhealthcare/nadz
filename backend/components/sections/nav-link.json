@@ -1,0 +1,27 @@
+{
+    "collectionName": "components_sections_nav_links",
+    "info": {
+        "displayName": "Nav Link",
+        "description": "A navigation link that can have a dropdown submenu"
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string",
+            "required": true
+        },
+        "href": {
+            "type": "string",
+            "required": true
+        },
+        "hasDropdown": {
+            "type": "boolean",
+            "default": false
+        },
+        "submenu": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.sub-nav-link"
+        }
+    }
+}

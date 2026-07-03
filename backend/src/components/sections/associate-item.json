@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_associate_items",
+  "info": {
+    "name": "AssociateItem",
+    "icon": "user-friends",
+    "displayName": "Associate Item",
+    "description": "A single associate with image, name and description"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

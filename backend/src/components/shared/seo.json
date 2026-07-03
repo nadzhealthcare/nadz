@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "name": "Seo",
+    "icon": "allergies",
+    "displayName": "SEO",
+    "description": "SEO metadata component"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "metaDescription": {
+      "type": "text",
+      "required": true
+    },
+    "keywords": {
+      "type": "json"
+    },
+    "shareImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "openGraphTitle": {
+      "type": "string"
+    },
+    "openGraphDescription": {
+      "type": "text"
+    },
+    "openGraphUrl": {
+      "type": "string"
+    },
+    "openGraphType": {
+      "type": "enumeration",
+      "enum": ["website", "article"],
+      "default": "website"
+    },
+    "twitterCard": {
+      "type": "enumeration",
+      "enum": ["summary", "summary_large_image"],
+      "default": "summary_large_image"
+    },
+    "twitterTitle": {
+      "type": "string"
+    },
+    "twitterDescription": {
+      "type": "text"
+    },
+    "canonicalUrl": {
+      "type": "string"
+    },
+    "robotsIndex": {
+      "type": "boolean",
+      "default": true
+    },
+    "robotsFollow": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_packages_sections",
+  "info": {
+    "displayName": "Packages Section",
+    "description": "Packages section: use Package items (with icons) or legacy JSON list"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "packageItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.package-item"
+    },
+    "packages": { "type": "json" },
+    "note": { "type": "text" }
+  }
+}

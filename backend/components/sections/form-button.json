@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_sections_form_buttons",
+    "info": {
+        "name": "FormButton",
+        "icon": "check-circle",
+        "displayName": "Form Button",
+        "description": "Form submit button configuration"
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "string",
+            "required": true
+        },
+        "loadingText": {
+            "type": "string",
+            "required": false
+        }
+    }
+}

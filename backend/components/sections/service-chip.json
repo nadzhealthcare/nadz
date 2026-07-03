@@ -1,0 +1,42 @@
+{
+    "collectionName": "components_sections_service_chips",
+    "info": {
+        "name": "ServiceChip",
+        "icon": "tag",
+        "displayName": "Service Chip",
+        "description": "A floating service chip with name, icon, color and position"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "icon": {
+            "type": "string",
+            "required": true,
+            "description": "Icon name from react-icons package (e.g., MdHome, FaDna, etc.)"
+        },
+        "color": {
+            "type": "string",
+            "required": false,
+            "default": "#165976"
+        },
+        "positionTop": {
+            "type": "string",
+            "required": false
+        },
+        "positionBottom": {
+            "type": "string",
+            "required": false
+        },
+        "positionLeft": {
+            "type": "string",
+            "required": false
+        },
+        "positionRight": {
+            "type": "string",
+            "required": false
+        }
+    }
+}

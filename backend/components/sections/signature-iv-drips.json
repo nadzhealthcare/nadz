@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_signature_iv_drips",
+  "info": {
+    "displayName": "Signature IV Drips",
+    "description": "Our Signature IV Drips at Home section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "drips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.signature-drip-item"
+    }
+  }
+}

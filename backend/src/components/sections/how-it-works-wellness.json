@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_how_it_works_wellnesses",
+  "info": {
+    "displayName": "How It Works Wellness",
+    "description": "How It Works section for wellness pages"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "bullets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-item"
+    },
+    "footer": {
+      "type": "text"
+    }
+  }
+}

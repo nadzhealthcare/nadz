@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_vision_paragraphs",
+  "info": {
+    "displayName": "Vision Paragraph",
+    "description": "A single paragraph in the Vision section"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

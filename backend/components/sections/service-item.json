@@ -1,0 +1,38 @@
+{
+    "collectionName": "components_sections_service_items",
+    "info": {
+        "name": "ServiceItem",
+        "icon": "grid-2",
+        "displayName": "Service Item",
+        "description": "A single service card with title, description and icon"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "icon": {
+            "type": "enumeration",
+            "enum": [
+                "LocalHospital",
+                "Favorite",
+                "FitnessCenter",
+                "WaterDrop",
+                "Science",
+                "Vaccines",
+                "MedicalServices",
+                "Flight",
+                "Spa",
+                "Phone",
+                "Healing",
+                "AutoAwesome"
+            ],
+            "required": true
+        }
+    }
+}

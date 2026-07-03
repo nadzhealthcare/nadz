@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Cookie Policy",
+    "description": "NADZ Healthcare uses cookies to enhance your browsing experience and improve our services. Learn about the types of cookies we use and how to manage your preferences."
+  },
+  "hero": {
+    "title": "Cookie Policy",
+    "subtitle": "NADZ Healthcare uses cookies to enhance your browsing experience and improve our services."
+  },
+  "effectiveDate": {
+    "effectiveDate": "09.07.2025"
+  },
+  "sections": [
+    {
+      "number": 1,
+      "title": "What are Cookies",
+      "content": "Cookies are small text files placed on your device, such as a computer or phone, when you visit our website. They help improve your user experience and allow us to understand site usage."
+    },
+    {
+      "number": 2,
+      "title": "Types of Cookies We Use",
+      "intro": "We use the following types of cookies on our website:",
+      "subsections": [
+        {
+          "title": "Essential Cookies",
+          "content": "Required for basic functionality, navigation, and security of the website. These cookies are necessary for the website to function properly and cannot be disabled."
+        },
+        {
+          "title": "Analytics or Performance Cookies",
+          "content": "Help track user behaviour on the site, such as pages visited or time spent, in aggregated and anonymous form to help improve services."
+        },
+        {
+          "title": "Optional or Functional Cookies",
+          "content": "May remember your preferences such as language, region, or session info to enhance your browsing experience."
+        },
+        {
+          "title": "Marketing or Third-party Cookies",
+          "content": "Used for improving user experience, presenting relevant content or promotions, subject to your consent."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "How We Use Cookies",
+      "intro": "We use cookies for various purposes including:",
+      "items": [
+        "Ensuring the website functions correctly and securely",
+        "Remembering your preferences and settings",
+        "Analyzing how visitors use our website to improve user experience",
+        "Providing personalized content and recommendations",
+        "Tracking the effectiveness of our marketing campaigns"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Managing Your Cookie Preferences",
+      "intro": "You have control over cookies. Most web browsers allow you to:",
+      "items": [
+        "View and delete cookies stored on your device",
+        "Block all cookies or third-party cookies",
+        "Set preferences to receive notifications before cookies are placed",
+        "Delete cookies when you close your browser"
+      ],
+      "note": "Disabling essential cookies may affect the functionality of our website and your ability to access certain features.",
+      "browserInstructions": {
+        "intro": "You can manage your cookie preferences through your browser settings. Instructions for popular browsers:",
+        "instructions": [
+          "Chrome: Settings → Privacy and Security → Cookies and other site data",
+          "Firefox: Options → Privacy & Security → Cookies and Site Data",
+          "Safari: Preferences → Privacy → Cookies and website data",
+          "Edge: Settings → Privacy, search, and services → Cookies and site permissions"
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "title": "Third-Party Cookies",
+      "intro": "Some cookies on our website are placed by third-party services that appear on our pages. These may include:",
+      "items": [
+        "Analytics services (e.g., Google Analytics) to understand website usage",
+        "Social media platforms for sharing content",
+        "Advertising networks for delivering relevant advertisements",
+        "Payment processors for secure transaction handling"
+      ],
+      "content": "We do not control these third-party cookies. Please refer to the respective third-party privacy and cookie policies for more information."
+    },
+    {
+      "number": 6,
+      "title": "Cookie Duration",
+      "intro": "Cookies may be either \"persistent\" or \"session\" cookies:",
+      "items": [
+        "Session Cookies: Temporary cookies that are deleted when you close your browser",
+        "Persistent Cookies: Remain on your device for a set period or until you delete them manually"
+      ],
+      "content": "The duration of cookies varies depending on their purpose. Essential cookies typically last for the duration of your session, while analytics and marketing cookies may persist for longer periods as specified in our cookie consent tool."
+    },
+    {
+      "number": 7,
+      "title": "Updates to This Policy",
+      "content": "We may update this Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. The \"Effective Date\" at the top of this page indicates when this policy was last revised. We encourage you to review this Cookie Policy periodically to stay informed about how we use cookies."
+    },
+    {
+      "number": 8,
+      "title": "Contact Information",
+      "intro": "If you have questions about our use of cookies or this Cookie Policy, please contact us at:",
+      "contact": {
+        "name": "Mr. Farhan Yahya",
+        "email": "operations@nadzhealthacre.com",
+        "phone": "80046239",
+        "location": "DMCC-Dubai"
+      }
+    }
+  ],
+  "questionsSection": {
+    "title": "Questions About Cookies?",
+    "description": "Our team is available to help you with any questions about our cookie practices or how to manage your preferences.",
+    "ctaText": "Contact Us",
+    "ctaLink": "#contact"
+  }
+}
+

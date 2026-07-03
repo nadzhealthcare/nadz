@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "title": "Terms and Conditions",
+    "description": "Terms and Conditions for NADZ Healthcare Dubai. Please read these terms carefully before using our website or services."
+  },
+  "hero": {
+    "title": "Terms and Conditions",
+    "subtitle": "Please read these terms carefully before using our website or services."
+  },
+  "sections": [
+    {
+      "number": 1,
+      "title": "Acceptance of Terms",
+      "content": "By accessing or using this website (https://nadzhealthcare.com) or contacting or booking services via the site, you agree to these Terms and Conditions. If you do not agree, please do not use the website or services."
+    },
+    {
+      "number": 2,
+      "title": "Services",
+      "intro": "NADZ Healthcare provides home based care including:",
+      "items": [
+        "Physician on call at home, hotel, or office",
+        "Nursing care",
+        "Labs at home",
+        "Physiotherapy",
+        "Wellness and preventive care",
+        "Diagnostics",
+        "Other medical and wellness services as described on the website"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "User Obligations",
+      "intro": "When using our website and services, you agree to:",
+      "items": [
+        "Provide accurate, complete, and up-to-date personal and health information when booking or using services",
+        "Follow any instructions provided by NADZ Healthcare staff for safe and effective service delivery",
+        "Use the website and services only for lawful and intended purposes"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Intellectual Property Rights",
+      "content": "All content on the website including text, images, logos, graphics, and design are the property of NADZ Healthcare or its licensors and are protected by applicable copyright and intellectual property laws. You may not reproduce, distribute, or use material without prior written consent."
+    },
+    {
+      "number": 5,
+      "title": "Medical Disclaimer and Limitation of Liability",
+      "disclaimer": {
+        "title": "Important Medical Disclaimer:",
+        "items": [
+          "Content on this website is for general informational purposes only and does not constitute medical advice, diagnosis, or guarantee of treatment outcome",
+          "Medical services provided are subject to clinical evaluation and individual assessment. Outcomes may vary",
+          "NADZ Healthcare is not liable for any adverse outcomes arising solely from website information"
+        ]
+      },
+      "emergency": "For medical emergencies, contact emergency services immediately."
+    },
+    {
+      "number": 6,
+      "title": "Booking, Payment and Cancellation",
+      "items": [
+        "Bookings made through the website or contact forms are subject to availability and confirmation by NADZ staff",
+        "If payment is required for paid services, payment details and terms will be provided at booking or before service delivery",
+        "For cancellations or rescheduling, please refer to our Refund and Cancellation Policy or contact us directly"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Privacy and Data Protection",
+      "content": "Use of our website and services is subject to our Privacy Policy and Cookie Policy. By using the website, you agree to those policies."
+    },
+    {
+      "number": 8,
+      "title": "Amendments to Terms",
+      "content": "We may revise these Terms at any time. The \"Effective Date\" will reflect the latest revision. Continued use of the website after changes constitutes acceptance."
+    },
+    {
+      "number": 9,
+      "title": "Governing Law",
+      "content": "These Terms are governed by the laws of the United Arab Emirates."
+    },
+    {
+      "number": 10,
+      "title": "Contact Information",
+      "intro": "For any queries, please contact us at:",
+      "contact": {
+        "company": "NADZ Healthcare FZCO",
+        "address": "Unit No: 5, MTM & GOLD REFINERY DMCC, DMCC Free Zone, Dubai, United Arab Emirates",
+        "email": "info@nadzhealthcare.com",
+        "phone": "80046239"
+      }
+    }
+  ],
+  "questionsSection": {
+    "title": "Questions About Our Terms?",
+    "description": "Our team is available to help you with any questions about our terms and conditions or services.",
+    "ctaText": "Contact Us",
+    "ctaLink": "#contact"
+  }
+}
+

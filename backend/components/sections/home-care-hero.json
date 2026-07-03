@@ -1,0 +1,73 @@
+{
+  "collectionName": "components_sections_home_care_heros",
+  "info": {
+    "displayName": "Home Care Hero",
+    "description": "Hero section for home care pages"
+  },
+  "options": {},
+  "attributes": {
+    "badgeLabel": {
+      "type": "string",
+      "description": "Pill/badge text in hero (e.g. About NADZ)"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "introBlurb": {
+      "type": "text",
+      "required": false,
+      "description": "Optional intro paragraph below subheading"
+    },
+    "primaryCtaText": {
+      "type": "string"
+    },
+    "secondaryCtaText": {
+      "type": "string"
+    },
+    "showCta": {
+      "type": "boolean",
+      "default": true,
+      "description": "Toggle CTA buttons (Book a Home Visit / Call Now) visible or hidden on this hero"
+    },
+    "videoUrl": {
+      "type": "string",
+      "description": "YouTube video URL for hero banner (e.g. https://www.youtube.com/watch?v=VIDEO_ID). When set, video is shown as hero instead of image."
+    },
+    "videoId": {
+      "type": "string",
+      "description": "YouTube video ID (alternative to videoUrl)"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"],
+      "description": "Hero image (used when no video is set)"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"],
+      "description": "Small logo shown above hero title on video overlay (desktop only)"
+    },
+    "buttonVariant": {
+      "type": "enumeration",
+      "enum": ["default", "outlined"],
+      "default": "default"
+    },
+    "imageRoundedRight": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

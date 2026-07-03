@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_services_sections",
+  "info": {
+    "name": "ServicesSection",
+    "icon": "grid",
+    "displayName": "Services Section",
+    "description": "Services section with configurable title"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "Services We Provide"
+    },
+    "ctaText": {
+      "type": "string",
+      "required": false,
+      "default": "View All Services"
+    },
+    "ctaUrl": {
+      "type": "string",
+      "required": false,
+      "default": "/services"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.service-item"
+    }
+  }
+}
+

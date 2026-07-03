@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_effective_dates",
+  "info": {
+    "displayName": "Effective Date",
+    "description": "Effective date and last updated date"
+  },
+  "options": {},
+  "attributes": {
+    "effectiveDate": {
+      "type": "string",
+      "required": true
+    },
+    "lastUpdated": {
+      "type": "string"
+    }
+  }
+}
+

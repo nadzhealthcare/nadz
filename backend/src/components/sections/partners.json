@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_partners",
+  "info": {
+    "name": "Partners",
+    "icon": "handshake",
+    "displayName": "Partners Section",
+    "description": "Partners carousel section with title and partner logos"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "Our Partners"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.partner-item"
+    }
+  }
+}

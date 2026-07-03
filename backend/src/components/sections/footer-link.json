@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_footer_links",
+  "info": {
+    "displayName": "Footer Link",
+    "description": "A simple footer link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_mission_points",
+  "info": {
+    "displayName": "Mission Point",
+    "description": "A bullet point in the Mission section"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

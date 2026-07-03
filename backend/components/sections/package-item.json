@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_package_items",
+  "info": {
+    "displayName": "Package Item",
+    "description": "Single IV / wellness package with name, best for, supports, and icon key"
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "bestFor": { "type": "text", "required": true },
+    "supports": { "type": "text", "required": true },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["glow", "beauty", "detox", "gut", "travel", "wellness", "glowPlus", "recovery", "vitaminC", "immune", "default"],
+      "default": "default"
+    }
+  }
+}

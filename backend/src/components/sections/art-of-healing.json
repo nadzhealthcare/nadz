@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_art_of_healings",
+  "info": {
+    "displayName": "Art of Healing",
+    "description": "Art of healing section with highlights and video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlights": {
+      "type": "json"
+    },
+    "closingParagraphs": {
+      "type": "json"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "ctaText": {
+      "type": "string"
+    }
+  }
+}
+

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_services_intros",
+  "info": {
+    "displayName": "Services Intro",
+    "description": "Services introduction section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "highlights": {
+      "type": "json"
+    },
+    "closingParagraph": {
+      "type": "text"
+    },
+    "ctaText": {
+      "type": "string"
+    }
+  }
+}
+

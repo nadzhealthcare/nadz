@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_disclaimers",
+  "info": {
+    "displayName": "Disclaimer",
+    "description": "Disclaimer section with title and items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
+

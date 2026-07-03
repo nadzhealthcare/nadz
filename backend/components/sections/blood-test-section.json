@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_sections_blood_test_sections",
+    "info": {
+        "displayName": "Blood Test Section",
+        "description": "Blood test section with title and paragraphs"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "paragraphs": {
+            "type": "json"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+# OpenAI / ChatGPT crawlers — explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Default: allow all other crawlers
+User-agent: *
+Allow: /
+
+# To block search engines and crawlers entirely, replace the block above with:
+# User-agent: *
+# Disallow: /

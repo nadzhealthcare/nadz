@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_conditions_sections",
+  "info": {
+    "displayName": "Conditions Section",
+    "description": "Conditions & functional concerns with grouped sections"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.condition-block"
+    },
+    "footer": {
+      "type": "text"
+    }
+  }
+}

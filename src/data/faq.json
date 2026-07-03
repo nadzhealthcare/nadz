@@ -1,0 +1,867 @@
+{
+  "metadata": {
+    "title": "Frequently Asked Questions | NADZ Healthcare Dubai",
+    "description": "Find answers to all your questions about NADZ Healthcare services in Dubai. Complete guide to our home healthcare solutions."
+  },
+  "hero": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to all your questions about NADZ Healthcare services in Dubai. Complete guide to our home healthcare solutions."
+  },
+  "categories": [
+    {
+      "id": 1,
+      "title": "Allergy Testing at Home",
+      "questions": [
+        {
+          "q": "What is an allergy test at home?",
+          "a": "An at-home allergy test checks your sensitivities to foods, dust, pollen, or other triggers."
+        },
+        {
+          "q": "How accurate are allergy tests at home in Dubai?",
+          "a": "They are processed in DHA-approved labs with high accuracy."
+        },
+        {
+          "q": "How long do results take?",
+          "a": "Results are usually ready within 24–48 hours."
+        },
+        {
+          "q": "Is allergy testing safe for children?",
+          "a": "Yes, it's safe and commonly done for children and adults."
+        },
+        {
+          "q": "Do I need a doctor referral?",
+          "a": "No, you can book directly with NADZ."
+        },
+        {
+          "q": "Who should book allergy testing at home Dubai?",
+          "a": "Anyone experiencing asthma, frequent sneezing, skin rashes, or digestive issues."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Flu Vaccination at Home",
+      "questions": [
+        {
+          "q": "Who should get the flu vaccine in Dubai?",
+          "a": "Everyone over 6 months, especially elderly, children, and those with chronic illness."
+        },
+        {
+          "q": "Is the flu vaccine safe?",
+          "a": "Yes, DHA-approved and administered by licensed staff."
+        },
+        {
+          "q": "Can I get flu shots at home?",
+          "a": "Yes, NADZ provides vaccination at home, hotel, or office."
+        },
+        {
+          "q": "When is the best time for flu vaccination?",
+          "a": "Before flu season, ideally September–November."
+        },
+        {
+          "q": "How soon does protection start?",
+          "a": "It takes about 2 weeks for immunity to develop."
+        },
+        {
+          "q": "Is the flu vaccine safe during pregnancy?",
+          "a": "Yes, recommended and safe for pregnant women."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Food Intolerance Testing at Home",
+      "questions": [
+        {
+          "q": "What is food intolerance testing?",
+          "a": "It measures delayed immune reactions to foods using blood analysis."
+        },
+        {
+          "q": "How is the test done at home?",
+          "a": "Our nurse collects a blood sample at home."
+        },
+        {
+          "q": "Who should consider this test?",
+          "a": "Those with bloating, migraines, skin issues, or fatigue after eating."
+        },
+        {
+          "q": "How accurate are the results?",
+          "a": "They are processed in DHA-approved labs."
+        },
+        {
+          "q": "Do results include dietary guidance?",
+          "a": "Yes, our doctors provide tailored diet advice."
+        },
+        {
+          "q": "Is it the same as an allergy test?",
+          "a": "No, intolerance tests measure delayed reactions while allergy tests detect immediate ones."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Genetic & Genomics Testing at Home",
+      "questions": [
+        {
+          "q": "What is genetic testing?",
+          "a": "It analyzes DNA for disease risks, inherited traits, and treatment options."
+        },
+        {
+          "q": "Why is genomics testing important?",
+          "a": "It helps identify risks early and supports personalized healthcare."
+        },
+        {
+          "q": "How is the test performed at home in Dubai?",
+          "a": "Through a blood or saliva sample."
+        },
+        {
+          "q": "What can genetic testing detect?",
+          "a": "Cancer risks, rare diseases, and medication compatibility."
+        },
+        {
+          "q": "Can it help in family planning?",
+          "a": "Yes, it screens for hereditary conditions in children."
+        },
+        {
+          "q": "Is genetic testing confidential?",
+          "a": "Yes, results are securely shared only with you."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Glutathione IV Therapy",
+      "questions": [
+        {
+          "q": "What is glutathione IV therapy?",
+          "a": "It's an antioxidant infusion that detoxifies and brightens skin."
+        },
+        {
+          "q": "What are its main benefits?",
+          "a": "Skin lightening, improved immunity, liver support, anti-aging."
+        },
+        {
+          "q": "How long is a session?",
+          "a": "About 30–45 minutes."
+        },
+        {
+          "q": "How many sessions are needed?",
+          "a": "Multiple infusions may be recommended."
+        },
+        {
+          "q": "Does it help with pigmentation?",
+          "a": "Yes, it reduces uneven tone and dullness."
+        },
+        {
+          "q": "Is it safe?",
+          "a": "Yes, administered by DHA-licensed staff."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Hangover IV Drip",
+      "questions": [
+        {
+          "q": "What is a hangover IV drip?",
+          "a": "It replenishes fluids, electrolytes, and vitamins after heavy drinking."
+        },
+        {
+          "q": "How quickly does it work?",
+          "a": "Relief is usually felt within 30–60 minutes."
+        },
+        {
+          "q": "Is it safe?",
+          "a": "Yes, given under DHA-certified supervision."
+        },
+        {
+          "q": "Can it be used preventively?",
+          "a": "Yes, before or after events to reduce hangover severity."
+        },
+        {
+          "q": "Does it only treat alcohol hangovers?",
+          "a": "No, also helps with dehydration and fatigue."
+        },
+        {
+          "q": "Who should book hangover IV Dubai?",
+          "a": "Anyone feeling weak, nauseous, or exhausted after alcohol."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "HIV Testing at Home",
+      "questions": [
+        {
+          "q": "Is HIV testing at home accurate?",
+          "a": "Yes, results are processed in DHA-approved labs."
+        },
+        {
+          "q": "How is the sample collected?",
+          "a": "A nurse collects a small blood sample."
+        },
+        {
+          "q": "How soon are results available?",
+          "a": "Typically within 24–48 hours."
+        },
+        {
+          "q": "Are the results confidential?",
+          "a": "Yes, 100% private and shared securely."
+        },
+        {
+          "q": "Do I need a doctor referral?",
+          "a": "No, NADZ provides testing directly."
+        },
+        {
+          "q": "Can men and women both take it?",
+          "a": "Yes, it's recommended for all at-risk individuals."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "NAD IV Drip",
+      "questions": [
+        {
+          "q": "What is NAD IV therapy?",
+          "a": "It delivers nicotinamide adenine dinucleotide for cell repair and energy."
+        },
+        {
+          "q": "Who benefits from NAD IV Dubai?",
+          "a": "Athletes, executives, elderly, or those with fatigue."
+        },
+        {
+          "q": "How long does it take?",
+          "a": "Usually 1–2 hours per session."
+        },
+        {
+          "q": "What are its benefits?",
+          "a": "Improved focus, anti-aging, cell repair, energy boost."
+        },
+        {
+          "q": "Is it safe?",
+          "a": "Yes, administered by licensed doctors/nurses."
+        },
+        {
+          "q": "How many sessions are needed?",
+          "a": "Varies depending on personal health goals."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "NIPT Testing at Home",
+      "questions": [
+        {
+          "q": "What is NIPT?",
+          "a": "A non-invasive prenatal test for chromosomal conditions."
+        },
+        {
+          "q": "When can I do the test?",
+          "a": "From week 10 of pregnancy."
+        },
+        {
+          "q": "Is NIPT safe?",
+          "a": "Yes, it's just a blood test with no risk to baby or mother."
+        },
+        {
+          "q": "What conditions can it detect?",
+          "a": "Down syndrome, Edwards, Patau, sex chromosome disorders."
+        },
+        {
+          "q": "How long do results take?",
+          "a": "Usually 5–7 days."
+        },
+        {
+          "q": "Do I need a referral?",
+          "a": "No, NADZ provides full support."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "PCR Testing at Home",
+      "questions": [
+        {
+          "q": "What is a PCR test?",
+          "a": "It detects COVID-19 infection by identifying viral RNA."
+        },
+        {
+          "q": "How is it done at home?",
+          "a": "A swab is collected by licensed staff."
+        },
+        {
+          "q": "How soon do results arrive?",
+          "a": "Typically within 12–24 hours."
+        },
+        {
+          "q": "Is PCR testing DHA-approved?",
+          "a": "Yes, done in certified labs."
+        },
+        {
+          "q": "Can I book for travel?",
+          "a": "Yes, NADZ provides valid travel certificates."
+        },
+        {
+          "q": "Is it safe?",
+          "a": "Yes, fully supervised collection."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Semen Testing at Home",
+      "questions": [
+        {
+          "q": "What is semen analysis?",
+          "a": "It measures sperm count, motility, and shape for fertility."
+        },
+        {
+          "q": "Is it confidential?",
+          "a": "Yes, results are private."
+        },
+        {
+          "q": "How is the sample handled?",
+          "a": "Collected discreetly at home and sent to DHA labs."
+        },
+        {
+          "q": "When should I consider semen testing?",
+          "a": "If you face difficulties conceiving."
+        },
+        {
+          "q": "How soon are results available?",
+          "a": "Within 24–48 hours."
+        },
+        {
+          "q": "Do I need a doctor referral?",
+          "a": "No, NADZ provides guidance."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Skin Brightening IV Drip",
+      "questions": [
+        {
+          "q": "What is a skin brightening IV drip?",
+          "a": "It combines glutathione, vitamin C, and antioxidants."
+        },
+        {
+          "q": "Does it help pigmentation?",
+          "a": "Yes, it reduces dark spots and evens skin tone."
+        },
+        {
+          "q": "How long are sessions?",
+          "a": "30–45 minutes."
+        },
+        {
+          "q": "How many drips are required?",
+          "a": "Multiple for visible results."
+        },
+        {
+          "q": "Is it safe?",
+          "a": "Yes, DHA-certified staff administer it."
+        },
+        {
+          "q": "Who should book skin brightening IV in Dubai?",
+          "a": "Anyone seeking clearer, radiant skin."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "STD Testing at Home",
+      "questions": [
+        {
+          "q": "What is included in STD testing?",
+          "a": "Tests for HIV, syphilis, gonorrhea, chlamydia, herpes, hepatitis."
+        },
+        {
+          "q": "Is it confidential?",
+          "a": "Yes, handled discreetly and privately."
+        },
+        {
+          "q": "How is it done?",
+          "a": "A blood or urine sample collected by a nurse."
+        },
+        {
+          "q": "How long until results?",
+          "a": "24–48 hours."
+        },
+        {
+          "q": "Do I need a referral?",
+          "a": "No, NADZ provides complete support."
+        },
+        {
+          "q": "Is STD testing available at hotels too?",
+          "a": "Yes, for convenience and privacy."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Travel Vaccination at Home",
+      "questions": [
+        {
+          "q": "What are travel vaccines?",
+          "a": "Vaccines for diseases like yellow fever, hepatitis, meningitis."
+        },
+        {
+          "q": "When should I get them?",
+          "a": "4–6 weeks before travel."
+        },
+        {
+          "q": "Do you provide Hajj/Umrah vaccines?",
+          "a": "Yes, meningococcal vaccines are available."
+        },
+        {
+          "q": "Can vaccines be given at hotels?",
+          "a": "Yes, convenient for travelers."
+        },
+        {
+          "q": "Is it DHA-approved?",
+          "a": "Yes, all vaccines meet DHA standards."
+        },
+        {
+          "q": "Do you offer travel health consultations?",
+          "a": "Yes, tailored plans ensure safety."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Physiotherapy at Home",
+      "questions": [
+        {
+          "q": "What is physiotherapy at home?",
+          "a": "Rehabilitation and pain management delivered at your location."
+        },
+        {
+          "q": "Who needs home physiotherapy?",
+          "a": "Post-surgery patients, elderly, athletes, or those with chronic pain."
+        },
+        {
+          "q": "Are therapists licensed?",
+          "a": "Yes, DHA-certified physiotherapists."
+        },
+        {
+          "q": "How long are sessions?",
+          "a": "Typically 45–60 minutes."
+        },
+        {
+          "q": "Do you offer post-stroke rehab?",
+          "a": "Yes, customized therapy is available."
+        },
+        {
+          "q": "Is it covered by insurance?",
+          "a": "Depends on your insurance plan. NADZ can help verify coverage."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Labs at Home",
+      "questions": [
+        {
+          "q": "What tests can be done at home?",
+          "a": "Blood, allergy, hormones, genetics, full panels."
+        },
+        {
+          "q": "Who collects samples?",
+          "a": "DHA-certified phlebotomists."
+        },
+        {
+          "q": "How soon for results?",
+          "a": "24–48 hours."
+        },
+        {
+          "q": "Do you offer hotel or office tests?",
+          "a": "Yes, convenient for executives and travelers."
+        },
+        {
+          "q": "Is it safe?",
+          "a": "Yes, strict hygiene is followed."
+        },
+        {
+          "q": "Can results be shared with doctors?",
+          "a": "Yes, with integrated follow-ups."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Nurse at Home",
+      "questions": [
+        {
+          "q": "What services do home nurses provide?",
+          "a": "Wound care, injections, IV therapy, monitoring."
+        },
+        {
+          "q": "Are they licensed?",
+          "a": "Yes, DHA-certified."
+        },
+        {
+          "q": "Do you provide nurses at hotels?",
+          "a": "Yes, for travelers or recovery."
+        },
+        {
+          "q": "When should I book a nurse?",
+          "a": "After surgery, elderly care, or chronic disease."
+        },
+        {
+          "q": "Is it 24/7?",
+          "a": "Yes, round-the-clock available."
+        },
+        {
+          "q": "Can I request male/female nurses?",
+          "a": "Yes, based on need."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Doctor On Call",
+      "questions": [
+        {
+          "q": "What is doctor on call in Dubai?",
+          "a": "A licensed doctor visiting your home/hotel for care."
+        },
+        {
+          "q": "Is it 24/7?",
+          "a": "Yes, NADZ provides 24/7 doctor on call Dubai."
+        },
+        {
+          "q": "What can be treated?",
+          "a": "Flu, infections, injuries, chronic issues."
+        },
+        {
+          "q": "Are doctors DHA-certified?",
+          "a": "Yes, fully licensed."
+        },
+        {
+          "q": "Do you provide discreet VIP visits?",
+          "a": "Yes, confidential and professional."
+        },
+        {
+          "q": "How do I book?",
+          "a": "Via WhatsApp or phone."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Wellness at Home",
+      "questions": [
+        {
+          "q": "What is wellness at home?",
+          "a": "Preventive care, IV therapy, yoga, physiotherapy."
+        },
+        {
+          "q": "Do you provide corporate wellness?",
+          "a": "Yes, executive packages are available."
+        },
+        {
+          "q": "Is red light therapy available?",
+          "a": "Yes, at home."
+        },
+        {
+          "q": "Do you offer preventive screenings?",
+          "a": "Yes, complete health packages."
+        },
+        {
+          "q": "Who delivers care?",
+          "a": "DHA-licensed professionals."
+        },
+        {
+          "q": "Are plans customizable?",
+          "a": "Yes, fully personalized."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "NADZ Vital Brain",
+      "questions": [
+        {
+          "q": "What is brain mapping Dubai?",
+          "a": "It uses EEG to map brain activity."
+        },
+        {
+          "q": "Who should consider brain mapping?",
+          "a": "People with anxiety, sleep issues, memory loss."
+        },
+        {
+          "q": "How is it done?",
+          "a": "Through quantitative EEG."
+        },
+        {
+          "q": "Is it only diagnostic?",
+          "a": "No, also for wellness and optimization."
+        },
+        {
+          "q": "How long does testing take?",
+          "a": "45–90 minutes."
+        },
+        {
+          "q": "Is it unique to NADZ?",
+          "a": "Yes, exclusive service in Dubai."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Medical Tourism Services",
+      "questions": [
+        {
+          "q": "What is medical tourism?",
+          "a": "Traveling for specialized care."
+        },
+        {
+          "q": "Why Dubai for medical tourism?",
+          "a": "World-class hospitals and luxury recovery."
+        },
+        {
+          "q": "What does NADZ provide?",
+          "a": "Hospital booking, doctor consults, visa, hotel."
+        },
+        {
+          "q": "Do you offer air ambulance?",
+          "a": "Yes, with medical supervision."
+        },
+        {
+          "q": "Is translation available?",
+          "a": "Yes, multilingual support."
+        },
+        {
+          "q": "Do you provide follow-ups?",
+          "a": "Yes, post-treatment care too."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "About Us",
+      "questions": [
+        {
+          "q": "What is NADZ Healthcare?",
+          "a": "A luxury home healthcare provider."
+        },
+        {
+          "q": "Who founded NADZ?",
+          "a": "Dr. Nadia Choudhry."
+        },
+        {
+          "q": "What makes NADZ unique?",
+          "a": "The family doctor model with luxury care."
+        },
+        {
+          "q": "Are staff DHA-certified?",
+          "a": "Yes, doctors and nurses are licensed."
+        },
+        {
+          "q": "Who do you serve?",
+          "a": "Families, executives, travelers."
+        },
+        {
+          "q": "What services are offered?",
+          "a": "Doctors, nurses, labs, IV, physiotherapy."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Mission & Vision",
+      "questions": [
+        {
+          "q": "What is the mission of NADZ?",
+          "a": "To deliver compassionate, luxury healthcare."
+        },
+        {
+          "q": "What is the vision?",
+          "a": "To redefine home healthcare globally."
+        },
+        {
+          "q": "Who leads NADZ?",
+          "a": "Dr. Nadia Choudhry."
+        },
+        {
+          "q": "Why choose NADZ?",
+          "a": "For trust, prestige, and empathy."
+        },
+        {
+          "q": "What principles guide care?",
+          "a": "Integrity, excellence, family."
+        },
+        {
+          "q": "Where is care delivered?",
+          "a": "Home, hotel, or office."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Elderly Care",
+      "questions": [
+        {
+          "q": "What is elderly care Dubai?",
+          "a": "Personalized care for seniors at home."
+        },
+        {
+          "q": "Do you support dementia patients?",
+          "a": "Yes, with trained staff."
+        },
+        {
+          "q": "Is care available round the clock?",
+          "a": "Yes, 24/7."
+        },
+        {
+          "q": "Why choose NADZ elderly care?",
+          "a": "Safe, dignified, professional."
+        },
+        {
+          "q": "Do you provide medical monitoring?",
+          "a": "Yes, vitals and medications are managed."
+        },
+        {
+          "q": "Is companionship included?",
+          "a": "Yes, caregivers also provide emotional support."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "IV Drips at Home",
+      "questions": [
+        {
+          "q": "What are IV drips at home Dubai?",
+          "a": "Nutrient-rich infusions delivered to your door."
+        },
+        {
+          "q": "What drips do you offer?",
+          "a": "Immunity, beauty, energy, detox, NAD+, hangover."
+        },
+        {
+          "q": "Who administers IV therapy?",
+          "a": "DHA-licensed nurses and doctors."
+        },
+        {
+          "q": "How long is a session?",
+          "a": "30–60 minutes."
+        },
+        {
+          "q": "Is IV therapy safe?",
+          "a": "Yes, with professional supervision."
+        },
+        {
+          "q": "Why choose NADZ for IV drips in Dubai?",
+          "a": "Premium service, 24/7 availability, luxury care."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Mother & Baby Care at Home",
+      "questions": [
+        {
+          "q": "What is mother and baby care at home in Dubai?",
+          "a": "It's a service that supports mothers in recovery and provides newborn care — all in the comfort of home."
+        },
+        {
+          "q": "Who provides mother and baby care?",
+          "a": "DHA-licensed nurses and doctors with training in neonatal and maternal care."
+        },
+        {
+          "q": "Can NADZ help with postnatal care?",
+          "a": "Yes, we support wound healing, breastfeeding, nutrition, and overall recovery."
+        },
+        {
+          "q": "Do you offer newborn care services?",
+          "a": "Yes, including feeding, bathing, hygiene, and monitoring vital signs."
+        },
+        {
+          "q": "Is the service safe for infants?",
+          "a": "Absolutely — care is delivered by trained medical professionals."
+        },
+        {
+          "q": "Can I book night-time or 24/7 care for my baby?",
+          "a": "Yes, NADZ Home Healthcare offers flexible hourly and round-the-clock care."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "POC Testing at Home",
+      "questions": [
+        {
+          "q": "What is POC testing at home?",
+          "a": "Point-of-Care (POC) testing provides instant medical results at your location using portable devices."
+        },
+        {
+          "q": "What POC tests are available with NADZ?",
+          "a": "Hemoglobin, blood sugar, cholesterol, infection tests, WBC, and vital sign screenings."
+        },
+        {
+          "q": "How accurate is POC testing?",
+          "a": "Results are highly reliable and validated against hospital standards."
+        },
+        {
+          "q": "How fast do I get results?",
+          "a": "Most POC tests deliver results in under 5 minutes."
+        },
+        {
+          "q": "Who conducts the tests?",
+          "a": "DHA-certified doctors and nurses using hospital-grade equipment."
+        },
+        {
+          "q": "Can I book POC testing for corporate or group checkups?",
+          "a": "Yes, NADZ Home Healthcare provides rapid testing for individuals, families, and corporate wellness programs."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "O₂ Therapy at Home",
+      "questions": [
+        {
+          "q": "What is O₂ therapy at home in Dubai?",
+          "a": "Oxygen therapy delivers concentrated oxygen through devices at your home to improve breathing."
+        },
+        {
+          "q": "Who needs oxygen therapy?",
+          "a": "Patients with asthma, COPD, post-COVID recovery, sleep apnea, or low oxygen levels."
+        },
+        {
+          "q": "How is oxygen delivered at home?",
+          "a": "Through concentrators, cylinders, or portable devices managed by our team."
+        },
+        {
+          "q": "Is oxygen therapy safe at home?",
+          "a": "Yes, with NADZ's DHA-licensed doctors and nurses monitoring every session."
+        },
+        {
+          "q": "Can I book emergency oxygen support?",
+          "a": "Yes, we provide urgent oxygen delivery and setup 24/7."
+        },
+        {
+          "q": "Do you offer long-term oxygen therapy at home?",
+          "a": "Yes, for chronic patients, we provide customized, ongoing oxygen programs."
+        }
+      ]
+    }
+  ],
+  "contactSection": {
+    "title": "Still Have Questions?",
+    "description": "Our team is available 24/7 to help you with any questions about our services.",
+    "ctaText": "Contact Us"
+  }
+}
+
+
+
+
+
+
+
+
+
+

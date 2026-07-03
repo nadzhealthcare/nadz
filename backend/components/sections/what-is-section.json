@@ -1,0 +1,31 @@
+{
+    "collectionName": "components_sections_what_is_sections",
+    "info": {
+        "displayName": "What Is Section",
+        "description": "What Is section with title, paragraph, bullets, and footer"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "paragraph": {
+            "type": "text"
+        },
+        "bullets": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.list-item"
+        },
+        "footer": {
+            "type": "text"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["images"],
+            "description": "Image for the What Is section (e.g. doctor, treatment)"
+        }
+    }
+}

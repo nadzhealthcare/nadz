@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_signature_drip_items",
+  "info": {
+    "displayName": "Signature Drip Item",
+    "description": "Single drip in Signature IV Drips section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

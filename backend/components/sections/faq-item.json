@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_sections_faq_items",
+    "info": {
+        "displayName": "FAQ Item",
+        "description": "A single FAQ question and answer"
+    },
+    "options": {},
+    "attributes": {
+        "q": {
+            "type": "string",
+            "required": true
+        },
+        "a": {
+            "type": "text",
+            "required": true
+        }
+    }
+}

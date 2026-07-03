@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_contact_forms",
+  "info": {
+    "name": "ContactForm",
+    "icon": "paper-plane",
+    "displayName": "Contact Form",
+    "description": "Contact form configuration"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.form-field"
+    },
+    "submitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.form-button"
+    }
+  }
+}
+

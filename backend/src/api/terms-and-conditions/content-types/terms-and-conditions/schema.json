@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_and_conditions",
+  "info": {
+    "singularName": "terms-and-conditions",
+    "pluralName": "terms-and-conditions-pages",
+    "displayName": "Terms and Conditions",
+    "description": "Terms and Conditions page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "seoKeywords": {
+      "type": "json"
+    },
+    "seoCanonicalUrl": {
+      "type": "string",
+      "description": "Canonical URL (absolute https URL or root-relative path). Leave empty to use default route."
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.policy-section"
+    },
+    "questionsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.questions-section"
+    }
+  }
+}
+

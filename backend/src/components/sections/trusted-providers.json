@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_sections_trusted_providers",
+  "info": {
+    "name": "TrustedProviders",
+    "icon": "shield-check",
+    "displayName": "Trusted Providers Section",
+    "description": "Trusted providers section with statistics, title, description and cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "statistics": {
+      "type": "component",
+      "component": "sections.statistic-item",
+      "repeatable": true
+    },
+    "card1Title": {
+      "type": "string"
+    },
+    "card1Description": {
+      "type": "text"
+    },
+    "card1Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card2Title": {
+      "type": "string"
+    },
+    "card2Description": {
+      "type": "text"
+    },
+    "card2Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_sections_journey_steps",
+    "info": {
+        "displayName": "Journey Step",
+        "description": "One step in the journey section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

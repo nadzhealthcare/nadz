@@ -1,0 +1,32 @@
+{
+    "collectionName": "components_sections_premium_ctas",
+    "info": {
+        "name": "PremiumCta",
+        "icon": "phone",
+        "displayName": "Premium CTA Section",
+        "description": "Premium CTA section with title, description and buttons"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": false
+        },
+        "description": {
+            "type": "text",
+            "required": false
+        },
+        "whatsappButtonText": {
+            "type": "string"
+        },
+        "whatsappButtonUrl": {
+            "type": "string"
+        },
+        "callButtonText": {
+            "type": "string"
+        },
+        "callButtonPhone": {
+            "type": "string"
+        }
+    }
+}

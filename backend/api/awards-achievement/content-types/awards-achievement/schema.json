@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "awards_achievements",
+  "info": {
+    "singularName": "awards-achievement",
+    "pluralName": "awards-achievements-pages",
+    "displayName": "Awards & Achievements",
+    "description": "Awards and achievements page: hero text and list rows (image left, text right)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true,
+      "default": "awards-achievement",
+      "description": "URL path segment for this page (e.g. awards-achievement → /awards-achievement). Must match the deployed Next.js route."
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "seoKeywords": {
+      "type": "json"
+    },
+    "pillText": {
+      "type": "string",
+      "description": "Small label above the main title (e.g. Recognition)"
+    },
+    "pageTitle": {
+      "type": "string",
+      "default": "Awards & Achievements"
+    },
+    "pageSubtitle": {
+      "type": "text",
+      "description": "Short line under the main title"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.award-item"
+    }
+  }
+}

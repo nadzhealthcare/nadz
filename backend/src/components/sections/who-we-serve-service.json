@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_who_we_serve_services",
+  "info": {
+    "displayName": "Who We Serve Service",
+    "description": "One service in Who We Serve section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

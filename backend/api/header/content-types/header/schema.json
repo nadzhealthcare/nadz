@@ -1,0 +1,35 @@
+{
+    "kind": "singleType",
+    "collectionName": "headers",
+    "info": {
+        "singularName": "header",
+        "pluralName": "headers",
+        "displayName": "Header",
+        "description": "Site header configuration including navigation and logo"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "logo": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["images"]
+        },
+        "logoAlt": {
+            "type": "string",
+            "default": "NADZ Healthcare"
+        },
+        "navLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.nav-link"
+        },
+        "ctaButtonText": {
+            "type": "string",
+            "default": "Book an appointment"
+        }
+    }
+}

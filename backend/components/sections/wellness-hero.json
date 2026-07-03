@@ -1,0 +1,44 @@
+{
+    "collectionName": "components_sections_wellness_heros",
+    "info": {
+        "displayName": "Wellness Hero",
+        "description": "Hero section for wellness pages with video support"
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "description": {
+            "type": "text"
+        },
+        "primaryCta": {
+            "type": "string"
+        },
+        "secondaryCta": {
+            "type": "string"
+        },
+        "videoUrl": {
+            "type": "string",
+            "description": "YouTube video URL (e.g., https://www.youtube.com/watch?v=VIDEO_ID)"
+        },
+        "videoId": {
+            "type": "string",
+            "description": "YouTube video ID (alternative to videoUrl)"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["images"],
+            "description": "Optional hero image (used if no video)"
+        }
+    }
+}

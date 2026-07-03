@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_sections_statistic_items",
+    "info": {
+        "name": "StatisticItem",
+        "icon": "chart-line",
+        "displayName": "Statistic Item",
+        "description": "A single statistic with value, label, number and icon"
+    },
+    "options": {},
+    "attributes": {
+        "value": {
+            "type": "string",
+            "required": false
+        },
+        "label": {
+            "type": "string",
+            "required": false
+        },
+        "number": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        }
+    }
+}

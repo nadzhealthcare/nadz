@@ -1,0 +1,53 @@
+{
+    "collectionName": "components_sections_policy_sections",
+    "info": {
+        "displayName": "Policy Section",
+        "description": "A section in a policy page (Privacy, Terms, Cookie)"
+    },
+    "options": {},
+    "attributes": {
+        "number": {
+            "type": "integer",
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "intro": {
+            "type": "text"
+        },
+        "content": {
+            "type": "text"
+        },
+        "items": {
+            "type": "json"
+        },
+        "subsections": {
+            "type": "component",
+            "repeatable": true,
+            "component": "sections.policy-subsection"
+        },
+        "note": {
+            "type": "text"
+        },
+        "browserInstructions": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.browser-instructions"
+        },
+        "disclaimer": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.disclaimer"
+        },
+        "emergency": {
+            "type": "string"
+        },
+        "contact": {
+            "type": "component",
+            "repeatable": false,
+            "component": "sections.policy-contact-info"
+        }
+    }
+}

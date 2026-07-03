@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "press_releases",
+  "info": {
+    "singularName": "press-release",
+    "pluralName": "press-releases",
+    "displayName": "Press Release",
+    "description": "Press releases and media coverage articles"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "description": "URL-friendly identifier (e.g. my-press-release)"
+    },
+    "seoTitle": {
+      "type": "string",
+      "description": "SEO meta title"
+    },
+    "seoDescription": {
+      "type": "text",
+      "description": "SEO meta description"
+    },
+    "seoKeywords": {
+      "type": "json",
+      "description": "SEO meta keywords (array of strings)"
+    },
+    "excerpt": {
+      "type": "text",
+      "description": "Short summary displayed on listing cards"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"],
+      "description": "Cover image for the press release card and detail page"
+    },
+    "date": {
+      "type": "date",
+      "required": false,
+      "description": "Publication date shown on the card (defaults to publish date if empty)"
+    },
+    "time": {
+      "type": "string",
+      "description": "Time of publication (e.g. 10:30 AM GST)"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "source": {
+      "type": "string",
+      "description": "Publication or media source name (e.g. Gulf News, Khaleej Times)"
+    },
+    "sourceUrl": {
+      "type": "string",
+      "description": "External link to the original press release"
+    },
+    "readTime": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.article-content",
+      "description": "Press release body: intro + repeatable sections"
+    },
+    "tags": {
+      "type": "json",
+      "description": "Array of tag strings"
+    }
+  }
+}

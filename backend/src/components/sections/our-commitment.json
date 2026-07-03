@@ -1,0 +1,1 @@
+{"collectionName":"components_sections_our_commitments","info":{"displayName":"Our Commitment","description":"Our Commitment section (for Who We Are page)"},"options":{},"attributes":{"badgeLabel":{"type":"string","description":"Pill/badge text above section title (e.g. OUR COMMITMENT)"},"title":{"type":"string"},"description":{"type":"text"},"paragraph":{"type":"text"}}}

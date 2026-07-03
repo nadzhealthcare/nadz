@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_why_matter_items",
+  "info": {
+    "displayName": "Why Matter Item",
+    "description": "One item in Why It Matters (title, description, icon)"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

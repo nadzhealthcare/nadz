@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_vision_items",
+  "info": {
+    "name": "VisionItem",
+    "icon": "eye",
+    "displayName": "Vision Item",
+    "description": "A single vision item with title, description and icon"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}
+

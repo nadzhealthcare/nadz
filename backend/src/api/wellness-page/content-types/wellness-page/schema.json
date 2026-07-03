@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wellness_pages",
+  "info": {
+    "singularName": "wellness-page",
+    "pluralName": "wellness-pages",
+    "displayName": "Wellness Page",
+    "description": "Wellness service pages (NAD+, chronic pain, sleep, etc.)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "seoKeywords": {
+      "type": "json"
+    },
+    "seoCanonicalUrl": {
+      "type": "string",
+      "description": "Canonical URL for this wellness URL (absolute https URL or root-relative path). Leave empty to derive from Site URL and slug."
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.wellness-hero"
+    },
+    "whatIs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.what-is-section"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.benefits-section"
+    },
+    "whoCanBenefit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.who-can-benefit-section"
+    },
+    "howItWorks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.how-it-works-wellness"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.faqs-section"
+    },
+    "conditions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.conditions-section"
+    },
+    "patientReports": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.patient-reports-section"
+    },
+    "whyChoose": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.why-choose-section"
+    },
+    "journey": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.journey-section"
+    },
+    "safety": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.safety-section"
+    },
+    "whyChooseFunctionalMedicine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.why-choose-functional-medicine"
+    }
+  }
+}

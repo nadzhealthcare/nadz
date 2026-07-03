@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "test",
+    "title": "Test Page",
+    "metadata": {
+      "title": "Test Page",
+      "description": "A local fallback test page",
+      "keywords": ["test", "page"]
+    },
+    "sections": [
+      {
+        "__component": "sections.content",
+        "content": "<h2>Local Fallback</h2><p>This is a local fallback page used when Strapi is unavailable.</p>"
+      }
+    ]
+  }
+]

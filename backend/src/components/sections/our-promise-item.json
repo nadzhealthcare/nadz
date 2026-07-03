@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_our_promise_items",
+  "info": {
+    "displayName": "Our Promise Item",
+    "description": "One item in Our Promise section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_centered_texts",
+  "info": {
+    "displayName": "Centered Text",
+    "description": "Centered text section with title, paragraphs, and CTA"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "json"
+    },
+    "ctaText": {
+      "type": "string"
+    }
+  }
+}
+

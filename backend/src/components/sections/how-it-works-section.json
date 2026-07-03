@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_how_it_works_sections",
+  "info": {
+    "displayName": "How It Works Section",
+    "description": "How it works section with title, description, items, and closing paragraph"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "json"
+    },
+    "closingParagraph": {
+      "type": "text"
+    }
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_nursing_care_services_sections",
+  "info": {
+    "displayName": "Nursing Care Services",
+    "description": "Section listing nursing care services"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.nursing-care-service"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}
+

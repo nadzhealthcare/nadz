@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_google_reviews",
+  "info": {
+    "name": "GoogleReviews",
+    "icon": "star",
+    "displayName": "Google Reviews Section",
+    "description": "Google reviews section with title and review cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "What Our Patients Say"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "default": "Google Reviews"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.review-item"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_lead_form_embeds",
+  "info": {
+    "displayName": "Lead Form Embed",
+    "description": "Third-party lead form mount point (#nadz-leadform) and embed script from Strapi admin"
+  },
+  "options": {},
+  "attributes": {
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "fallbackMessage": {
+      "type": "text",
+      "description": "Optional text inside #nadz-leadform until the external form mounts (replaced on load)"
+    },
+    "embedScript": {
+      "type": "text",
+      "description": "Full <script> tag, e.g. <script src=\"https://example.com/form.js\" async></script>"
+    }
+  }
+}

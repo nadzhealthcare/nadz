@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_sub_nav_links",
+  "info": {
+    "displayName": "Sub Nav Link",
+    "description": "A sub navigation link (second level) that can have nested links"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "hasNested": {
+      "type": "boolean",
+      "default": false
+    },
+    "nested": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.nested-nav-link"
+    }
+  }
+}
+

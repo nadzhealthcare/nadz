@@ -1,0 +1,367 @@
+{
+  "blogPosts": [
+    {
+      "id": 1,
+      "title": "Digital Renaissance: Designing for the Future",
+      "author": {
+        "name": "Author Name",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "12 mins ago",
+      "fullDate": "Jan 12, 2026",
+      "readTime": "5 min read",
+      "category": "Design",
+      "categorySlug": "design-theory",
+      "categoryColor": "text-blue-500",
+      "excerpt": "Exploration of modern design principles that are shaping the web in 2024. From minimal aesthetics to interactive storytelling.",
+      "image": "/images/healthcare-professional.jpg",
+      "featured": true,
+      "content": {
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam sit amet ipsum ac velit egestas ultrices. Vestibulum id neque id ex semper varius a sit amet metus. Vivamus congue dolor eget aliquam hendrerit.",
+        "sections": [
+          {
+            "heading": "Understanding Modern Design Principles",
+            "content": "Etiam iaculis finibus egestas. Nam viverra urna quis orci efficitur malesuada. Maecenas rhoncus sem eu scelerisque rutrum. Pellentesque et mollis sem, ut mollis dolor. Id amet, consectetur adipiscing elit. Curabitur sed commodo leo. Suspendisse potenti. Maecenas gravida sem nec enim vestibulum sagittis."
+          },
+          {
+            "quote": "Design is not just what it looks like and feels like. Design is how it works."
+          },
+          {
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam sit amet ipsum ac velit egestas ultrices. Vestibulum id neque id ex semper varius a sit amet metus."
+          },
+          {
+            "content": "Vivamus congue dolor eget aliquam hendrerit. Etiam iaculis finibus egestas. Nam viverra urna quis orci efficitur malesuada. Maecenas rhoncus sem eu scelerisque rutrum. Pellentesque et mollis sem, ut mollis dolor. Id amet, consectetur adipiscing elit. Curabitur sed commodo leo."
+          }
+        ]
+      },
+      "tags": ["DESIGN", "WEB", "UX/UI"]
+    },
+    {
+      "id": 2,
+      "title": "The Impact of AI on Modern Engineering",
+      "author": {
+        "name": "Author Name",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "1 hour ago",
+      "fullDate": "Jan 11, 2026",
+      "readTime": "8 min read",
+      "category": "Technology",
+      "categorySlug": "technology",
+      "categoryColor": "text-blue-400",
+      "excerpt": "How artificial intelligence is revolutionizing the way we write code, manage infrastructure, and solve complex problems.",
+      "image": "/images/healthcare-clinical-excellence.jpg",
+      "featured": true,
+      "content": {
+        "intro": "How artificial intelligence is revolutionizing the way we write code, manage infrastructure, and solve complex engineering problems. Exploring the intersection of AI and modern software development.",
+        "sections": [
+          {
+            "heading": "The Rise of AI in Engineering",
+            "content": "Artificial intelligence has transformed from a futuristic concept to a practical tool that engineers use daily. From code completion to automated testing, AI is reshaping how we build software."
+          },
+          {
+            "quote": "The best way to predict the future is to invent it."
+          },
+          {
+            "content": "Machine learning algorithms are now capable of identifying bugs, optimizing code performance, and even suggesting architectural improvements. This collaboration between human creativity and machine efficiency is creating unprecedented possibilities."
+          }
+        ]
+      },
+      "tags": ["TECHNOLOGY", "AI", "ENGINEERING"]
+    },
+    {
+      "id": 3,
+      "title": "Cybersecurity in the Age of Quantum Computing",
+      "author": {
+        "name": "Expert Author",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "2 hours ago",
+      "fullDate": "Jan 10, 2026",
+      "readTime": "12 min read",
+      "category": "Security",
+      "categorySlug": "security",
+      "categoryColor": "text-blue-500",
+      "excerpt": "An in-depth analysis of how quantum advancements will challenge current encryption standards and what we need to know.",
+      "image": "/images/healthcare-family-care.jpg",
+      "featured": false,
+      "content": {
+        "intro": "An in-depth analysis of how quantum advancements will challenge current encryption standards and what security professionals need to know to prepare for the quantum era.",
+        "sections": [
+          {
+            "heading": "Understanding Quantum Threats",
+            "content": "Quantum computers have the potential to break many of the cryptographic systems we currently rely on. This shift requires a complete rethinking of our security infrastructure and encryption methods."
+          },
+          {
+            "quote": "Security is not a product, but a process."
+          },
+          {
+            "content": "Organizations must begin implementing post-quantum cryptography now to protect their data from future quantum attacks. The transition will take years, making early adoption critical."
+          }
+        ]
+      },
+      "tags": ["SECURITY", "QUANTUM", "CRYPTOGRAPHY"]
+    },
+    {
+      "id": 4,
+      "title": "The Hardware Boom",
+      "author": {
+        "name": "Author",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "3 min ago",
+      "fullDate": "Jan 9, 2026",
+      "readTime": "6 min read",
+      "category": "Hardware",
+      "categorySlug": "hardware",
+      "categoryColor": "text-blue-400",
+      "excerpt": "Why physical components are becoming more important than ever in 2024. The renaissance of hardware innovation.",
+      "image": "/images/healthcare-family-1.jpg",
+      "featured": false,
+      "content": {
+        "intro": "Why physical components are becoming more important than ever in 2024. The renaissance of hardware innovation and its impact on technology.",
+        "sections": [
+          {
+            "heading": "The Return of Hardware Innovation",
+            "content": "After years of software dominance, hardware is making a strong comeback. From custom silicon to innovative form factors, companies are investing heavily in physical innovation."
+          }
+        ]
+      },
+      "tags": ["HARDWARE", "INNOVATION", "TECH"]
+    },
+    {
+      "id": 5,
+      "title": "Remote Culture Shift",
+      "author": {
+        "name": "Author",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "10 min ago",
+      "fullDate": "Jan 8, 2026",
+      "readTime": "7 min read",
+      "category": "Culture",
+      "categorySlug": "culture",
+      "categoryColor": "text-blue-400",
+      "excerpt": "How top tech companies are navigating the hybrid work model successfully. Lessons from the global shift.",
+      "image": "/images/homecare.jpg",
+      "featured": false,
+      "content": {
+        "intro": "How top tech companies are navigating the hybrid work model successfully. Lessons learned from the global shift to remote work.",
+        "sections": [
+          {
+            "heading": "Building Remote-First Culture",
+            "content": "The transition to remote work has forced companies to rethink everything from communication to performance evaluation. Successful organizations are those that have embraced asynchronous work and digital-first collaboration."
+          }
+        ]
+      },
+      "tags": ["CULTURE", "REMOTE WORK", "MANAGEMENT"]
+    },
+    {
+      "id": 6,
+      "title": "The Evolution of Modern Typography",
+      "author": {
+        "name": "Design Expert",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "1 day ago",
+      "fullDate": "Jan 7, 2026",
+      "readTime": "6 min read",
+      "category": "Design",
+      "categorySlug": "design-theory",
+      "categoryColor": "text-blue-500",
+      "excerpt": "Exploring how typography has evolved in the digital age and its impact on user experience and readability.",
+      "image": "/images/healthcare-professional.jpg",
+      "featured": false,
+      "content": {
+        "intro": "Exploring how typography has evolved in the digital age and its impact on user experience and readability across different platforms and devices.",
+        "sections": [
+          {
+            "heading": "Typography in the Digital Era",
+            "content": "Modern typography goes beyond aesthetics. It's about creating hierarchies, improving readability, and enhancing the overall user experience."
+          }
+        ]
+      },
+      "tags": ["DESIGN", "TYPOGRAPHY", "UX"]
+    },
+    {
+      "id": 7,
+      "title": "Building Scalable Systems in 2026",
+      "author": {
+        "name": "Tech Lead",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "2 days ago",
+      "fullDate": "Jan 6, 2026",
+      "readTime": "10 min read",
+      "category": "Technology",
+      "categorySlug": "technology",
+      "categoryColor": "text-blue-400",
+      "excerpt": "Best practices and patterns for building systems that can handle millions of users while maintaining performance.",
+      "image": "/images/healthcare-clinical-excellence.jpg",
+      "featured": false,
+      "content": {
+        "intro": "Best practices and patterns for building systems that can handle millions of users while maintaining performance and reliability.",
+        "sections": [
+          {
+            "heading": "Scalability Principles",
+            "content": "Building scalable systems requires careful planning, proper architecture, and understanding of distributed systems principles."
+          }
+        ]
+      },
+      "tags": ["TECHNOLOGY", "SCALABILITY", "ARCHITECTURE"]
+    },
+    {
+      "id": 8,
+      "title": "The Future of Healthcare Technology",
+      "author": {
+        "name": "Healthcare Expert",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "3 days ago",
+      "fullDate": "Jan 5, 2026",
+      "readTime": "9 min read",
+      "category": "Healthcare",
+      "categorySlug": "healthcare",
+      "categoryColor": "text-green-500",
+      "excerpt": "How technology is transforming patient care, from telemedicine to AI-assisted diagnostics and personalized treatment.",
+      "image": "/images/healthcare-family-care.jpg",
+      "featured": false,
+      "content": {
+        "intro": "How technology is transforming patient care, from telemedicine to AI-assisted diagnostics and personalized treatment plans.",
+        "sections": [
+          {
+            "heading": "Healthcare Digital Transformation",
+            "content": "The healthcare industry is experiencing a digital revolution that's improving patient outcomes and making care more accessible."
+          }
+        ]
+      },
+      "tags": ["HEALTHCARE", "TECHNOLOGY", "TELEMEDICINE"]
+    },
+    {
+      "id": 9,
+      "title": "Sustainable Web Development Practices",
+      "author": {
+        "name": "Green Tech Advocate",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "4 days ago",
+      "fullDate": "Jan 4, 2026",
+      "readTime": "7 min read",
+      "category": "Technology",
+      "categorySlug": "technology",
+      "categoryColor": "text-blue-400",
+      "excerpt": "Creating environmentally conscious websites that minimize carbon footprint while delivering excellent user experience.",
+      "image": "/images/healthcare-family-1.jpg",
+      "featured": false,
+      "content": {
+        "intro": "Creating environmentally conscious websites that minimize carbon footprint while delivering excellent user experience.",
+        "sections": [
+          {
+            "heading": "Green Web Development",
+            "content": "Every website has a carbon footprint. Learn how to build efficient, sustainable websites that benefit both users and the environment."
+          }
+        ]
+      },
+      "tags": ["TECHNOLOGY", "SUSTAINABILITY", "WEB"]
+    },
+    {
+      "id": 10,
+      "title": "The Psychology of User Interface Design",
+      "author": {
+        "name": "UX Researcher",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "5 days ago",
+      "fullDate": "Jan 3, 2026",
+      "readTime": "8 min read",
+      "category": "Design",
+      "categorySlug": "design-theory",
+      "categoryColor": "text-blue-500",
+      "excerpt": "Understanding cognitive psychology principles that make interfaces intuitive and user-friendly.",
+      "image": "/images/homecare.jpg",
+      "featured": false,
+      "content": {
+        "intro": "Understanding cognitive psychology principles that make interfaces intuitive and user-friendly for all types of users.",
+        "sections": [
+          {
+            "heading": "Psychology in Design",
+            "content": "Great UI design is rooted in understanding how people think, perceive, and interact with digital interfaces."
+          }
+        ]
+      },
+      "tags": ["DESIGN", "PSYCHOLOGY", "UX"]
+    },
+    {
+      "id": 11,
+      "title": "Blockchain Beyond Cryptocurrency",
+      "author": {
+        "name": "Tech Analyst",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "6 days ago",
+      "fullDate": "Jan 2, 2026",
+      "readTime": "11 min read",
+      "category": "Technology",
+      "categorySlug": "technology",
+      "categoryColor": "text-blue-400",
+      "excerpt": "Exploring practical applications of blockchain technology in supply chain, healthcare, and identity verification.",
+      "image": "/images/healthcare-professional.jpg",
+      "featured": false,
+      "content": {
+        "intro": "Exploring practical applications of blockchain technology in supply chain, healthcare, and identity verification beyond cryptocurrency.",
+        "sections": [
+          {
+            "heading": "Blockchain Applications",
+            "content": "Blockchain technology has potential far beyond digital currencies. It's revolutionizing trust and transparency in various industries."
+          }
+        ]
+      },
+      "tags": ["TECHNOLOGY", "BLOCKCHAIN", "INNOVATION"]
+    },
+    {
+      "id": 12,
+      "title": "Inclusive Design: Building for Everyone",
+      "author": {
+        "name": "Accessibility Expert",
+        "avatar": "/images/doctor.png"
+      },
+      "date": "1 week ago",
+      "fullDate": "Jan 1, 2026",
+      "readTime": "6 min read",
+      "category": "Design",
+      "categorySlug": "design-theory",
+      "categoryColor": "text-blue-500",
+      "excerpt": "Why accessibility isn't just compliance - it's good design that benefits all users regardless of ability.",
+      "image": "/images/healthcare-clinical-excellence.jpg",
+      "featured": false,
+      "content": {
+        "intro": "Why accessibility isn't just compliance - it's good design that benefits all users regardless of ability or circumstance.",
+        "sections": [
+          {
+            "heading": "Accessibility as Foundation",
+            "content": "Inclusive design isn't an afterthought. It's about creating products that work for everyone from the very beginning."
+          }
+        ]
+      },
+      "tags": ["DESIGN", "ACCESSIBILITY", "INCLUSION"]
+    }
+  ],
+  "morePostsData": [
+    {
+      "id": 6,
+      "title": "The Evolution of Modern Typography",
+      "image": "/images/healthcare-professional.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Why Swiss Tech is Making a Comeback",
+      "image": "/images/healthcare-clinical-excellence.jpg"
+    },
+    {
+      "id": 8,
+      "title": "A Deep Dive into Workspace Ergonomics",
+      "image": "/images/healthcare-family-care.jpg"
+    }
+  ]
+}
+

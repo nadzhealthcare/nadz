@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_sections_social_links",
+    "info": {
+        "displayName": "Social Link",
+        "description": "A social media link"
+    },
+    "options": {},
+    "attributes": {
+        "platform": {
+            "type": "enumeration",
+            "enum": ["facebook", "twitter", "instagram", "linkedin", "youtube", "whatsapp"],
+            "required": true
+        },
+        "url": {
+            "type": "string",
+            "required": true
+        },
+        "ariaLabel": {
+            "type": "string"
+        }
+    }
+}

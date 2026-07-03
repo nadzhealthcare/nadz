@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_sections_faq_contact_sections",
+    "info": {
+        "displayName": "FAQ Contact Section",
+        "description": "Contact section for FAQ page"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "ctaText": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

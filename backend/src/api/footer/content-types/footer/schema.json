@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": "Site footer configuration"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "logoAlt": {
+      "type": "string",
+      "default": "NADZ Healthcare"
+    },
+    "description": {
+      "type": "text"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.social-link"
+    },
+    "linkSections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.footer-link-section"
+    },
+    "copyrightText": {
+      "type": "string",
+      "default": "All Rights Reserved © Copyright 2025"
+    },
+    "licenseText": {
+      "type": "string"
+    },
+    "licenseNumber": {
+      "type": "string"
+    },
+    "floatingPhoneButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "floatingWhatsAppButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "whatsappNumber": {
+      "type": "string"
+    },
+    "whatsappUrl": {
+      "type": "string"
+    }
+  }
+}
+

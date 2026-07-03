@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_partner_items",
+  "info": {
+    "name": "PartnerItem",
+    "icon": "handshake",
+    "displayName": "Partner Item",
+    "description": "A single partner with logo and optional link"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "logoUrl": {
+      "type": "string",
+      "required": false,
+      "description": "External image URL (used if logo media is not set)"
+    },
+    "url": {
+      "type": "string",
+      "required": false,
+      "description": "Partner website or link"
+    }
+  }
+}

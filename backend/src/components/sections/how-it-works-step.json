@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_how_it_works_steps",
+  "info": {
+    "name": "HowItWorksStep",
+    "icon": "list-ol",
+    "displayName": "How It Works Step",
+    "description": "A single step in the how it works section"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "icon": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "bgGradient": {
+      "type": "string"
+    }
+  }
+}
+

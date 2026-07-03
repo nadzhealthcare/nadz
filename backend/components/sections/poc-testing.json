@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_sections_poc_testings",
+    "info": {
+        "displayName": "POC Testing",
+        "description": "Point of care testing section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "ctaText": {
+            "type": "string"
+        }
+    }
+}

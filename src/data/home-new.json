@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "title": "Premium Home Healthcare in Dubai | NADZ Healthcare",
+    "description": "24/7 doctor-led medical care at home, hotel, office, yacht or event. A NADZ specialist can reach you in as little as 30 minutes in Dubai."
+  },
+  "hero": {
+    "titlePrefix": "Premium Home Healthcare in Dubai –",
+    "titleHighlight": "Care You Can Trust",
+    "description": "24/7 doctor-led medical care at home, hotel, office, yacht or event. A NADZ specialist can reach you in as little as 30 minutes in Dubai.",
+    "reassuranceText": "No waiting rooms. No traffic. Just hospital-level care, where you feel safe and comfortable.",
+    "image": "/images/hero-reference.png",
+    "imageAlt": "Doctor providing home healthcare in Dubai",
+    "whatsappButton": {
+      "text": "Book a Home Visit",
+      "url": "https://wa.me/971521597336"
+    },
+    "callButton": {
+      "text": "Call Now (24/7)",
+      "phone": "+97180046239"
+    },
+    "serviceChips": [
+      { "name": "Best Home Healthcare Service", "icon": "MdVerifiedUser", "color": "#5C2533" },
+      { "name": "24/7 medical assistance at your doorstep", "icon": "MdAccessTime", "color": "#5C2533" }
+    ]
+  },
+  "comprehensiveCare": {
+    "title": "Comprehensive Care for Every Patient",
+    "stats": [
+      {
+        "value": "97%",
+        "label": "Patient satisfaction rate, reflecting our commitment.",
+        "image": "https://images.unsplash.com/photo-1516570364369-83d9a21b83d9?w=400&h=280&fit=crop"
+      },
+      {
+        "value": "30+",
+        "label": "Board-certified medical staff.",
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=280&fit=crop"
+      },
+      {
+        "value": "5.0",
+        "suffix": "★",
+        "label": "Over 10,000 clients.",
+        "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=280&fit=crop"
+      },
+      {
+        "value": "30+",
+        "label": "Different medical services delivered.",
+        "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=280&fit=crop"
+      },
+      {
+        "value": "10+",
+        "label": "Global Laboratory Partners providing accurate results.",
+        "image": "https://images.unsplash.com/photo-1582719471137-c3967fa4c36d?w=400&h=280&fit=crop"
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "id": 1,
+        "title": "IV Drip Therapies at Home",
+        "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=640&h=480&fit=crop",
+        "ctaText": "Book IV Drip at Home",
+        "href": "/home-care/iv-drips"
+      },
+      {
+        "id": 2,
+        "title": "Labs & Diagnostics at Home",
+        "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=640&h=480&fit=crop",
+        "ctaText": "Book Labs at Home",
+        "href": "/home-care/lab-testing-at-home"
+      },
+      {
+        "id": 3,
+        "title": "Nursing & Long-Term Care",
+        "image": "https://images.unsplash.com/photo-1576765608535-5f04a1e3f778?w=640&h=480&fit=crop",
+        "ctaText": "Book Nursing Care",
+        "href": "/home-care/elderly-care"
+      },
+      {
+        "id": 4,
+        "title": "Doctor on Call (Urgent & Primary Care)",
+        "image": "https://images.unsplash.com/photo-1631217868264-e4b8bbef0f00?w=640&h=480&fit=crop",
+        "ctaText": "Book Doctor on Call",
+        "href": "/home-care/doctor-on-call-dubai"
+      },
+      {
+        "id": 5,
+        "title": "Physiotherapy at Home",
+        "image": "https://images.unsplash.com/photo-1544168190-1870ac5a89fd?w=640&h=480&fit=crop",
+        "ctaText": "Book Physio at Home",
+        "href": "/home-care/physiotherapy-at-home"
+      }
+    ]
+  },
+  "doctorLedCare": {
+    "title": "Doctor Led Care, Built Around You",
+    "description": "Our entire clinical model is designed under the direct guidance of Dr. Nadia Chaudhary, ensuring that every patient interaction reflects the highest standards of medical judgment, safety, and personalized attention.",
+    "image": "/images/dr nadia.png",
+    "imageAlt": "Dr. Nadia Chaudhary",
+    "badges": [
+      { "icon": "MdLocalHospital", "label": "DHA Licensed" },
+      { "icon": "MdVerifiedUser", "label": "Doctor-Led" },
+      { "icon": "MdFavorite", "label": "Personalized" },
+      { "icon": "MdHome", "label": "At Your Doorstep" }
+    ]
+  },
+  "howItWorks": {
+    "title": "How NADZ Home Healthcare Works",
+    "steps": [
+      {
+        "id": 1,
+        "number": "01",
+        "title": "Contact us",
+        "description": "Call or WhatsApp anytime. We'll triage and guide you to the right service.",
+        "image": "/images/Choose a service.png"
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "title": "Share your details",
+        "description": "Your complete address, pinned location and preferred timing.",
+        "image": null
+      },
+      {
+        "id": 3,
+        "number": "03",
+        "title": "Get care at home",
+        "description": "DHA-licensed clinicians arrive at your doorstep with the right equipment and support.",
+        "image": "/images/get care at home.png"
+      }
+    ],
+    "ctaText": "Explore NADZ Home Healthcare"
+  },
+  "familyExcellence": {
+    "title": "Healthcare that feels like family, backed by clinical excellence",
+    "description": "From urgent doctor visits to advanced diagnostics, IV drips, nursing and longevity programs, NADZ brings hospital-level standards to you, with privacy, warmth and continuity.",
+    "goals": [
+      "End-to-end care at your doorstep",
+      "Discreet, premium concierge experience",
+      "For families, VIPs, travellers & corporates",
+      "Doctor-designed protocols led by Dr. Nadia"
+    ],
+    "ctaText": "Explore",
+    "backgroundImage": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1600&h=900&fit=crop"
+  },
+  "expertDoctors": {
+    "title": "Meet our expert doctors",
+    "subtitle": "We aim to share information about our team.",
+    "doctors": [
+      {
+        "name": "Dr. Nadia Choudhry",
+        "role": "General Practitioner",
+        "languages": "English, Arabic, Urdu, Hindi, Punjabi",
+        "yearsOfExperience": "13 years",
+        "image": "/images/dr nadia.png",
+        "featured": true
+      },
+      {
+        "name": "Dr. Sara Javed",
+        "role": "General Practitioner",
+        "languages": "English, Urdu, Hindi, Punjabi",
+        "yearsOfExperience": "6 years",
+        "image": "/images/Dr. Sara.png",
+        "featured": false
+      },
+      {
+        "name": "Dr. Naga Avinash Babu",
+        "role": "General Practitioner",
+        "languages": "English, Tamil, Telugu, Russian",
+        "yearsOfExperience": "5 years",
+        "image": "/images/Dr.avinash.png",
+        "featured": false
+      }
+    ]
+  },
+  "googleReviews": {
+    "title": "What Our Patients Say",
+    "subtitle": "Google Reviews",
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Sarah M.",
+        "rating": 5,
+        "text": "Exceptional care. The doctor arrived within 30 minutes and was professional and kind.",
+        "date": "Jan 2025"
+      },
+      {
+        "id": 2,
+        "author": "Ahmed K.",
+        "rating": 5,
+        "text": "Used their nursing care for my mother. The team was compassionate and skilled.",
+        "date": "Dec 2024"
+      },
+      {
+        "id": 3,
+        "author": "Emma L.",
+        "rating": 5,
+        "text": "Booked a home visit for my child. Fast, thorough, and the follow-up was excellent.",
+        "date": "Jan 2025"
+      }
+    ]
+  },
+  "premiumCta": {
+    "title": "For your child. For your Family. For you.",
+    "description": "Discreet, doctor-led care at your hotel, residence, or office. Fast triage, clear next steps, and follow-up support.",
+    "whatsappButton": {
+      "text": "WhatsApp Us",
+      "url": "https://wa.me/971521597336"
+    },
+    "callButton": {
+      "text": "Call 24/7",
+      "phone": "+97180046239"
+    }
+  }
+}

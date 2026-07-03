@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_closing_sections",
+  "info": {
+    "displayName": "Closing Section",
+    "description": "Closing / Welcome section (for Who We Are page)"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

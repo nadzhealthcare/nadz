@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_award_items",
+  "info": {
+    "displayName": "Award Item",
+    "description": "Row: image on the left, title and text on the right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

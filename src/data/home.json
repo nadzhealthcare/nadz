@@ -1,0 +1,274 @@
+{
+  "hero": {
+    "title": "Premium Home Healthcare in Dubai – Care You Can Trust",
+    "description": "24/7, doctor-led medical care at home, hotel, office, yacht or event. A NADZ specialist can reach you in as little as 30 minutes in Dubai.",
+    "reassuranceText": "No waiting rooms. No traffic. Just hospital-level care, where you feel safe and comfortable."
+  },
+  "trustedProviders": {
+    "statistics": [
+      {
+        "value": "24/7",
+        "label": "Doctor on call & urgent home visits",
+        "number": "001",
+        "icon": "MdAccessTime"
+      },
+      {
+        "value": "30 mins",
+        "label": "Fast home visit response time",
+        "number": "002",
+        "icon": "MdSpeed"
+      },
+      {
+        "value": "DHA Licensed",
+        "label": "Doctors, nurses & allied professionals",
+        "number": "003",
+        "icon": "MdVerifiedUser"
+      }
+    ],
+    "title": "NADZ Healthcare – Redefining Home Healthcare & Longevity in the UAE",
+    "description": "NADZ Healthcare is a premium home healthcare in Dubai and medical concierge service founded and led by Dr. Nadia, a Dubai-based physician passionate about reviving the traditional family-doctor model with modern, data-driven medicine.",
+    "ctaText": "Book a Home Visit",
+    "card1": {
+      "title": "Rapid, doctor-led care, wherever you are",
+      "description": "Call or WhatsApp anytime. We triage fast and send the right clinician to your home, hotel, office or venue."
+    },
+    "card2": {
+      "title": "Faster decisions with bedside testing",
+      "description": "Point-of-care instant screens support quicker diagnosis and next steps, without unnecessary delays."
+    }
+  },
+  "mainGoal": {
+    "title": "Healthcare that feels like family — backed by clinical excellence",
+    "description": "From urgent doctor visits to advanced diagnostics, IV drips, nursing care and longevity programs, NADZ brings hospital-level standards to you, with privacy, warmth and continuity.",
+    "goalsLeft": [
+      "End-to-end care at your doorstep",
+      "Doctor-designed protocols led by Dr. Nadia",
+      "For families, VIPs, travellers & corporates"
+    ],
+    "goalsRight": [
+      "Discreet, premium concierge experience",
+      "Data-led diagnostics & follow-up continuity",
+      "Prevention, performance & longevity support"
+    ],
+    "image": "/images/doctor_male.png",
+    "imageAlt": "Male healthcare professional"
+  },
+  "howItWorks": {
+    "title": "How NADZ Home Healthcare Works",
+    "steps": [
+      {
+        "id": 1,
+        "number": "1",
+        "title": "Choose a service (24/7)",
+        "description": "Call or WhatsApp. We'll triage and guide you to the right service.",
+        "icon": "MdPhone",
+        "image": "/images/Choose a service.png",
+        "bgGradient": "linear-gradient(135deg, rgba(79, 5, 43, 0.1) 0%, rgba(108, 13, 58, 0.1) 100%)"
+      },
+      {
+        "id": 2,
+        "number": "2",
+        "title": "We dispatch the right clinician",
+        "description": "A DHA-licensed doctor or specialist reviews the need and plans next steps.",
+        "icon": "MdLocalHospital",
+        "image": "/images/we dispatch the right clinician.png",
+        "bgGradient": "linear-gradient(135deg, rgba(26, 107, 138, 0.1) 0%, rgba(30, 125, 158, 0.1) 100%)"
+      },
+      {
+        "id": 3,
+        "number": "3",
+        "title": "Get care at home",
+        "description": "We arrive with the right equipment, medicines or diagnostic tools, often within 30 minutes in Dubai.",
+        "icon": "MdHome",
+        "image": "/images/get care at home.png",
+        "bgGradient": "linear-gradient(135deg, rgba(108, 13, 58, 0.1) 0%, rgba(79, 5, 43, 0.1) 100%)"
+      }
+    ],
+    "ctaText": "Consult a Specialist Now",
+    "ctaSubtext": "Follow-up is part of the care."
+  },
+  "keyVision": {
+    "title": "Our Vision",
+    "description": "We combine rapid response, clinical excellence and continuity with preventive and longevity care for modern life.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Path to Wellness",
+        "description": "Preventive care and longevity support, tailored to your biology.",
+        "icon": "MdHealing"
+      },
+      {
+        "id": 2,
+        "title": "Stress & Sleep Optimization",
+        "description": "Tools and protocols to improve sleep, regulate stress and restore resilience.",
+        "icon": "MdBedtime"
+      },
+      {
+        "id": 3,
+        "title": "Diagnostic Services",
+        "description": "Advanced testing and clear interpretation, without clinic visits.",
+        "icon": "MdBiotech"
+      },
+      {
+        "id": 4,
+        "title": "NADZ Exclusive™",
+        "description": "Signature, doctor-designed programs blending biohacking and advanced diagnostics.",
+        "icon": "MdAutoAwesome"
+      },
+      {
+        "id": 5,
+        "title": "Paediatric & Family Care",
+        "description": "Care for families and children, from acute illness to vaccinations.",
+        "icon": "MdFamilyRestroom"
+      },
+      {
+        "id": 6,
+        "title": "Teleconsult & Follow-ups",
+        "description": "Continuity beyond the visit: follow-ups, reviews and next-step planning.",
+        "icon": "MdVideoCall"
+      },
+      {
+        "id": 7,
+        "title": "Future of Care",
+        "description": "A modern family-doctor model with home-first convenience and high standards.",
+        "icon": "MdTrendingUp"
+      },
+      {
+        "id": 8,
+        "title": "Holistic Health",
+        "description": "Whole-person care that considers lifestyle, prevention and long-term health.",
+        "icon": "MdSpa"
+      }
+    ]
+  },
+  "expertDoctors": {
+    "title": "Meet our expert doctors",
+    "subtitle": "We aim to share information about our team.",
+    "doctors": [
+      {
+        "name": "Dr. Nadia Choudhry",
+        "role": "General Practitioner",
+        "languages": "English, Arabic, Urdu, Hindi, Punjabi",
+        "yearsOfExperience": "13 years",
+        "image": "/images/dr nadia.png",
+        "featured": true
+      },
+      {
+        "name": "Dr. Sara Javed",
+        "role": "General Practitioner",
+        "languages": "English, Urdu, Hindi, Punjabi",
+        "yearsOfExperience": "6 years",
+        "image": "/images/Dr. Sara.png",
+        "featured": false
+      },
+      {
+        "name": "Dr. Naga Avinash Babu",
+        "role": "General Practitioner",
+        "languages": "English, Tamil, Telugu, Russian",
+        "yearsOfExperience": "5 years",
+        "image": "/images/Dr.avinash.png",
+        "featured": false
+      },
+      {
+        "name": "Dr. Muhammad Ahsaan Akhtar",
+        "role": "Physiotherapist",
+        "languages": "English, Urdu, Hindi, Punjabi",
+        "yearsOfExperience": "5 years",
+        "image": "/images/Dr. Muhammad Ahsaan.png",
+        "featured": false
+      },
+      {
+        "name": "Indusha Annavi",
+        "role": "Physiotherapist",
+        "languages": "English, Hindi, Tamil, Malayalam",
+        "yearsOfExperience": "5 years",
+        "image": "/images/dr.INDUSHA.png",
+        "featured": false
+      },
+      {
+        "name": "Anoop Kumar",
+        "role": "Nursing In Charge",
+        "languages": "English, Hindi",
+        "yearsOfExperience": "8 years",
+        "image": "/images/Anoop Kumar.png",
+        "featured": false
+      },
+      {
+        "name": "Chandra KC",
+        "role": "Registered Nurse",
+        "languages": "English, Nepali, Hindi",
+        "yearsOfExperience": "3 years",
+        "image": "/images/Chandra.png",
+        "featured": false
+      },
+      {
+        "name": "Sujata Shrestha",
+        "role": "Assistant Nurse",
+        "languages": "English, Hindi, Nepali",
+        "yearsOfExperience": "3 years",
+        "image": "/images/Sujata.png",
+        "featured": false
+      },
+      {
+        "name": "Roja Devi Ningthoujam",
+        "role": "Registered Nurse",
+        "languages": "English, Hindi",
+        "yearsOfExperience": "4 years",
+        "image": "/images/roja.png",
+        "featured": false
+      },
+      {
+        "name": "Muheen Peral Khader",
+        "role": "Assistant Nurse",
+        "languages": "English, Japanese, Hindi, Arabic, Tamil, Malayalam",
+        "yearsOfExperience": "8 years",
+        "image": "/images/muheen.png",
+        "featured": false
+      }
+    ]
+  },
+  "partners": {
+    "title": "Our Partners",
+    "partners": [
+      { "id": 1, "name": "Practo", "logo": "https://nadzhealthcare.com/wp-content/uploads/2025/06/Frame-32-1536x788.png", "url": "" },
+      { "id": 2, "name": "Partner 2", "logo": "https://nadzhealthcare.com/wp-content/uploads/2025/06/Frame-28-1536x788.png", "url": "" },
+      { "id": 3, "name": "Partner 3", "logo": "https://nadzhealthcare.com/wp-content/uploads/2025/06/Frame-29-1536x788.png", "url": "" },
+      { "id": 4, "name": "Partner 4", "logo": "https://nadzhealthcare.com/wp-content/uploads/2025/06/Frame-30-1536x788.png", "url": "" },
+      { "id": 5, "name": "Partner 5", "logo": "https://nadzhealthcare.com/wp-content/uploads/2025/07/Asset-1@2x.png", "url": "" },
+      { "id": 6, "name": "Partner 6", "logo": "https://nadzhealthcare.com/wp-content/uploads/2025/07/fusion-log@2x.png", "url": "" }
+    ]
+  },
+  "googleReviews": {
+    "title": "What Our Patients Say",
+    "subtitle": "Google Reviews",
+    "reviews": [
+      { "id": 1, "author": "Sarah M.", "rating": 5, "text": "Exceptional care. The doctor arrived within 30 minutes and was professional and kind. Highly recommend NADZ for home healthcare in Dubai.", "date": "Jan 2025" },
+      { "id": 2, "author": "Ahmed K.", "rating": 5, "text": "Used their nursing care for my mother. The team was compassionate and skilled. Couldn't ask for better service.", "date": "Dec 2024" },
+      { "id": 3, "author": "Emma L.", "rating": 5, "text": "Booked a home visit for my child. Fast, thorough, and the follow-up was excellent. NADZ feels like having a family doctor again.", "date": "Jan 2025" }
+    ]
+  },
+  "associates": {
+    "title": "Our Associations",
+    "associates": [
+      {
+        "id": 1,
+        "name": "NAME OF THE ASSOCIATE",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "image": ""
+      }
+    ]
+  },
+  "premiumCta": {
+    "title": "For your child. For your Family. For you.",
+    "description": "Discreet, doctor-led care at your hotel, residence, or office. Fast triage, clear next steps, and follow-up support.",
+    "whatsappButton": {
+      "text": "WhatsApp Us",
+      "url": "https://wa.me/971521597336"
+    },
+    "callButton": {
+      "text": "Call 24/7",
+      "phone": "+97180046239"
+    }
+  }
+}
+

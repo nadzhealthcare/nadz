@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_sections_pathway_steps",
+    "info": {
+        "displayName": "Pathway Step",
+        "description": "A step in the care pathway"
+    },
+    "options": {},
+    "attributes": {
+        "number": {
+            "type": "integer",
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}
