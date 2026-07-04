@@ -129,15 +129,9 @@ export function WhoWeAreClient({ pageData }) {
                 {/* Image Container */}
                 <div className="relative z-10 w-full h-auto">
                   <img
-                    src={hero?.imageSrc || "/images/who%20we%20are%201.png"}
+                    src="/images/who%20we%20are%201.png"
                     alt={hero?.imageAlt || "NADZ Healthcare Professional"}
                     className="w-full h-auto object-contain"
-                    onError={(e) => {
-                      // Fallback to default image if CMS image fails to load
-                      if (e.target.src !== "/images/who%20we%20are%201.png") {
-                        e.target.src = "/images/who%20we%20are%201.png";
-                      }
-                    }}
                   />
                 </div>
               </div>

@@ -78,7 +78,9 @@ export const TrustedProvidersSection = ({ trustedProvidersData }) => {
           <div className="container mx-auto max-w-7xl px-4 md:px-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 w-full">
               {statistics.map((stat, index) => {
-                const IconComponent = typeof stat.icon === 'string' ? getIconComponent(stat.icon) : stat.icon;
+                // The CMS ships a wrong icon for the "24/7" stat; force a clock icon there.
+                const iconName = stat.value === '24/7' ? 'MdAccessTime' : stat.icon;
+                const IconComponent = typeof iconName === 'string' ? getIconComponent(iconName) : iconName;
                 return (
                   <div key={stat.number} className="flex md:flex-1">
                     <MotionDiv

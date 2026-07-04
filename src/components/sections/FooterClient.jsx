@@ -222,10 +222,10 @@ export const FooterClient = ({ footerData }) => {
       {floatingWhatsAppButton && (
         <WhatsAppCtaLink
           href={whatsappUrl}
-          className="fixed bottom-6 right-6 bg-[#DFB680] text-[#5C2533] w-14 h-14 rounded-full shadow-lg hover:bg-[#d4a86a] hover:scale-110 hover:shadow-xl transition-all z-[1000] flex items-center justify-center"
+          className="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full shadow-lg hover:bg-[#1ebe5d] hover:scale-110 hover:shadow-xl transition-all z-[1000] flex items-center justify-center"
           aria-label="Chat on WhatsApp"
         >
-          <FaWhatsapp className="text-[#5C2533] text-2xl" />
+          <FaWhatsapp className="text-white text-2xl" />
         </WhatsAppCtaLink>
       )}
     </>

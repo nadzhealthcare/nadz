@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { getIconComponent } from "@/lib/icons";
@@ -57,24 +58,29 @@ export const HowItWorksSection = ({ howItWorksData }) => {
               className="relative order-2 md:order-1"
             >
               <div className="relative w-full aspect-[4/3] rounded-[14px] sm:rounded-[14px] bg-white border border-primary-mediumBlue/15 shadow-lg overflow-hidden">
-                <AnimatePresence mode="wait">
-                  <MotionDiv
-                    key={activeStep}
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.95 }}
-                    transition={{ duration: 0.5 }}
-                    className="absolute inset-0"
-                  >
-                    {steps[activeStep]?.image && (
-                      <img
-                        src={steps[activeStep].image}
-                        alt={steps[activeStep].imageAlt || `${steps[activeStep].title} - Step ${steps[activeStep].number}`}
-                        className="w-full h-full object-contain"
+                {steps.map((step, index) => (
+                  step?.image ? (
+                    <MotionDiv
+                      key={step.id ?? index}
+                      initial={false}
+                      animate={{
+                        opacity: activeStep === index ? 1 : 0,
+                        scale: activeStep === index ? 1 : 0.95,
+                      }}
+                      transition={{ duration: 0.5 }}
+                      className="absolute inset-0"
+                    >
+                      <Image
+                        src={step.image}
+                        alt={step.imageAlt || `${step.title} - Step ${step.number}`}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="object-contain"
+                        priority={index === 0}
                       />
-                    )}
-                  </MotionDiv>
-                </AnimatePresence>
+                    </MotionDiv>
+                  ) : null
+                ))}
               </div>
             </MotionDiv>
 
@@ -135,7 +141,9 @@ export const HowItWorksSection = ({ howItWorksData }) => {
                   onClick={() => openWhatsAppUrl()}
                   className="w-full sm:w-auto px-6 sm:px-8 md:px-10 py-2.5 sm:py-3 min-w-full sm:min-w-[220px] bg-[#DFB680] text-[#5C2533] rounded-full font-semibold text-xs sm:text-sm shadow-lg hover:bg-[#d4a86a] hover:shadow-xl hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2"
                 >
-                  <FaWhatsapp className="text-base sm:text-lg flex-shrink-0 text-[#5C2533]" />
+                  <span className="inline-flex items-center justify-center bg-[#25D366] rounded-full w-6 h-6 flex-shrink-0">
+                    <FaWhatsapp className="text-white text-sm" />
+                  </span>
                   <span className="text-center whitespace-nowrap text-[#5C2533]">{ctaText}</span>
                 </button>
                 

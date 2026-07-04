@@ -146,7 +146,9 @@ export const HeroSection = ({ heroData, variant = "default" }) => {
             {isHomeNew ? (
               <MdCalendarToday className="text-lg shrink-0" />
             ) : (
-              <FaWhatsapp className="text-lg text-[#5C2533] shrink-0" />
+              <span className="inline-flex items-center justify-center bg-[#25D366] rounded-full w-6 h-6 shrink-0">
+                <FaWhatsapp className="text-white text-sm" />
+              </span>
             )}
             <span className="whitespace-nowrap">{whatsappButtonText}</span>
           </WhatsAppCtaLink>
@@ -239,7 +241,7 @@ export const HeroSection = ({ heroData, variant = "default" }) => {
         role="presentation"
         aria-label="Carousel slide indicator"
       >
-        {Array.from({ length: totalHomeSlides }).map((dotIndex) => {
+        {Array.from({ length: totalHomeSlides }).map((_, dotIndex) => {
           const isActive = safeCarouselIndex === dotIndex;
           return (
             <span
