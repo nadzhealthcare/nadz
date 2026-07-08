@@ -48,6 +48,7 @@ export async function generateMetadata() {
         keywords: seoKeywords.length > 0 ? seoKeywords : undefined,
         alternates: { canonical },
         openGraph: {
+          type: "website",
           title: seoTitle || brandName,
           description: seoDescription || undefined,
           url: canonical,
@@ -65,6 +66,7 @@ export async function generateMetadata() {
   return {
     alternates: { canonical },
     openGraph: {
+      type: "website",
       url: canonical,
       title: brandName,
       description: globalData?.defaultSeo?.description,

@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { MdHome, MdChevronRight } from "react-icons/md";
@@ -21,6 +22,31 @@ function getShareUrl(platform, url, title) {
   }
 }
 
+// Strip markdown/HTML to plain text for word counting
+function stripToText(v) {
+  if (typeof v !== 'string') return '';
+  return v.replace(/<[^>]+>/g, ' ').replace(/[#*_>`~\[\]()!]/g, ' ');
+}
+
+// Estimate reading time from the article body (~200 words/min)
+function computeReadingTime(post) {
+  const parts = [];
+  const c = post?.content;
+  if (c) {
+    if (typeof c.intro === 'string') parts.push(c.intro);
+    if (Array.isArray(c.sections)) {
+      for (const s of c.sections) {
+        if (s?.heading) parts.push(s.heading);
+        if (typeof s?.content === 'string') parts.push(s.content);
+        if (s?.quote) parts.push(s.quote);
+      }
+    }
+  }
+  const words = stripToText(parts.join(' ')).split(/\s+/).filter(Boolean).length;
+  if (!words) return '';
+  return `${Math.max(1, Math.ceil(words / 200))} min read`;
+}
+
 export function BlogPostClient({ post, morePosts }) {
   const handleShare = (platform) => {
     if (typeof window === 'undefined') return;
@@ -39,6 +65,27 @@ export function BlogPostClient({ post, morePosts }) {
       </div>
     );
   }
+
+  const readingTime = post.readTime || computeReadingTime(post);
+  const faqItems = Array.isArray(post.faqs?.items) ? post.faqs.items : [];
+
+  const contentRef = useRef(null);
+  const [tocItems, setTocItems] = useState([]);
+  useEffect(() => {
+    const root = contentRef.current;
+    if (!root) return;
+    const items = Array.from(root.querySelectorAll('h2'))
+      .map((h, i) => {
+        const text = (h.textContent || '').trim();
+        if (!text) return null;
+        if (!h.id) {
+          h.id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60) || `heading-${i}`;
+        }
+        return { id: h.id, text };
+      })
+      .filter(Boolean);
+    setTocItems(items);
+  }, [post]);
 
   return (
     <article className="min-h-screen bg-white">
@@ -78,8 +125,12 @@ export function BlogPostClient({ post, morePosts }) {
               </>
             )}
             <span className="font-semibold text-primary-darkTeal">{post?.author?.name ?? (typeof post?.author === 'string' ? post.author : 'NADZ Team')}</span>
-            <span>•</span>
-            <span className="text-sm">{post.readTime ?? ''}</span>
+            {readingTime && (
+              <>
+                <span>•</span>
+                <span className="text-sm">{readingTime}</span>
+              </>
+            )}
           </div>
         </div>
 
@@ -98,6 +149,23 @@ export function BlogPostClient({ post, morePosts }) {
 
       {/* Article Content */}
       <div className="container mx-auto max-w-4xl px-4 pb-16">
+        {/* Table of Contents */}
+        {tocItems.length >= 2 && (
+          <nav aria-label="Table of contents" className="mb-8 rounded-2xl border border-gray-200 bg-[#FAFAFA] p-5 sm:p-6">
+            <p className="text-sm font-bold uppercase tracking-wide text-primary-darkTeal mb-3">Table of Contents</p>
+            <ol className="list-decimal list-inside space-y-1.5 text-text-gray marker:text-primary-mediumBlue">
+              {tocItems.map((it) => (
+                <li key={it.id}>
+                  <a href={`#${it.id}`} className="hover:text-primary-mediumBlue transition-colors">
+                    {it.text}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )}
+
+        <div ref={contentRef}>
         {/* Intro - rich text (headings, bullets, links, images, tables) */}
         {(post.content?.intro != null && post.content.intro !== '') && (
           <div className="mb-8">
@@ -123,6 +191,29 @@ export function BlogPostClient({ post, morePosts }) {
             )}
           </div>
         ))}
+        </div>
+
+        {/* FAQ Section */}
+        {faqItems.length > 0 && (
+          <div className="mt-12" id="faqs">
+            <h2 className="text-2xl md:text-3xl font-bold text-primary-darkTeal mb-6">
+              {post.faqs?.title || 'Frequently Asked Questions'}
+            </h2>
+            <div className="space-y-3">
+              {faqItems.map((f, i) => (
+                <details key={i} className="group border border-gray-200 rounded-xl px-5 py-4">
+                  <summary className="cursor-pointer font-semibold text-primary-darkTeal list-none flex items-center justify-between gap-4">
+                    <span>{f.question}</span>
+                    <MdChevronRight className="text-xl shrink-0 transition-transform group-open:rotate-90" />
+                  </summary>
+                  <div className="mt-3 text-text-gray">
+                    <RichTextBlock content={f.answer} />
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Share Section */}
         <div className="flex items-center justify-center border-t border-b border-gray-200 py-6 my-12">
