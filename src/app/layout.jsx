@@ -155,6 +155,8 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${spaceGrotesk.variable}`}>
+        {/* Speed up CMS image loading (LCP) by opening the connection early */}
+        <link rel="preconnect" href="https://admincms.nadzhealthcare.com" crossOrigin="anonymous" />
         {/* Google Tag Manager (noscript) — immediately after opening <body> */}
         <noscript>
           <iframe
@@ -165,10 +167,10 @@ export default async function RootLayout({ children }) {
             title="Google Tag Manager"
           />
         </noscript>
-        {/* GTM script: beforeInteractive injects into document head early (Next.js App Router) */}
+        {/* GTM script: afterInteractive loads GTM after the page is interactive (doesn't block LCP/TBT) */}
         <Script
           id="gtm"
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
