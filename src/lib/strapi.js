@@ -1348,6 +1348,7 @@ function transformArticle(entry) {
     image: imageUrl || null,
     featured: Boolean(attrs.featured),
     content: normalizeArticleContent(attrs.content),
+    faqs: Array.isArray(attrs.faqs) ? attrs.faqs : [],
     tags: Array.isArray(attrs.tags) ? attrs.tags : (attrs.tags ? [attrs.tags] : []),
   };
 }
@@ -1425,6 +1426,7 @@ export async function getArticle(idOrSlug) {
     queryParams.append('populate[0]', 'content');
     queryParams.append('populate[1]', 'content.sections');
     queryParams.append('populate[2]', 'image');
+    queryParams.append('populate[3]', 'faqs');
     const filters = Number.isInteger(Number(idOrSlug)) && String(Number(idOrSlug)) === String(idOrSlug)
       ? { slug: String(idOrSlug) }
       : { slug: idOrSlug };

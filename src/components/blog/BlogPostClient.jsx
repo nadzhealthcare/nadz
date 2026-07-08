@@ -67,7 +67,7 @@ export function BlogPostClient({ post, morePosts }) {
   }
 
   const readingTime = post.readTime || computeReadingTime(post);
-  const faqItems = Array.isArray(post.faqs?.items) ? post.faqs.items : [];
+  const faqItems = Array.isArray(post.faqs) ? post.faqs : [];
 
   const contentRef = useRef(null);
   const [tocItems, setTocItems] = useState([]);
@@ -197,17 +197,17 @@ export function BlogPostClient({ post, morePosts }) {
         {faqItems.length > 0 && (
           <div className="mt-12" id="faqs">
             <h2 className="text-2xl md:text-3xl font-bold text-primary-darkTeal mb-6">
-              {post.faqs?.title || 'Frequently Asked Questions'}
+              Frequently Asked Questions
             </h2>
             <div className="space-y-3">
               {faqItems.map((f, i) => (
                 <details key={i} className="group border border-gray-200 rounded-xl px-5 py-4">
                   <summary className="cursor-pointer font-semibold text-primary-darkTeal list-none flex items-center justify-between gap-4">
-                    <span>{f.question}</span>
+                    <span>{f.q}</span>
                     <MdChevronRight className="text-xl shrink-0 transition-transform group-open:rotate-90" />
                   </summary>
                   <div className="mt-3 text-text-gray">
-                    <RichTextBlock content={f.answer} />
+                    <RichTextBlock content={f.a} />
                   </div>
                 </details>
               ))}
