@@ -7,6 +7,12 @@ const rootDir = path.dirname(fileURLToPath(import.meta.url));
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   outputFileTracingRoot: rootDir,
+
+  // Render page metadata (title, description, canonical, robots) blocking inside <head>
+  // for ALL requests instead of streaming it into the <body>. Without this, Next 16
+  // streams metadata for user-agents not in its default bot list (Sitebulb, Screaming
+  // Frog, Ahrefs, even Googlebot), so JS-less SEO crawlers report tags "outside <head>".
+  htmlLimitedBots: '.*',
   turbopack: {
     root: rootDir,
   },
@@ -31,6 +37,7 @@ const nextConfig = {
       { source: '/admin', destination: 'https://admincms.nadzhealthcare.com/admin/', permanent: false },
       { source: '/admin/:path*', destination: 'https://admincms.nadzhealthcare.com/admin/:path*', permanent: false },
       { source: '/awards-and-achievements', destination: '/awards-achievement', permanent: true },
+      { source: '/elderly', destination: '/home-care/elderly-care', permanent: true },
     ];
   },
   

@@ -51,7 +51,7 @@ export async function GET() {
   
   try {
     // Fetch home-care pages
-    const hcData = await fetchStrapi('/api/home-care-pages?publicationState=live&populate=*');
+    const hcData = await fetchStrapi('/api/home-care-pages?publicationState=live&fields[0]=slug&fields[1]=updatedAt&fields[2]=publishedAt&pagination[pageSize]=1000');
     if (hcData?.data && Array.isArray(hcData.data)) {
       dynamicPages = dynamicPages.concat(
         hcData.data
@@ -75,7 +75,7 @@ export async function GET() {
 
   try {
     // Fetch generic pages
-    const pagesData = await fetchStrapi('/api/pages?publicationState=live&populate=*');
+    const pagesData = await fetchStrapi('/api/pages?publicationState=live&fields[0]=slug&fields[1]=updatedAt&fields[2]=publishedAt&pagination[pageSize]=1000');
     if (pagesData?.data && Array.isArray(pagesData.data)) {
       dynamicPages = dynamicPages.concat(
         pagesData.data
@@ -98,7 +98,7 @@ export async function GET() {
   }
 
   try {
-    const prData = await fetchStrapi('/api/press-releases?publicationState=live&populate=*');
+    const prData = await fetchStrapi('/api/press-releases?publicationState=live&fields[0]=slug&fields[1]=updatedAt&fields[2]=publishedAt&pagination[pageSize]=1000');
     if (prData?.data && Array.isArray(prData.data)) {
       dynamicPages = dynamicPages.concat(
         prData.data
@@ -121,7 +121,7 @@ export async function GET() {
   }
 
   try {
-    const evData = await fetchStrapi('/api/events?publicationState=live&populate=*');
+    const evData = await fetchStrapi('/api/events?publicationState=live&fields[0]=slug&fields[1]=updatedAt&fields[2]=publishedAt&pagination[pageSize]=1000');
     if (evData?.data && Array.isArray(evData.data)) {
       dynamicPages = dynamicPages.concat(
         evData.data
@@ -141,6 +141,30 @@ export async function GET() {
     }
   } catch (error) {
     console.error('Error fetching events for sitemap:', error);
+  }
+
+  try {
+    // Fetch blog articles
+    const articlesData = await fetchStrapi('/api/articles?publicationState=live&fields[0]=slug&fields[1]=updatedAt&fields[2]=publishedAt&pagination[pageSize]=1000');
+    if (articlesData?.data && Array.isArray(articlesData.data)) {
+      dynamicPages = dynamicPages.concat(
+        articlesData.data
+          .map((page: any) => {
+            const attributes = page.attributes || page;
+            const slug = attributes.slug;
+            if (!slug) return null;
+            return {
+              path: `/blog/${slug}`,
+              priority: '0.7',
+              changefreq: 'weekly',
+              lastmod: attributes.updatedAt || attributes.publishedAt || new Date().toISOString(),
+            };
+          })
+          .filter((page: any) => page !== null)
+      );
+    }
+  } catch (error) {
+    console.error('Error fetching articles for sitemap:', error);
   }
 
   // Combine static and dynamic pages
