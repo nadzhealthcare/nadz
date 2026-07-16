@@ -76,11 +76,13 @@ const nextConfig = {
       domains: ['localhost', '127.0.0.1'],
       dangerouslyAllowLocalIP: true,
     }),
-    qualities: [75, 85], 
+    // Fewer size/quality variants + a long cache => far fewer Vercel image transformations
+    // (each unique width×quality×format is one transformation; caching 31 days avoids re-doing them).
+    qualities: [75, 80, 85, 90],
     formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    minimumCacheTTL: 60,
+    deviceSizes: [640, 828, 1200, 1920],
+    imageSizes: [64, 128, 256, 384],
+    minimumCacheTTL: 2678400,
     remotePatterns: [
       {
         protocol: 'https',
