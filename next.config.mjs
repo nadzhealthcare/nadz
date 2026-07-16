@@ -68,9 +68,11 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   
-  // Image optimization enabled for better performance
   images: {
-    // Optimize images automatically
+    // Vercel's image-optimization quota (Hobby plan) is exhausted -> /_next/image returns 402
+    // and images break. Serve images directly from source (Strapi/public) instead. Trade-off:
+    // no automatic resize/format conversion. Mitigate by serving Strapi's resized `formats`.
+    unoptimized: true,
     // Only allow localhost in development
     ...(process.env.NODE_ENV === 'development' && {
       domains: ['localhost', '127.0.0.1'],
